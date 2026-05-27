@@ -4,8 +4,8 @@ description: >-
   internship and visiting-researcher positions in cryptography
   (MPC, FHE, ZK, PQC, PPML, hardware security, applied crypto)
   — India and abroad.
-url: ""               # set to "https://<user>.github.io" after deploy
-baseurl: ""           # set to "/<repo-name>" if not user-page
+url: "https://ck-chaudhary.github.io"
+baseurl: "/crypto-jobs"
 
 markdown: kramdown
 plugins:
@@ -13,6 +13,9 @@ plugins:
   - jekyll-seo-tag
 
 # Exclude these from the built site
+github_username: ck-chaudhary
+repo: crypto-jobs
+
 exclude:
   - README.md
   - scripts/
