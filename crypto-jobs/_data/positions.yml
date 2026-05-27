@@ -30,7 +30,7 @@
   country: "India"
   institution: "IISc Bangalore"
   pi: "Arpita Patra"
-  link: "https://www.csa.iisc.ac.in/~cris/opportunities.html"
+  link: "https://cris.csa.iisc.ac.in/join/"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [mpc, ppml]
@@ -103,7 +103,7 @@
   region: india
   country: "India"
   institution: "IIIT Delhi"
-  link: "https://iiitd.ac.in/careers/recruitments"
+  link: "https://iiitd.ac.in/careers/"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [pqc, mpc, hardware]
@@ -118,7 +118,7 @@
   country: "India"
   institution: "TIFR Mumbai"
   pi: "Akshayaram Srinivasan"
-  link: "https://www.tcs.tifr.res.in/positions/"
+  link: "https://www.tcs.tifr.res.in/web/join_us"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [mpc]
@@ -134,7 +134,7 @@
   country: "Denmark"
   institution: "Aarhus University"
   pi: "Ivan Damgård / Claudio Orlandi / Peter Scholl / Lawrence Roy"
-  link: "https://cs.au.dk/research/cryptography-and-security/"
+  link: "https://cs.au.dk/research/crypto-and-cybersecurity"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [mpc, fss, fhe]
@@ -149,7 +149,7 @@
   country: "Germany"
   institution: "TU Darmstadt"
   pi: "Thomas Schneider"
-  link: "https://encrypto.cs.tu-darmstadt.de/home_page/open_positions/index.en.jsp"
+  link: "https://www.encrypto.cs.tu-darmstadt.de/home_page/open_positions/"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [mpc, ppml, fss]
@@ -164,7 +164,7 @@
   country: "Germany"
   institution: "TU Darmstadt"
   pi: "Sebastian Faust"
-  link: "https://www.appliedcrypto.cs.tu-darmstadt.de/"
+  link: "https://www.informatik.tu-darmstadt.de/cac/cac/jobs_cac/index.en.jsp"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [mpc, blockchain, zk]
@@ -193,7 +193,7 @@
   country: "Germany"
   institution: "MPI-SP Bochum"
   pi: "Giulio Malavolta / Eike Kiltz"
-  link: "https://www.mpi-sp.org/jobs"
+  link: "https://www.mpi-sp.org/25297/postdoc-and-phd-positions"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [lattice, mpc, zk, pqc]
@@ -207,7 +207,7 @@
   region: europe
   country: "Germany"
   institution: "CISPA Saarland"
-  link: "https://cispa.de/en/jobs"
+  link: "https://career.cispa.de/jobs"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [mpc, zk, formal_methods]
@@ -221,7 +221,7 @@
   country: "Luxembourg"
   institution: "University of Luxembourg"
   pi: "Jean-Sébastien Coron"
-  link: "https://academicpositions.com/ad/university-of-luxembourg/2026/postdoctoral-fellow-in-cryptography/244317"
+  link: "https://www.uni.lu/en/jobs/postdoctoral-fellow-in-cryptography/"
   deadline: "2026-03-15"
   posted: "2026-02-06"
   area: [fhe, side_channel, pqc]
@@ -235,7 +235,7 @@
   region: europe
   country: "Belgium"
   institution: "KU Leuven"
-  link: "https://www.esat.kuleuven.be/cosic/positions/"
+  link: "https://www.esat.kuleuven.be/cosic/vacancies/"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [mpc, fhe, hardware, pqc]
@@ -250,7 +250,7 @@
   country: "Switzerland"
   institution: "ETH Zurich"
   pi: "Kenny Paterson"
-  link: "https://appliedcrypto.ethz.ch/jobs.html"
+  link: "https://appliedcrypto.ethz.ch/open-positions.html"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [sse, symmetric, mpc]
@@ -265,7 +265,7 @@
   country: "Israel"
   institution: "Bar-Ilan University"
   pi: "Yehuda Lindell / Benny Pinkas"
-  link: "http://crypto.biu.ac.il/"
+  link: "https://crypto.biu.ac.il/"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [mpc, fss]
@@ -273,14 +273,14 @@
   note: "Premier MPC group — the natural home for FSS research."
   source: direct
 
-- name: "Weizmann Institute"
+- name: "Technion Cryptography Group"
   role: "Postdoctoral Researcher"
   type: postdoc
   region: middle_east
   country: "Israel"
-  institution: "Weizmann Institute of Science"
+  institution: "Technion — Israel Institute of Technology"
   pi: "Yuval Ishai / Eyal Kushilevitz"
-  link: "https://www.weizmann.ac.il/math/seyalon/positions"
+  link: "https://www.cs.technion.ac.il/~yuvali/"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [mpc, fss]
@@ -295,7 +295,7 @@
   country: "Israel"
   institution: "Reichman University"
   pi: "Elette Boyle"
-  link: "https://elette.bcrypto.org/"
+  link: "https://cs.idc.ac.il/~elette/"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [mpc, fss]
@@ -413,7 +413,7 @@
   country: "USA"
   institution: "Northeastern University"
   pi: "Daniel Wichs / abhi shelat / Mayank Varia / Ran Cohen"
-  link: "https://www.khoury.northeastern.edu/research/areas/cybersecurity-privacy/"
+  link: "https://www.khoury.northeastern.edu/research/"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [mpc, zk]
@@ -426,7 +426,7 @@
   region: north_america
   country: "USA"
   institution: "UC Berkeley — Simons Institute"
-  link: "https://vspa.berkeley.edu/postdocs/programs"
+  link: "https://simons.berkeley.edu/participate/postdoctoral-research-fellowships"
   deadline: "2026-12-01"
   posted: "2026-05-27"
   area: [mpc, zk, fhe]
@@ -440,7 +440,7 @@
   region: north_america
   country: "USA"
   institution: "NTT Research"
-  link: "https://ntt-research.com/cis-careers/"
+  link: "https://careers.ntt-research.com/cis"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [mpc, zk, fhe, lattice]
@@ -454,7 +454,7 @@
   country: "USA"
   institution: "Boston University"
   pi: "Mayank Varia / Sharon Goldberg"
-  link: "https://www.bu.edu/cs/jobs/"
+  link: "https://www.bu.edu/cs/research-groups/security/busec/busec-open-positions/"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [mpc, hardware]
@@ -499,7 +499,7 @@
   region: north_america
   country: "USA"
   institution: "Microsoft Research"
-  link: "https://www.microsoft.com/en-us/research/group/cryptography-research/"
+  link: "https://www.microsoft.com/en-us/research/research-area/security-privacy-cryptography/"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [fhe, pqc, zk, mpc]
@@ -544,7 +544,7 @@
   country: "UAE"
   institution: "TII Abu Dhabi"
   pi: "Ajith Suresh / Pradeep Mishra"
-  link: "https://www.tii.ae/cryptography"
+  link: "https://cryptography.tii.ae/careers"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [mpc, fhe, ppml]
@@ -558,7 +558,7 @@
   region: remote
   country: "UK / Remote"
   institution: "Aztec Labs"
-  link: "https://aztec.network/careers"
+  link: "https://aztec-labs.com/careers.html"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [zk, ppml, mpc]
@@ -601,7 +601,7 @@
   region: europe
   country: "Belgium"
   institution: "Nokia Bell Labs"
-  link: "https://www.bell-labs.com/about/careers/research-internships/"
+  link: "https://www.nokia.com/bell-labs/collaboration-opportunities/internships/"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [zk, fhe, mpc]
@@ -616,7 +616,7 @@
   country: "India"
   institution: "Microsoft Research"
   pi: "Nishanth Chandran / Divya Gupta"
-  link: "https://www.microsoft.com/en-us/research/academic-program/research-internship-program/"
+  link: "https://www.microsoft.com/en-us/research/careers/open-positions/"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [mpc, ppml, fss]
@@ -629,7 +629,7 @@
   region: north_america
   country: "USA"
   institution: "Microsoft Research"
-  link: "https://www.microsoft.com/en-us/research/group/cryptography-research/"
+  link: "https://www.microsoft.com/en-us/research/research-area/security-privacy-cryptography/"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [fhe, pqc, zk, mpc]
@@ -669,7 +669,7 @@
   region: middle_east
   country: "Israel"
   institution: "Bar-Ilan University"
-  link: "https://crypto.biu.ac.il/winterschool"
+  link: "https://cyber.biu.ac.il/"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [mpc, fss, fhe]
@@ -738,7 +738,7 @@
   region: europe
   country: "Austria"
   institution: "TU Graz"
-  link: "https://www.tugraz.at/fakultaeten/csbme/news/jobs-grants-calls/tenure-track-professor-in-security-and-privacy/"
+  link: "https://jobs.tugraz.at/en/"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [hardware, side_channel, pqc]
