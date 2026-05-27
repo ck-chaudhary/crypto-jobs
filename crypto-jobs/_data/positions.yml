@@ -745,6 +745,363 @@
   status: open
   source: iacr
 
+# ---------------- EUROPE — ADDITIONAL POSTDOC ----------------
+- name: "Ruhr-Universität Bochum — CASA / HGI"
+  role: "Postdoctoral Researcher (CASA Jump.Start Program)"
+  type: postdoc
+  region: europe
+  country: "Germany"
+  institution: "Ruhr-Universität Bochum"
+  link: "https://casa.rub.de/en/jobs/doctoral-and-postdoctoral-positions"
+  deadline: "rolling"
+  posted: "2026-05-28"
+  area: [hardware, side_channel, pqc, mpc, symmetric]
+  status: standing
+  note: "Cluster of Excellence CASA (€43M DFG funding 2026–2032). 2-year postdoc positions with research autonomy."
+  source: direct
+
+- name: "CWI Amsterdam — Cryptology Group"
+  role: "Postdoctoral Researcher"
+  type: postdoc
+  region: europe
+  country: "Netherlands"
+  institution: "CWI Amsterdam"
+  pi: "Ronald Cramer / Leo Ducas / Lisa Kohl / Serge Fehr"
+  link: "https://www.cwi.nl/en/groups/cryptology/"
+  deadline: "rolling"
+  posted: "2026-05-28"
+  area: [mpc, lattice, fss, zk]
+  status: standing
+  note: "2-year appointments. Strong lattice crypto and secret sharing research."
+  source: direct
+
+- name: "EPFL — LASEC (Security and Cryptography Laboratory)"
+  role: "Postdoctoral Researcher"
+  type: postdoc
+  region: europe
+  country: "Switzerland"
+  institution: "EPFL Lausanne"
+  pi: "Serge Vaudenay"
+  link: "https://lasec.epfl.ch/"
+  deadline: "rolling"
+  posted: "2026-05-28"
+  area: [symmetric, pqc, mpc]
+  status: contact
+  note: "Protocol security, symmetric-key design, and applied cryptography."
+  source: direct
+
+- name: "Royal Holloway — ISG Cryptography Group"
+  role: "Postdoctoral Researcher"
+  type: postdoc
+  region: europe
+  country: "UK"
+  institution: "Royal Holloway, University of London"
+  pi: "Rachel Player / Carlos Cid"
+  link: "https://cryptography.isg.rhul.ac.uk/"
+  deadline: "rolling"
+  posted: "2026-05-28"
+  area: [fhe, pqc, mpc]
+  status: contact
+  note: "One of the UK's oldest crypto groups (est. 1984). FHE and PQC focus."
+  source: direct
+
+- name: "University of Bristol — Cryptography Group"
+  role: "Research Associate / Postdoctoral Researcher"
+  type: postdoc
+  region: europe
+  country: "UK"
+  institution: "University of Bristol"
+  link: "https://www.bristol.ac.uk/engineering/research/cryptography/"
+  deadline: "rolling"
+  posted: "2026-05-28"
+  area: [mpc, fhe, hardware]
+  status: contact
+  note: "MPC, computing on encrypted data, and cryptographic implementation security."
+  source: direct
+
+# ---------------- NORTH AMERICA — ADDITIONAL POSTDOC ----------------
+- name: "Stanford — Applied Cryptography Group"
+  role: "Postdoctoral Researcher"
+  type: postdoc
+  region: north_america
+  country: "USA"
+  institution: "Stanford University"
+  pi: "Dan Boneh"
+  link: "https://crypto.stanford.edu/"
+  deadline: "rolling"
+  posted: "2026-05-28"
+  area: [zk, fhe, blockchain, pqc]
+  status: contact
+  note: "One of the world's leading crypto groups. ZK, blockchain, and applied crypto."
+  source: direct
+
+- name: "University of Maryland — MC2"
+  role: "Postdoctoral Fellow (MC2 Fellowship Program)"
+  type: postdoc
+  region: north_america
+  country: "USA"
+  institution: "University of Maryland"
+  pi: "Jonathan Katz"
+  link: "https://cyber.umd.edu/"
+  deadline: "rolling"
+  posted: "2026-05-28"
+  area: [mpc, zk, pqc]
+  status: contact
+  note: "Independent fellowship — not tied to a specific project. Annual call."
+  source: direct
+
+- name: "Columbia University — Cryptography Lab"
+  role: "Postdoctoral Researcher"
+  type: postdoc
+  region: north_america
+  country: "USA"
+  institution: "Columbia University"
+  pi: "Tal Malkin"
+  link: "https://www.cs.columbia.edu/~tal/"
+  deadline: "rolling"
+  posted: "2026-05-28"
+  area: [mpc, zk]
+  status: contact
+  note: "Crypto foundations, secure computation, and complexity theory."
+  source: direct
+
+- name: "UCLA — Center for Encrypted Functionalities"
+  role: "Postdoctoral Researcher"
+  type: postdoc
+  region: north_america
+  country: "USA"
+  institution: "UCLA"
+  pi: "Amit Sahai"
+  link: "https://web.cs.ucla.edu/~sahai/"
+  deadline: "rolling"
+  posted: "2026-05-28"
+  area: [fhe, zk, mpc]
+  status: contact
+  note: "Pioneer of indistinguishability obfuscation and functional encryption."
+  source: direct
+
+- name: "UC San Diego — Cryptography & Security"
+  role: "Postdoctoral Researcher"
+  type: postdoc
+  region: north_america
+  country: "USA"
+  institution: "UC San Diego"
+  pi: "Mihir Bellare"
+  link: "https://cseweb.ucsd.edu/~mihir/"
+  deadline: "rolling"
+  posted: "2026-05-28"
+  area: [symmetric, pqc]
+  status: contact
+  note: "Provable security, authenticated encryption, and cryptographic primitives."
+  source: direct
+
+- name: "University of Waterloo — CrySP"
+  role: "Postdoctoral Researcher"
+  type: postdoc
+  region: north_america
+  country: "Canada"
+  institution: "University of Waterloo"
+  pi: "Douglas Stebila / Ian Goldberg"
+  link: "https://crysp.uwaterloo.ca/postdoc/"
+  deadline: "rolling"
+  posted: "2026-05-28"
+  area: [pqc, mpc, ppml]
+  status: standing
+  note: "PQC protocols, privacy-enhancing tech, and CACR (Centre for Applied Cryptographic Research)."
+  source: direct
+
+- name: "University of South Florida — Center for Cryptographic Research"
+  role: "Postdoctoral Fellow"
+  type: postdoc
+  region: north_america
+  country: "USA"
+  institution: "University of South Florida"
+  link: "https://www.usf.edu/engineering/cse/research/"
+  deadline: "2026-08-07"
+  posted: "2026-05-28"
+  area: [pqc, lattice]
+  status: open
+  note: "Multiple postdoc positions. Applied algebra, coding theory, and quantum computing."
+  source: iacr
+
+# ---------------- INDUSTRY — ADDITIONAL ----------------
+- name: "AWS Cryptography"
+  role: "Applied Scientist / Research Scientist"
+  type: research_scientist
+  region: north_america
+  country: "USA"
+  institution: "Amazon Web Services"
+  link: "https://www.amazon.jobs/en/landing_pages/AWS-cryptography"
+  deadline: "rolling"
+  posted: "2026-05-28"
+  area: [pqc, symmetric, mpc]
+  status: standing
+  note: "Applied crypto for TLS, S2N, and PQC migration at scale."
+  source: direct
+
+- name: "SandboxAQ"
+  role: "Cryptography Researcher / Engineer"
+  type: research_scientist
+  region: north_america
+  country: "USA"
+  institution: "SandboxAQ"
+  link: "https://www.sandboxaq.com/careers"
+  deadline: "rolling"
+  posted: "2026-05-28"
+  area: [pqc, symmetric]
+  status: standing
+  note: "PQC migration and crypto management platform. Spun out of Alphabet."
+  source: direct
+
+- name: "Polygon Labs"
+  role: "Cryptography Researcher (ZK)"
+  type: research_scientist
+  region: remote
+  country: "India / Remote"
+  institution: "Polygon Labs"
+  link: "https://polygon.technology/careers"
+  deadline: "rolling"
+  posted: "2026-05-28"
+  area: [zk, blockchain]
+  status: standing
+  note: "ZK rollups (Plonky2/3), zkEVM. One of the most active ZK research teams."
+  source: direct
+
+# ---------------- INDIA — ADDITIONAL ----------------
+- name: "ISI Kolkata — Cryptology and Security Research Unit (CSRU)"
+  role: "Postdoctoral Fellow"
+  type: postdoc
+  region: india
+  country: "India"
+  institution: "Indian Statistical Institute, Kolkata"
+  pi: "Mridul Nandi / Subhamoy Maitra / Palash Sarkar"
+  link: "https://www.tcgcrest.org/cryptology/"
+  deadline: "rolling"
+  posted: "2026-05-28"
+  area: [symmetric, pqc, lattice]
+  status: standing
+  note: "One of India's foundational crypto groups. Stream ciphers, Boolean functions, and lattice-based PQC."
+  source: direct
+
+- name: "TCG CREST Kolkata — Cryptology Group"
+  role: "Research Fellow / Postdoctoral Fellow"
+  type: postdoc
+  region: india
+  country: "India"
+  institution: "TCG CREST Kolkata"
+  link: "https://www.tcgcrest.org/cryptology/"
+  deadline: "rolling"
+  posted: "2026-05-28"
+  area: [symmetric, pqc, side_channel]
+  status: standing
+  note: "Two papers accepted at CRYPTO 2026. Active cryptology research group."
+  source: direct
+
+- name: "CMI Chennai — Theoretical Computer Science"
+  role: "Postdoctoral Fellow"
+  type: postdoc
+  region: india
+  country: "India"
+  institution: "Chennai Mathematical Institute"
+  link: "https://www.cmi.ac.in/"
+  deadline: "rolling"
+  posted: "2026-05-28"
+  area: [lattice, pqc]
+  status: contact
+  note: "Algebraic complexity and cryptographic foundations."
+  source: direct
+
+# ---------------- ASIA-PACIFIC — ADDITIONAL ----------------
+- name: "SNU Seoul — Crypto & Privacy Lab"
+  role: "Postdoctoral Researcher"
+  type: postdoc
+  region: asia_pacific
+  country: "South Korea"
+  institution: "Seoul National University"
+  pi: "Jung Hee Cheon"
+  link: "http://www.math.snu.ac.kr/~jhcheon/xe2/"
+  deadline: "rolling"
+  posted: "2026-05-28"
+  area: [fhe, lattice, ppml]
+  status: contact
+  note: "Inventor of the CKKS FHE scheme. World-leading FHE/PPML group."
+  source: direct
+
+- name: "NUS Singapore — Security & Privacy"
+  role: "Research Fellow (Postdoc)"
+  type: postdoc
+  region: asia_pacific
+  country: "Singapore"
+  institution: "National University of Singapore"
+  pi: "Prateek Saxena"
+  link: "https://www.comp.nus.edu.sg/recruitment/post-doc-research-fellow/"
+  deadline: "rolling"
+  posted: "2026-05-28"
+  area: [zk, blockchain, mpc]
+  status: standing
+  note: "Blockchain security, smart contracts, decentralized systems. 1–2 year appointments."
+  source: direct
+
+- name: "NTT Social Informatics Laboratories (Japan)"
+  role: "Researcher"
+  type: research_scientist
+  region: asia_pacific
+  country: "Japan"
+  institution: "NTT Laboratories"
+  pi: "Ryo Nishimaki / Takashi Yamakawa"
+  link: "https://www.rd.ntt/e/sil/"
+  deadline: "rolling"
+  posted: "2026-05-28"
+  area: [fhe, zk, mpc, pqc]
+  status: standing
+  note: "Functional encryption, garbled circuits, quantum crypto. Competitive researcher program."
+  source: direct
+
+- name: "AIST Japan — Information Technology Research Institute"
+  role: "Postdoctoral Researcher"
+  type: postdoc
+  region: asia_pacific
+  country: "Japan"
+  institution: "AIST"
+  pi: "Koji Nuida"
+  link: "https://www.aist.go.jp/aist_e/"
+  deadline: "rolling"
+  posted: "2026-05-28"
+  area: [mpc, symmetric, pqc]
+  status: standing
+  note: "MPC, symmetric-key analysis, quantum-safe crypto. AIST Special Postdoctoral Researcher program."
+  source: direct
+
+- name: "Academia Sinica — Institute of Information Science"
+  role: "Postdoctoral Fellow"
+  type: postdoc
+  region: asia_pacific
+  country: "Taiwan"
+  institution: "Academia Sinica"
+  pi: "Bo-Yin Yang"
+  link: "https://www.iis.sinica.edu.tw/en/"
+  deadline: "rolling"
+  posted: "2026-05-28"
+  area: [pqc, hardware]
+  status: standing
+  note: "Pioneer of multivariate PQC (Rainbow/GeMSS). Hardware implementations."
+  source: direct
+
+- name: "Tsinghua University — IIIS"
+  role: "Postdoctoral Researcher"
+  type: postdoc
+  region: asia_pacific
+  country: "China"
+  institution: "Tsinghua University"
+  pi: "Andrew Yao"
+  link: "https://iiis.tsinghua.edu.cn/en/"
+  deadline: "rolling"
+  posted: "2026-05-28"
+  area: [mpc, zk]
+  status: contact
+  note: "Founded by Andrew Yao (Turing Award, inventor of garbled circuits). MPC theory."
+  source: direct
+
 # ---------------- AGGREGATORS (kept as cards for visibility) ----------------
 - name: "IACR Open Positions (master aggregator)"
   role: "All crypto positions worldwide"
