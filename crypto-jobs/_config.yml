@@ -13,9 +13,6 @@ plugins:
   - jekyll-seo-tag
 
 # Exclude these from the built site
-github_username: ck-chaudhary
-repo: crypto-jobs
-
 exclude:
   - README.md
   - scripts/

@@ -139,7 +139,7 @@
   posted: "2026-05-27"
   area: [mpc, fss, fhe]
   status: standing
-  note: "Lawrence Roy works directly on silent-OT / HSS — neighbour of your compact-key DPF work. **Highest priority lab.**"
+  note: "Lawrence Roy works on silent-OT / HSS. Strong MPC group with ERC funding."
   source: direct
 
 - name: "ENCRYPTO — Cryptography and Privacy Engineering"
@@ -154,7 +154,7 @@
   posted: "2026-05-27"
   area: [mpc, ppml, fss]
   status: standing
-  note: "ERC PRIVTOOLS grant. Applied MPC + PPML; perfect match for your EzPC / libsodium implementation chops."
+  note: "ERC PRIVTOOLS grant. Applied MPC + PPML focus."
   source: direct
 
 - name: "Applied Cryptography Group"
@@ -255,7 +255,7 @@
   posted: "2026-05-27"
   area: [sse, symmetric, mpc]
   status: contact
-  note: "DDR-SSE (USENIX 2026) overlaps directly with your ThORY/MUSSE line. Sikhar Patranabis (your co-author) is a former member — use as introduction."
+  note: "DDR-SSE (USENIX 2026). Strong applied crypto and SSE research."
   source: direct
 
 - name: "Bar-Ilan Crypto Group"
@@ -314,7 +314,7 @@
   posted: "2026-05-27"
   area: [side_channel, hardware]
   status: open
-  note: "SCA / FPGA implementations. Matches your Raspberry Pi SCA work."
+  note: "SCA / FPGA implementations."
   source: iacr
 
 # ---------------- ASIA-PACIFIC — POSTDOC ----------------
@@ -459,7 +459,7 @@
   posted: "2026-05-27"
   area: [mpc, hardware]
   status: contact
-  note: "FPGA-MPC line is on-theme with your TERRA work."
+  note: "FPGA-MPC research line."
   source: direct
 
 # ---------------- INDUSTRY — RESEARCH SCIENTIST ----------------
@@ -469,14 +469,14 @@
   region: india
   country: "India"
   institution: "IBM Research"
-  pi: "Sikhar Patranabis (collaborator) / Pankaj Dayama / Nitin Singh"
+  pi: "Sikhar Patranabis / Pankaj Dayama / Nitin Singh"
   link: "https://www.ibm.com/in-en/careers/search"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [pqc, mpc, fhe, sse, zk]
   status: standing
-  note: "**Highest-conversion-probability industry role for you** — your co-author is on the team."
-  source: referral
+  note: "Strong foundational cryptography team covering PQC, MPC, FHE, SSE, and ZK."
+  source: direct
 
 - name: "Microsoft Research India"
   role: "Research Scientist / Research Fellow"
@@ -490,7 +490,7 @@
   posted: "2026-05-27"
   area: [mpc, fss, ppml]
   status: standing
-  note: "EzPC / SiRnn / CrypTFlow — pioneered FSS-for-PPML. Your DPF/DCF + ReLU work is in their evaluation set."
+  note: "EzPC / SiRnn / CrypTFlow — pioneered FSS-for-PPML."
   source: direct
 
 - name: "Microsoft Research Redmond — Cryptography & Privacy"
@@ -513,14 +513,14 @@
   region: north_america
   country: "USA"
   institution: "Visa Research"
-  pi: "Suvradip Chakraborty (collaborator) / Rahul Rachuri"
+  pi: "Suvradip Chakraborty / Rahul Rachuri"
   link: "https://usa.visa.com/about-visa/visa-research/people.html"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [mpc, ppml]
   status: contact
-  note: "Your TERRA co-author Suvradip is there."
-  source: referral
+  note: "MPC and PPML research focus."
+  source: direct
 
 - name: "Supra Research"
   role: "Research Scientist"
@@ -528,14 +528,14 @@
   region: india
   country: "India / Global"
   institution: "Supra Research"
-  pi: "Pratyay Mukherjee (FACT co-author) / Pratik Sarkar"
+  pi: "Pratyay Mukherjee / Pratik Sarkar"
   link: "https://supra.com/careers"
   deadline: "rolling"
   posted: "2026-05-27"
   area: [mpc, zk, blockchain]
   status: contact
-  note: "Your FACT co-author Pratyay leads research direction here."
-  source: referral
+  note: "MPC, ZK, and blockchain cryptography research."
+  source: direct
 
 - name: "Technology Innovation Institute (TII) — Cryptography Research Centre"
   role: "Senior / Staff MPC Researcher"
@@ -549,7 +549,7 @@
   posted: "2026-05-27"
   area: [mpc, fhe, ppml]
   status: standing
-  note: "PPML team is exactly your line of work."
+  note: "Dedicated PPML team with MPC and FHE expertise."
   source: direct
 
 - name: "Aztec Labs"
@@ -606,7 +606,7 @@
   posted: "2026-05-27"
   area: [zk, fhe, mpc]
   status: open
-  note: "ZKP (SNARKs, STARKs, MPC-in-the-head), FHE, MPC. You already have a tailored CV — submit it."
+  note: "ZKP (SNARKs, STARKs, MPC-in-the-head), FHE, MPC."
   source: iacr
 
 - name: "Microsoft Research India — Research Internship"
