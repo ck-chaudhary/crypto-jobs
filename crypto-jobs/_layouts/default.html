@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% feed_meta %}
+  {% seo %}
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>🔐 {{ site.title }}</h1>
+      <p class="tag">{{ site.description }}</p>
+      <p class="meta">
+        <a href="https://github.com/{{ site.github_username | default: '<your-username>' }}/{{ site.repo | default: 'crypto-jobs' }}">GitHub</a>
+        · <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+        · Data last updated <time id="last-updated"></time>
+      </p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Maintained as a public service for the cryptography research community. Data is community-curated and may contain errors — verify with the host institution before applying.</p>
+      <p>Inspired by <a href="https://mpc-deadlines.github.io/">mpc-deadlines</a> and <a href="https://sec-deadlines.github.io/">sec-deadlines</a>.</p>
+    </div>
+  </footer>
+
+  <script src="{{ '/assets/js/filter.js' | relative_url }}"></script>
+</body>
+</html>

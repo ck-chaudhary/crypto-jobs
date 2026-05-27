@@ -1,0 +1,86 @@
+---
+layout: default
+title: Cryptography Research Positions
+---
+
+<section class="filters">
+  <div class="filter-row">
+    <label>Type
+      <select id="f-type" data-filter="type">
+        <option value="">All</option>
+        <option value="postdoc">Postdoc</option>
+        <option value="research_scientist">Research scientist</option>
+        <option value="faculty">Faculty</option>
+        <option value="intern">Intern</option>
+        <option value="visiting">Visiting</option>
+        <option value="phd">PhD</option>
+      </select>
+    </label>
+
+    <label>Region
+      <select id="f-region" data-filter="region">
+        <option value="">All</option>
+        <option value="india">India</option>
+        <option value="europe">Europe</option>
+        <option value="north_america">North America</option>
+        <option value="asia_pacific">Asia-Pacific</option>
+        <option value="middle_east">Middle East</option>
+        <option value="africa">Africa</option>
+        <option value="remote">Remote</option>
+      </select>
+    </label>
+
+    <label>Status
+      <select id="f-status" data-filter="status">
+        <option value="">All</option>
+        <option value="open">Currently advertising</option>
+        <option value="standing">Standing call</option>
+        <option value="contact">Contact PI directly</option>
+        <option value="expired">Expired (archive)</option>
+      </select>
+    </label>
+
+    <label>Search
+      <input type="search" id="f-search" placeholder="e.g. FSS, lattice, Aarhus" />
+    </label>
+  </div>
+
+  <div class="filter-row areas">
+    <span class="label">Area:</span>
+    {% assign areas = "mpc,fhe,fss,zk,pqc,lattice,symmetric,hardware,ppml,sse,blockchain,formal_methods,side_channel" | split: "," %}
+    {% for a in areas %}
+      <label class="chip"><input type="checkbox" class="area-cb" value="{{ a }}"><span>{{ a | replace: "_", " " | upcase }}</span></label>
+    {% endfor %}
+  </div>
+
+  <p class="counts"><span id="visible-count">{{ site.data.positions | size }}</span> of <span id="total-count">{{ site.data.positions | size }}</span> positions shown.</p>
+</section>
+
+<section class="cards">
+  {% for p in site.data.positions %}
+    <article class="card"
+             data-type="{{ p.type }}"
+             data-region="{{ p.region }}"
+             data-status="{{ p.status }}"
+             data-area="{{ p.area | join: ' ' }}"
+             data-search="{{ p.name | downcase }} {{ p.institution | downcase }} {{ p.pi | downcase }} {{ p.role | downcase }} {{ p.note | downcase }}">
+      <header>
+        <h3>{{ p.name }}</h3>
+        <p class="role">{{ p.role }}</p>
+      </header>
+      <p class="institution">{% if p.institution %}{{ p.institution }}{% endif %}{% if p.country %} · {{ p.country }}{% endif %}</p>
+      {% if p.pi %}<p class="pi"><strong>Host:</strong> {{ p.pi }}</p>{% endif %}
+      <ul class="tags">
+        <li class="tag-type tag-{{ p.type }}">{{ p.type | replace: "_", " " }}</li>
+        <li class="tag-region tag-{{ p.region }}">{{ p.region | replace: "_", " " }}</li>
+        <li class="tag-status tag-{{ p.status }}">{{ p.status }}</li>
+        {% for a in p.area %}<li class="tag-area">{{ a | replace: "_", " " }}</li>{% endfor %}
+      </ul>
+      {% if p.deadline %}<p class="deadline"><strong>Deadline:</strong> {{ p.deadline }}</p>{% endif %}
+      {% if p.note %}<p class="note">{{ p.note }}</p>{% endif %}
+      <p class="actions"><a class="apply-btn" href="{{ p.link }}" target="_blank" rel="noopener">Apply / details ↗</a>
+        {% if p.source %}<span class="source">via {{ p.source }}</span>{% endif %}
+      </p>
+    </article>
+  {% endfor %}
+</section>

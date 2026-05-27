@@ -1,0 +1,8 @@
+source "https://rubygems.org"
+
+gem "jekyll", "~> 4.3"
+gem "jekyll-feed"
+gem "jekyll-seo-tag"
+
+# Use webrick on Ruby 3.x for local serving
+gem "webrick"

@@ -1,0 +1,36 @@
+title: Cryptography Research Positions
+description: >-
+  A live, filterable index of postdoc, research-scientist, faculty,
+  internship and visiting-researcher positions in cryptography
+  (MPC, FHE, ZK, PQC, PPML, hardware security, applied crypto)
+  — India and abroad.
+url: ""               # set to "https://<user>.github.io" after deploy
+baseurl: ""           # set to "/<repo-name>" if not user-page
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude these from the built site
+exclude:
+  - README.md
+  - scripts/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+
+# Filter taxonomies — keep these in sync with _data/positions.yml tags
+filter_groups:
+  type:
+    label: "Position type"
+    options: [postdoc, research_scientist, faculty, intern, visiting, phd]
+  region:
+    label: "Region"
+    options: [india, europe, north_america, asia_pacific, middle_east, africa, remote]
+  area:
+    label: "Research area"
+    options: [mpc, fhe, fss, zk, pqc, lattice, symmetric, hardware, ppml, sse, blockchain, formal_methods, side_channel]
+  status:
+    label: "Status"
+    options: [open, standing, contact, expired]

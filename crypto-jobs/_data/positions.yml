@@ -1,0 +1,761 @@
+# =========================================================================
+#  positions.yml — Cryptography Research Positions
+# =========================================================================
+#
+#  Fields:
+#    name*       — Host group / lab / company
+#    role*       — Job title (e.g. "Postdoctoral Researcher")
+#    type*       — One of: postdoc, research_scientist, faculty, intern, visiting, phd
+#    region*     — india | europe | north_america | asia_pacific | middle_east | africa | remote
+#    country     — Free-text (display only)
+#    institution — Free-text
+#    pi          — PI / contact person (optional)
+#    link*       — Apply URL or PI page
+#    deadline    — ISO date "YYYY-MM-DD" or "rolling"
+#    posted      — ISO date the listing was first seen
+#    area        — List from: mpc, fhe, fss, zk, pqc, lattice, symmetric, hardware,
+#                            ppml, sse, blockchain, formal_methods, side_channel
+#    status*     — open | standing | contact | expired
+#    note        — Short free-text comment shown on the card
+#    source      — Where the listing was found (iacr / direct / referral / scraper)
+#
+#  * = required
+# =========================================================================
+
+# ---------------- INDIA — POSTDOC ----------------
+- name: "CrIS Lab (Cryptography & Information Security)"
+  role: "Postdoctoral Fellow — IISc IoE / C.V. Raman / Private funding"
+  type: postdoc
+  region: india
+  country: "India"
+  institution: "IISc Bangalore"
+  pi: "Arpita Patra"
+  link: "https://www.csa.iisc.ac.in/~cris/opportunities.html"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [mpc, ppml]
+  status: standing
+  note: "India's strongest MPC group. PPML pedigree (ABY2.0, SWIFT). Three funding tracks."
+  source: direct
+
+- name: "IIT Madras Cryptography Group"
+  role: "Postdoc / Research Associate"
+  type: postdoc
+  region: india
+  country: "India"
+  institution: "IIT Madras"
+  pi: "Shweta Agrawal"
+  link: "https://www.cse.iitm.ac.in/~shwetaag/opportunities.html"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [lattice, pqc, fhe]
+  status: contact
+  note: "Lattice + functional encryption + iO. Swarnajayanti & Eurocrypt best-paper awardee PI."
+  source: direct
+
+- name: "TrustLab IIT Bombay"
+  role: "Postdoc / Research Scientist"
+  type: postdoc
+  region: india
+  country: "India"
+  institution: "IIT Bombay"
+  pi: "Manoj Prabhakaran / Sruthi Sekar"
+  link: "https://trustlab.iitb.ac.in/"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [mpc, sse]
+  status: contact
+  note: "Theoretical & applied cryptography."
+  source: direct
+
+- name: "SEAL — Secured Embedded Architecture Lab"
+  role: "Postdoc (IPDF) / Project Researcher"
+  type: postdoc
+  region: india
+  country: "India"
+  institution: "IIT Kharagpur"
+  pi: "Debdeep Mukhopadhyay"
+  link: "https://cse.iitkgp.ac.in/resgrp/seal/"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [hardware, side_channel, mpc, fhe]
+  status: standing
+  note: "Internal IIT KGP postdoc route via the IPDF programme."
+  source: direct
+
+- name: "IIIT Bangalore"
+  role: "Postdoc / Research Scientist"
+  type: postdoc
+  region: india
+  country: "India"
+  institution: "IIIT Bangalore"
+  pi: "Ashish Choudhury"
+  link: "https://sites.google.com/view/ashish-choudhury"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [mpc]
+  status: contact
+  source: direct
+
+- name: "IIIT Delhi"
+  role: "Institute Postdoctoral Fellowship"
+  type: postdoc
+  region: india
+  country: "India"
+  institution: "IIIT Delhi"
+  link: "https://iiitd.ac.in/careers/recruitments"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [pqc, mpc, hardware]
+  status: standing
+  note: "Crypto/security cluster (Vireshwar Kumar, Donghoon Chang)."
+  source: direct
+
+- name: "TIFR Mumbai (STCS)"
+  role: "Postdoctoral Fellow"
+  type: postdoc
+  region: india
+  country: "India"
+  institution: "TIFR Mumbai"
+  pi: "Akshayaram Srinivasan"
+  link: "https://www.tcs.tifr.res.in/positions/"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [mpc]
+  status: contact
+  note: "Theoretical foundations of cryptography."
+  source: direct
+
+# ---------------- EUROPE — POSTDOC ----------------
+- name: "Aarhus University Crypto Group"
+  role: "Postdoctoral Researcher (ERC-funded)"
+  type: postdoc
+  region: europe
+  country: "Denmark"
+  institution: "Aarhus University"
+  pi: "Ivan Damgård / Claudio Orlandi / Peter Scholl / Lawrence Roy"
+  link: "https://cs.au.dk/research/cryptography-and-security/"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [mpc, fss, fhe]
+  status: standing
+  note: "Lawrence Roy works directly on silent-OT / HSS — neighbour of your compact-key DPF work. **Highest priority lab.**"
+  source: direct
+
+- name: "ENCRYPTO — Cryptography and Privacy Engineering"
+  role: "Postdoctoral Researcher (initiative-application)"
+  type: postdoc
+  region: europe
+  country: "Germany"
+  institution: "TU Darmstadt"
+  pi: "Thomas Schneider"
+  link: "https://encrypto.cs.tu-darmstadt.de/home_page/open_positions/index.en.jsp"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [mpc, ppml, fss]
+  status: standing
+  note: "ERC PRIVTOOLS grant. Applied MPC + PPML; perfect match for your EzPC / libsodium implementation chops."
+  source: direct
+
+- name: "Applied Cryptography Group"
+  role: "Postdoctoral Researcher"
+  type: postdoc
+  region: europe
+  country: "Germany"
+  institution: "TU Darmstadt"
+  pi: "Sebastian Faust"
+  link: "https://www.appliedcrypto.cs.tu-darmstadt.de/"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [mpc, blockchain, zk]
+  status: open
+  note: "2-year position with extension possible; distributed crypto + MPC + ZK."
+  source: iacr
+
+- name: "Coding and Cryptography Group"
+  role: "Postdoctoral Research Position"
+  type: postdoc
+  region: europe
+  country: "Germany"
+  institution: "TU Munich (TUM)"
+  pi: "Antonia Wachter-Zeh"
+  link: "https://www.itsoc.org/jobs/postdoctoral-research-position-technical-university-munich-tum-germany-coding-cryptography"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [lattice, pqc]
+  status: open
+  source: iacr
+
+- name: "Max Planck Institute for Security and Privacy"
+  role: "Postdoctoral Researcher"
+  type: postdoc
+  region: europe
+  country: "Germany"
+  institution: "MPI-SP Bochum"
+  pi: "Giulio Malavolta / Eike Kiltz"
+  link: "https://www.mpi-sp.org/jobs"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [lattice, mpc, zk, pqc]
+  status: standing
+  note: "Lattice + obfuscation + advanced FE."
+  source: direct
+
+- name: "CISPA Helmholtz Center for Information Security"
+  role: "Postdoctoral Researcher"
+  type: postdoc
+  region: europe
+  country: "Germany"
+  institution: "CISPA Saarland"
+  link: "https://cispa.de/en/jobs"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [mpc, zk, formal_methods]
+  status: standing
+  source: direct
+
+- name: "Applied Crypto Group"
+  role: "Postdoctoral Fellow in Cryptography"
+  type: postdoc
+  region: europe
+  country: "Luxembourg"
+  institution: "University of Luxembourg"
+  pi: "Jean-Sébastien Coron"
+  link: "https://academicpositions.com/ad/university-of-luxembourg/2026/postdoctoral-fellow-in-cryptography/244317"
+  deadline: "2026-03-15"
+  posted: "2026-02-06"
+  area: [fhe, side_channel, pqc]
+  status: open
+  note: "Gross EUR 85k. FHE + cryptanalysis + side-channels."
+  source: iacr
+
+- name: "COSIC — Computer Security and Industrial Cryptography"
+  role: "Postdoctoral Researcher"
+  type: postdoc
+  region: europe
+  country: "Belgium"
+  institution: "KU Leuven"
+  link: "https://www.esat.kuleuven.be/cosic/positions/"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [mpc, fhe, hardware, pqc]
+  status: standing
+  note: "Largest European crypto group (~100 researchers)."
+  source: direct
+
+- name: "Applied Crypto Group"
+  role: "Postdoctoral Fellow"
+  type: postdoc
+  region: europe
+  country: "Switzerland"
+  institution: "ETH Zurich"
+  pi: "Kenny Paterson"
+  link: "https://appliedcrypto.ethz.ch/jobs.html"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [sse, symmetric, mpc]
+  status: contact
+  note: "DDR-SSE (USENIX 2026) overlaps directly with your ThORY/MUSSE line. Sikhar Patranabis (your co-author) is a former member — use as introduction."
+  source: direct
+
+- name: "Bar-Ilan Crypto Group"
+  role: "Postdoctoral Fellow"
+  type: postdoc
+  region: middle_east
+  country: "Israel"
+  institution: "Bar-Ilan University"
+  pi: "Yehuda Lindell / Benny Pinkas"
+  link: "http://crypto.biu.ac.il/"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [mpc, fss]
+  status: contact
+  note: "Premier MPC group — the natural home for FSS research."
+  source: direct
+
+- name: "Weizmann Institute"
+  role: "Postdoctoral Researcher"
+  type: postdoc
+  region: middle_east
+  country: "Israel"
+  institution: "Weizmann Institute of Science"
+  pi: "Yuval Ishai / Eyal Kushilevitz"
+  link: "https://www.weizmann.ac.il/math/seyalon/positions"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [mpc, fss]
+  status: contact
+  note: "Yuval Ishai co-invented Function Secret Sharing."
+  source: direct
+
+- name: "Reichman University (IDC Herzliya)"
+  role: "Postdoctoral Researcher"
+  type: postdoc
+  region: middle_east
+  country: "Israel"
+  institution: "Reichman University"
+  pi: "Elette Boyle"
+  link: "https://elette.bcrypto.org/"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [mpc, fss]
+  status: contact
+  note: "Elette Boyle co-invented Function Secret Sharing."
+  source: direct
+
+- name: "Simula UiB"
+  role: "Postdoctoral Fellow"
+  type: postdoc
+  region: europe
+  country: "Norway"
+  institution: "Simula UiB Bergen"
+  link: "https://www.iacr.org/jobs/"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [side_channel, hardware]
+  status: open
+  note: "SCA / FPGA implementations. Matches your Raspberry Pi SCA work."
+  source: iacr
+
+# ---------------- ASIA-PACIFIC — POSTDOC ----------------
+- name: "Symmetric Key and Lightweight Crypto Lab (SyLLab)"
+  role: "Research Fellow / Post-Doc"
+  type: postdoc
+  region: asia_pacific
+  country: "Singapore"
+  institution: "NTU Singapore"
+  pi: "Thomas Peyrin"
+  link: "https://www.iacr.org/jobs/"
+  deadline: "rolling"
+  posted: "2026-03-22"
+  area: [symmetric]
+  status: open
+  source: iacr
+
+- name: "NTU Singapore — Lattice-based Cryptography"
+  role: "Postdoctoral Researcher (lattice cryptanalysis)"
+  type: postdoc
+  region: asia_pacific
+  country: "Singapore"
+  institution: "NTU Singapore"
+  pi: "Divesh Aggarwal"
+  link: "https://www.iacr.org/jobs/"
+  deadline: "rolling"
+  posted: "2026-03-22"
+  area: [lattice, pqc]
+  status: open
+  note: "Internationally competitive salary; significant autonomy."
+  source: iacr
+
+- name: "John Hopcroft Center for Computer Science"
+  role: "Postdoctoral Research Fellow (PQC / MPC / quantum algorithms)"
+  type: postdoc
+  region: asia_pacific
+  country: "China"
+  institution: "Shanghai Jiao Tong University"
+  link: "https://www.iacr.org/jobs/"
+  deadline: "rolling"
+  posted: "2026-03-04"
+  area: [pqc, mpc]
+  status: open
+  note: "Multiple positions; full funding for several years."
+  source: iacr
+
+- name: "Xiamen University"
+  role: "Postdoctoral Researcher (symmetric crypto)"
+  type: postdoc
+  region: asia_pacific
+  country: "China"
+  institution: "Xiamen University"
+  pi: "Hailun Yan"
+  link: "https://www.iacr.org/jobs/"
+  deadline: "rolling"
+  posted: "2026-03-17"
+  area: [symmetric]
+  status: open
+  note: "2-year initial appointment."
+  source: iacr
+
+- name: "Monash University"
+  role: "Postdoctoral Researcher (PQC for Blockchain)"
+  type: postdoc
+  region: asia_pacific
+  country: "Australia"
+  institution: "Monash University"
+  link: "https://www.iacr.org/jobs/"
+  deadline: "rolling"
+  posted: "2026-03-22"
+  area: [pqc, blockchain]
+  status: open
+  note: "ARC Discovery Project funding."
+  source: iacr
+
+# ---------------- NORTH AMERICA — POSTDOC ----------------
+- name: "Georgia Tech — School of Cybersecurity and Privacy"
+  role: "Postdoctoral Researcher (starting Fall 2026)"
+  type: postdoc
+  region: north_america
+  country: "USA"
+  institution: "Georgia Tech"
+  pi: "Alex Ozdemir"
+  link: "https://cs.stanford.edu/~aozdemir"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [zk, mpc, formal_methods]
+  status: open
+  note: "Brand-new lab — early postdoc gives high visibility. Collaborative zkSNARKs, MPC."
+  source: direct
+
+- name: "Northeastern University"
+  role: "Postdoctoral Researcher"
+  type: postdoc
+  region: north_america
+  country: "USA"
+  institution: "Northeastern University"
+  pi: "Daniel Wichs / abhi shelat / Mayank Varia / Ran Cohen"
+  link: "https://www.khoury.northeastern.edu/research/areas/cybersecurity-privacy/"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [mpc, zk]
+  status: contact
+  source: direct
+
+- name: "Simons Institute Research Fellowship"
+  role: "Research Fellow (semester or year)"
+  type: visiting
+  region: north_america
+  country: "USA"
+  institution: "UC Berkeley — Simons Institute"
+  link: "https://vspa.berkeley.edu/postdocs/programs"
+  deadline: "2026-12-01"
+  posted: "2026-05-27"
+  area: [mpc, zk, fhe]
+  status: open
+  note: "Annual call. Aim for Cryptography / PETs themed semester."
+  source: direct
+
+- name: "NTT Research — Cryptography & Information Security Lab"
+  role: "Postdoctoral Researcher / Research Scientist"
+  type: postdoc
+  region: north_america
+  country: "USA"
+  institution: "NTT Research"
+  link: "https://ntt-research.com/cis-careers/"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [mpc, zk, fhe, lattice]
+  status: standing
+  source: direct
+
+- name: "Boston University — BUSec"
+  role: "Postdoctoral Researcher"
+  type: postdoc
+  region: north_america
+  country: "USA"
+  institution: "Boston University"
+  pi: "Mayank Varia / Sharon Goldberg"
+  link: "https://www.bu.edu/cs/jobs/"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [mpc, hardware]
+  status: contact
+  note: "FPGA-MPC line is on-theme with your TERRA work."
+  source: direct
+
+# ---------------- INDUSTRY — RESEARCH SCIENTIST ----------------
+- name: "IBM Research India — Foundational Cryptography"
+  role: "Research Scientist / Staff Researcher"
+  type: research_scientist
+  region: india
+  country: "India"
+  institution: "IBM Research"
+  pi: "Sikhar Patranabis (collaborator) / Pankaj Dayama / Nitin Singh"
+  link: "https://www.ibm.com/in-en/careers/search"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [pqc, mpc, fhe, sse, zk]
+  status: standing
+  note: "**Highest-conversion-probability industry role for you** — your co-author is on the team."
+  source: referral
+
+- name: "Microsoft Research India"
+  role: "Research Scientist / Research Fellow"
+  type: research_scientist
+  region: india
+  country: "India"
+  institution: "Microsoft Research"
+  pi: "Nishanth Chandran / Divya Gupta / Aseem Rastogi"
+  link: "https://www.microsoft.com/en-us/research/lab/microsoft-research-india/"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [mpc, fss, ppml]
+  status: standing
+  note: "EzPC / SiRnn / CrypTFlow — pioneered FSS-for-PPML. Your DPF/DCF + ReLU work is in their evaluation set."
+  source: direct
+
+- name: "Microsoft Research Redmond — Cryptography & Privacy"
+  role: "Research Scientist"
+  type: research_scientist
+  region: north_america
+  country: "USA"
+  institution: "Microsoft Research"
+  link: "https://www.microsoft.com/en-us/research/group/cryptography-research/"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [fhe, pqc, zk, mpc]
+  status: standing
+  note: "Melissa Chase, Esha Ghosh, Sergey Yekhanin."
+  source: direct
+
+- name: "Visa Research"
+  role: "Staff Research Scientist"
+  type: research_scientist
+  region: north_america
+  country: "USA"
+  institution: "Visa Research"
+  pi: "Suvradip Chakraborty (collaborator) / Rahul Rachuri"
+  link: "https://usa.visa.com/about-visa/visa-research/people.html"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [mpc, ppml]
+  status: contact
+  note: "Your TERRA co-author Suvradip is there."
+  source: referral
+
+- name: "Supra Research"
+  role: "Research Scientist"
+  type: research_scientist
+  region: india
+  country: "India / Global"
+  institution: "Supra Research"
+  pi: "Pratyay Mukherjee (FACT co-author) / Pratik Sarkar"
+  link: "https://supra.com/careers"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [mpc, zk, blockchain]
+  status: contact
+  note: "Your FACT co-author Pratyay leads research direction here."
+  source: referral
+
+- name: "Technology Innovation Institute (TII) — Cryptography Research Centre"
+  role: "Senior / Staff MPC Researcher"
+  type: research_scientist
+  region: middle_east
+  country: "UAE"
+  institution: "TII Abu Dhabi"
+  pi: "Ajith Suresh / Pradeep Mishra"
+  link: "https://www.tii.ae/cryptography"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [mpc, fhe, ppml]
+  status: standing
+  note: "PPML team is exactly your line of work."
+  source: direct
+
+- name: "Aztec Labs"
+  role: "Cryptography Researcher"
+  type: research_scientist
+  region: remote
+  country: "UK / Remote"
+  institution: "Aztec Labs"
+  link: "https://aztec.network/careers"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [zk, ppml, mpc]
+  status: standing
+  note: "Nishat Koti (former IISc) is there."
+  source: direct
+
+- name: "JPMorgan AI Research — Cryptography"
+  role: "AI Research Scientist (Cryptography) — Senior Associate"
+  type: research_scientist
+  region: north_america
+  country: "USA"
+  institution: "JPMorgan Chase"
+  link: "https://careers.jpmorgan.com/us/en/students/programs/ai-research"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [zk, fhe, symmetric]
+  status: open
+  note: "VOLE-based ZK, FHE; direct alignment."
+  source: direct
+
+- name: "Silence Laboratories"
+  role: "Cryptography Engineer / Researcher"
+  type: research_scientist
+  region: asia_pacific
+  country: "Singapore / India"
+  institution: "Silence Laboratories"
+  pi: "Yashvanth Kondi"
+  link: "https://www.silencelaboratories.com/careers"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [mpc, zk]
+  status: standing
+  source: direct
+
+# ---------------- INTERNSHIPS / VISITING ----------------
+- name: "Nokia Bell Labs (Belgium)"
+  role: "PhD Internship — ZKP / FHE / MPC"
+  type: intern
+  region: europe
+  country: "Belgium"
+  institution: "Nokia Bell Labs"
+  link: "https://www.bell-labs.com/about/careers/research-internships/"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [zk, fhe, mpc]
+  status: open
+  note: "ZKP (SNARKs, STARKs, MPC-in-the-head), FHE, MPC. You already have a tailored CV — submit it."
+  source: iacr
+
+- name: "Microsoft Research India — Research Internship"
+  role: "Research Intern (PhD)"
+  type: intern
+  region: india
+  country: "India"
+  institution: "Microsoft Research"
+  pi: "Nishanth Chandran / Divya Gupta"
+  link: "https://www.microsoft.com/en-us/research/academic-program/research-internship-program/"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [mpc, ppml, fss]
+  status: standing
+  source: direct
+
+- name: "MSR Redmond Cryptography Summer Intern"
+  role: "Summer Research Intern (PhD)"
+  type: intern
+  region: north_america
+  country: "USA"
+  institution: "Microsoft Research"
+  link: "https://www.microsoft.com/en-us/research/group/cryptography-research/"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [fhe, pqc, zk, mpc]
+  status: open
+  note: "Apply in autumn for summer; 12-week stints."
+  source: direct
+
+- name: "IBM Research Internship"
+  role: "Research Intern (Bangalore / Yorktown / Zurich)"
+  type: intern
+  region: india
+  country: "India / USA / Switzerland"
+  institution: "IBM Research"
+  link: "https://research.ibm.com/careers/internships"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [pqc, mpc, fhe]
+  status: standing
+  source: direct
+
+- name: "CEA-LIST"
+  role: "End-of-Masters / PhD Internship (FHE — BGV)"
+  type: intern
+  region: europe
+  country: "France"
+  institution: "CEA-LIST"
+  link: "https://www.iacr.org/jobs/"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [fhe]
+  status: open
+  source: iacr
+
+- name: "Bar-Ilan Winter School in Cryptography"
+  role: "Winter School Participant (networking)"
+  type: visiting
+  region: middle_east
+  country: "Israel"
+  institution: "Bar-Ilan University"
+  link: "https://crypto.biu.ac.il/winterschool"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [mpc, fss, fhe]
+  status: standing
+  note: "Not a position per se — the established gateway to Israeli crypto postdoc connections."
+  source: direct
+
+# ---------------- FACULTY ----------------
+- name: "Indian Institute of Technology — Faculty Recruitment (system-wide)"
+  role: "Assistant / Associate / Full Professor (CSE)"
+  type: faculty
+  region: india
+  country: "India"
+  institution: "All IITs"
+  link: "https://www.iitsystem.ac.in/facultyrecruitment"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [mpc, fhe, pqc, hardware]
+  status: standing
+  note: "Single portal for every IIT's current openings."
+  source: direct
+
+- name: "IIT Dharwad"
+  role: "Faculty — Assistant / Associate / Professor"
+  type: faculty
+  region: india
+  country: "India"
+  institution: "IIT Dharwad"
+  link: "https://www.iitdh.ac.in/faculty-recruitment"
+  deadline: "2026-01-31"
+  posted: "2026-05-27"
+  area: [mpc, fhe, pqc, hardware]
+  status: open
+  note: "Open cycle deadline 31 Jan 2026, 5 PM IST."
+  source: direct
+
+- name: "IIT Hyderabad — CSE (Special Drive)"
+  role: "Faculty — Special Recruitment Drive (SC/ST/OBC-NCL/PwBD)"
+  type: faculty
+  region: india
+  country: "India"
+  institution: "IIT Hyderabad"
+  link: "https://cse.iith.ac.in/facultyJoin.html"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [mpc, fhe, pqc, hardware]
+  status: open
+  source: direct
+
+- name: "IISc Bangalore — All open positions"
+  role: "Faculty / Research Scientist"
+  type: faculty
+  region: india
+  country: "India"
+  institution: "IISc Bangalore"
+  link: "https://iisc.ac.in/positions-open/"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [mpc, fhe, pqc]
+  status: standing
+  source: direct
+
+- name: "TU Graz — Tenure-Track in Security & Privacy"
+  role: "Tenure-Track Professor"
+  type: faculty
+  region: europe
+  country: "Austria"
+  institution: "TU Graz"
+  link: "https://www.tugraz.at/fakultaeten/csbme/news/jobs-grants-calls/tenure-track-professor-in-security-and-privacy/"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [hardware, side_channel, pqc]
+  status: open
+  source: iacr
+
+# ---------------- AGGREGATORS (kept as cards for visibility) ----------------
+- name: "IACR Open Positions (master aggregator)"
+  role: "All crypto positions worldwide"
+  type: visiting        # using "visiting" to denote "meta" since we want it visible
+  region: remote
+  country: "Global"
+  institution: "IACR"
+  link: "https://www.iacr.org/jobs/"
+  deadline: "rolling"
+  posted: "2026-05-27"
+  area: [mpc, fhe, zk, pqc, lattice, symmetric, hardware, ppml, sse, blockchain, formal_methods, side_channel, fss]
+  status: standing
+  note: "Check daily. This is the canonical source — most other listings here originate from here."
+  source: iacr
