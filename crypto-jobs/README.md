@@ -10,8 +10,7 @@ Inspired by [mpc-deadlines](https://mpc-deadlines.github.io/) and [sec-deadlines
 crypto-jobs/
 ├── _config.yml                 ← Jekyll config + filter taxonomies
 ├── _data/
-│   ├── positions.yml           ← the curated list (THE FILE you edit)
-│   └── positions.iacr.auto.yml ← auto-generated staging area for new IACR entries
+│   └── positions.yml           ← the list (curated + auto-appended IACR entries)
 ├── _layouts/
 │   └── default.html
 ├── _includes/                  ← (reserved for future partials)
@@ -20,10 +19,7 @@ crypto-jobs/
 │   └── js/filter.js            ← client-side filtering + URL hash sync
 ├── index.html                  ← renders all cards with filter UI
 ├── scripts/
-│   └── fetch_iacr_jobs.py      ← polls IACR RSS, classifies new entries
-├── .github/workflows/
-│   ├── refresh-iacr.yml        ← every 6h: fetches IACR → opens PR
-│   └── pages.yml               ← builds + deploys site on push to main
+│   └── fetch_iacr_jobs.py      ← scrapes IACR jobs board, classifies new entries
 ├── Gemfile
 └── README.md                   ← (this file)
 ```
@@ -40,7 +36,9 @@ crypto-jobs/
    git push -u origin main
    ```
 
-3. **Turn on Pages.** Repo → Settings → Pages → Source: **GitHub Actions** (not "Deploy from branch"). The bundled `pages.yml` workflow handles the rest.
+3. **Turn on Pages.** Repo → Settings → Pages → Source: **GitHub Actions** (not "Deploy from branch"). The `deploy.yml` workflow (at the repo root, in `.github/workflows/`) handles the rest.
+
+   > **Note:** the GitHub Actions workflows must live in `.github/workflows/` at the **repository root** — GitHub ignores any `.github/workflows/` inside a subfolder. In this repo the Jekyll site is in `crypto-jobs/`, so the workflows point into that subdirectory.
 
 4. **Adjust `_config.yml`:** if your repo is not a user-page, set:
    ```yaml
@@ -51,13 +49,11 @@ crypto-jobs/
 
 ## How the self-update works
 
-- Every 6 hours, the **Refresh IACR job listings** workflow runs.
-- It fetches `https://iacr.org/jobs/rss.xml`, classifies each entry into `type`, `region`, and `area` using regex heuristics, and **stages only new entries** (entries whose `link` isn't already in `_data/positions.yml`) into `_data/positions.iacr.auto.yml`.
-- It opens (or updates) a pull request on the branch `bot/iacr-refresh` with the staged file.
-- **You review the PR.** Copy the entries you want into `_data/positions.yml` and tighten descriptions/tags as needed. Merge.
-- On merge to `main`, the **Build and deploy** workflow rebuilds and publishes the site.
+- Every 6 hours, the **Refresh IACR job listings** workflow runs (`.github/workflows/refresh-iacr.yml` at the repo root).
+- It scrapes the IACR jobs board at `https://iacr.org/jobs/` (there is no RSS feed — the board is server-rendered HTML), classifies each entry into `type`, `region`, and `area` using regex heuristics, and **appends only new entries** (those whose canonical `https://iacr.org/jobs/item/<id>` link isn't already in `_data/positions.yml`) to the end of `_data/positions.yml`.
+- It commits the change to `main` and then dispatches the **Deploy** workflow, which rebuilds and publishes the site automatically — no human step required.
 
-Why a PR and not direct write? Two reasons: (1) heuristic classification needs human review for the small fraction it gets wrong, and (2) you want to keep editorial control over which positions get featured.
+This is an **auto-publish** flow: new IACR listings go live without review. The regex classification gets a small fraction of `type`/`region`/`area` tags wrong; fix those by editing `_data/positions.yml` directly. If you'd prefer a review gate instead, change the workflow's final step to open a pull request rather than push to `main`.
 
 ## Adding a position by hand
 
@@ -105,12 +101,12 @@ bundle exec jekyll serve --livereload
 # open http://127.0.0.1:4000/
 ```
 
-To test the IACR fetcher locally:
+To test the IACR fetcher locally (it appends any new listings to `_data/positions.yml`):
 
 ```bash
-pip install feedparser pyyaml
+pip install pyyaml
 python scripts/fetch_iacr_jobs.py
-cat _data/positions.iacr.auto.yml
+git diff _data/positions.yml      # review what it appended
 ```
 
 ## Optional: add more feeds

@@ -1116,3 +1116,557 @@
   status: standing
   note: "Check daily. This is the canonical source — most other listings here originate from here."
   source: iacr
+
+# ---------------- AUTO-APPENDED from IACR jobs board (2026-05-30) ----------------
+- name: Department of Information Security and Communication Technology at NTNU in
+    Trondheim
+  role: Associate Professor in Cryptographic Engineering
+  type: faculty
+  region: europe
+  country: Norway
+  institution: Department of Information Security and Communication Technology at
+    NTNU in Trondheim
+  link: https://iacr.org/jobs/item/4221
+  deadline: rolling
+  posted: '2026-05-27'
+  area:
+  - hardware
+  - side_channel
+  - formal_methods
+  status: open
+  note: We are seeking a highly motivated and internationally recognized scholar to
+    join our department as an Associate Professor in Cryptographic Engineering. The
+    position offers an exceptional opportunity to contribute to cutting edge research
+    an
+  source: iacr
+- name: University College Cork
+  role: Associate Professor in Cybersecurity
+  type: faculty
+  region: europe
+  country: Ireland
+  institution: University College Cork
+  link: https://iacr.org/jobs/item/4220
+  deadline: rolling
+  posted: '2026-05-25'
+  area:
+  - mpc
+  status: open
+  note: The School of Computer Science & Information Technology at UCC invites applications
+    for a permanent Associate Professor ( Senior Lecturer ) in Cybersecurity. Cybersecurity
+    is an area of strategic research importance to the School, and a foc
+  source: iacr
+- name: Simula UiB
+  role: Research Scientist / Senior Research Scientist in Post-Quantum Cryptography
+  type: postdoc
+  region: europe
+  country: Norway
+  institution: Simula UiB
+  link: https://iacr.org/jobs/item/4219
+  deadline: rolling
+  posted: '2026-05-21'
+  area:
+  - pqc
+  - side_channel
+  status: open
+  note: We are currently hiring at Simula UiB for a permanent Research Scientist or
+    Senior Research Scientist position [*] in the Department of Cryptography, specialising
+    in post-quantum cryptography. We are seeking candidates with a PhD in cryptog
+  source: iacr
+- name: ENS Lyon
+  role: Postdoc in post-quantum cryptography
+  type: postdoc
+  region: europe
+  country: France
+  institution: ENS Lyon
+  link: https://iacr.org/jobs/item/4218
+  deadline: rolling
+  posted: '2026-05-13'
+  area:
+  - pqc
+  - lattice
+  status: open
+  note: The candidate will be working on algorithmic and mathematical aspects of lattice-based
+    and isogeny-based cryptography, in the context of to the ERC project AGATHA CRYPTY.
+    The candidate should hold a PhD degree in Mathematics or Computer Sci
+  source: iacr
+- name: Umeå University
+  role: 1-2 PhD Students in Computing Science with focus on Cryptography and Cybersecurity
+  type: phd
+  region: europe
+  country: Sweden
+  institution: Umeå University
+  link: https://iacr.org/jobs/item/4214
+  deadline: rolling
+  posted: '2026-05-08'
+  area:
+  - pqc
+  - symmetric
+  status: open
+  note: 'At our department, which conducts research at the highest international level
+    and offers several high-quality educational programs in Computer Science, we are
+    now seeking 1-2 PhD students with a focus on Cryptography and Cybersecurity. The '
+  source: iacr
+- name: Department of Computer Science and Engineering
+  role: Junior Research Fellow and Research Associate Positions in Analysis of NIST
+    Accordion Mode
+  type: research_scientist
+  region: remote
+  country: Indian Institute of Technology Roorkee
+  institution: Department of Computer Science and Engineering
+  link: https://iacr.org/jobs/item/4212
+  deadline: rolling
+  posted: '2026-05-08'
+  area:
+  - mpc
+  status: open
+  note: Applications are invited for a Junior Research Fellow and Research Associate
+    position for the project "Comprehensive security analysis of NIST Accordion mode
+    proposals and their implications to hash functions over Galois fields”. For JRF
+    po
+  source: iacr
+- name: University of Latvia
+  role: professor
+  type: faculty
+  region: remote
+  country: ''
+  institution: University of Latvia
+  link: https://iacr.org/jobs/item/4211
+  deadline: rolling
+  posted: '2026-05-07'
+  area:
+  - mpc
+  status: open
+  note: The University of Latvia announces an open competition for a vacancy of tenured
+    professor in software security and artificial intelligence applications in computer
+    systems security for the purpose of increasing competence in the field of co
+  source: iacr
+- name: Fraunhofer Institute for Secure Information Technology SIT
+  role: Postdoctoral Researcher - Cryptography & AI (Foundations and Applications)
+  type: postdoc
+  region: north_america
+  country: ''
+  institution: Fraunhofer Institute for Secure Information Technology SIT
+  link: https://iacr.org/jobs/item/4210
+  deadline: rolling
+  posted: '2026-05-06'
+  area:
+  - mpc
+  status: open
+  note: 'The Fraunhofer-Gesellschaft (www.fraunhofer.com) is one of the world''s leading
+    organizations for application-oriented research. 75 institutes develop pioneering
+    technologies for our economy and society – more precisely: 32 000 people from
+    t'
+  source: iacr
+- name: Koç University
+  role: Ph.D. and M.Sc. Scholarships at the Cryptography, Security & Privacy Research
+    Group
+  type: phd
+  region: remote
+  country: Türkiye
+  institution: Koç University
+  link: https://iacr.org/jobs/item/4208
+  deadline: rolling
+  posted: '2026-05-04'
+  area:
+  - mpc
+  status: open
+  note: Cryptography, Security & Privacy Research Group at Koç University has multiple
+    openings at every level. Accepted Computer Science and Engineering applicants
+    may receive competitive scholarships including monthly stipend, tuition waiver,
+    hou
+  source: iacr
+- name: IBM Research Zurich
+  role: Ph.D. in Lattice-Based Zero-Knowledge Proofs
+  type: phd
+  region: europe
+  country: ''
+  institution: IBM Research Zurich
+  link: https://iacr.org/jobs/item/4207
+  deadline: rolling
+  posted: '2026-04-28'
+  area:
+  - zk
+  - lattice
+  status: open
+  note: The cryptography group at IBM Research in Zurich is looking to hire a Ph.D.
+    student to work on constructions and applications of lattice-based zero knowledge
+    proofs. The group is one of the world-leaders in quantum-safe cryptography researc
+  source: iacr
+- name: Nokia Bell Labs (Belgium)
+  role: PhD Internship
+  type: intern
+  region: europe
+  country: ''
+  institution: Nokia Bell Labs (Belgium)
+  link: https://iacr.org/jobs/item/4206
+  deadline: rolling
+  posted: '2026-04-27'
+  area:
+  - mpc
+  - fhe
+  status: open
+  note: 'We have a PhD internship position at Nokia Bell Labs in Belgium (Antwerp)
+    for the autumn (September onwards): Your profile (at least 3 of these) : You have
+    experience with FHE (+ applications). You have experience with MPC (preferred).
+    You '
+  source: iacr
+- name: University of Sydney
+  role: Two PhD Positions in Post-Quantum Cryptography (PQC)
+  type: phd
+  region: asia_pacific
+  country: Australia
+  institution: University of Sydney
+  link: https://iacr.org/jobs/item/4199
+  deadline: rolling
+  posted: '2026-04-26'
+  area:
+  - mpc
+  - pqc
+  - lattice
+  - blockchain
+  status: open
+  note: 'Looking for two motivated PhD students to work on efficient post-quantum
+    cryptography: quantum-resistant protocols that are provably secure, efficient,
+    and relevant to blockchains, cloud services, secure computation, and privacy-preserving '
+  source: iacr
+- name: Pontificia Universidad Católica de Chile (UC)
+  role: Faculty Position in Computer Security and Privacy
+  type: faculty
+  region: remote
+  country: ''
+  institution: Pontificia Universidad Católica de Chile (UC)
+  link: https://iacr.org/jobs/item/4198
+  deadline: rolling
+  posted: '2026-04-20'
+  area:
+  - hardware
+  - blockchain
+  status: open
+  note: The new positions in Computer Security and Privacy should conduct research
+    in topics such as Computer Security and Privacy, including but not limited to
+    cybersecurity, cryptography, privacy, data and integrity protection, computernetwork
+    se
+  source: iacr
+- name: IBM Research Zurich
+  role: PhD student
+  type: phd
+  region: europe
+  country: ''
+  institution: IBM Research Zurich
+  link: https://iacr.org/jobs/item/4197
+  deadline: rolling
+  posted: '2026-04-17'
+  area:
+  - zk
+  - lattice
+  status: open
+  note: Lattice-Based Zero-Knowledge Proofs Ref. 2026_013 About the position The cryptography
+    group at IBM Research in Zurich is looking to hire a Ph.D. student to work on
+    constructions and applications of lattice-based zero knowledge proofs. The g
+  source: iacr
+- name: Budapest University of Technology and Economics; Hungary
+  role: Ph.D Candidate
+  type: phd
+  region: europe
+  country: ''
+  institution: Budapest University of Technology and Economics; Hungary
+  link: https://iacr.org/jobs/item/4196
+  deadline: rolling
+  posted: '2026-04-09'
+  area:
+  - ppml
+  status: open
+  note: 'PhD Position: Trustworthy AI in Collaborative Machine Learning The Laboratory
+    of Cryptography and System Security (CrySyS Lab) at the Budapest University of
+    Technology and Economics (BME) invites applications for a fully funded, 48-month
+    Ph'
+  source: iacr
+- name: Xiamen University
+  role: Post-Doc
+  type: postdoc
+  region: asia_pacific
+  country: China
+  institution: Xiamen University
+  link: https://iacr.org/jobs/item/4195
+  deadline: rolling
+  posted: '2026-04-02'
+  area:
+  - symmetric
+  status: open
+  note: Xiamen University, located in Xiamen—one of China’s top ten most livable cities—is
+    widely recognized as one of the most beautiful universities in China. It has long
+    been regarded as one of the leading academic institutions in Southern China
+  source: iacr
+- name: The Italian Institute of Artificial Intelligence (AI4I)
+  role: Postdoctoral Position in Cryptography for Machine Learning
+  type: postdoc
+  region: remote
+  country: ''
+  institution: The Italian Institute of Artificial Intelligence (AI4I)
+  link: https://iacr.org/jobs/item/4192
+  deadline: rolling
+  posted: '2026-03-31'
+  area:
+  - mpc
+  status: open
+  note: The Italian Institute of Artificial Intelligence (AI4I) invites applications
+    for a Postdoctoral Researcher to join the newly established Crypto4AI Lab, under
+    the supervision of Dr. Tamer Mour. The Crypto4AI Lab, will conduct cutting-edge
+    re
+  source: iacr
+- name: LayerZero Labs | Vancouver
+  role: Cryptographer
+  type: phd
+  region: north_america
+  country: BC Canada
+  institution: LayerZero Labs | Vancouver
+  link: https://iacr.org/jobs/item/4189
+  deadline: rolling
+  posted: '2026-03-20'
+  area:
+  - zk
+  - lattice
+  status: open
+  note: LayerZero Labs is a research-driven protocol company building the infrastructure
+    for cross-chain interoperability. We are looking for a Cryptographer to join our
+    research team and contribute to the design, analysis, and implementation of cr
+  source: iacr
+- name: School of Cryptology
+  role: Post-Doc
+  type: postdoc
+  region: asia_pacific
+  country: China
+  institution: School of Cryptology
+  link: https://iacr.org/jobs/item/4187
+  deadline: rolling
+  posted: '2026-03-17'
+  area:
+  - mpc
+  status: open
+  note: 'Research Topics: Cryptanalysis of hash functions in both classical and quantum
+    settings. Applicant Skills / Background: A strong background in cryptography,
+    mathematics, computer science, or a related discipline. Excellent communication
+    and'
+  source: iacr
+- name: National University of Singapore
+  role: postdoc, or senior research fellow
+  type: postdoc
+  region: asia_pacific
+  country: ''
+  institution: National University of Singapore
+  link: https://iacr.org/jobs/item/4186
+  deadline: rolling
+  posted: '2026-03-14'
+  area:
+  - pqc
+  - lattice
+  status: open
+  note: We are seeking an exceptional Postdoctoral Researcher to lead high-impact
+    research in the foundations and applications of lattice-based cryptography. This
+    position is designed for an independent researcher across all aspects of post-quantum
+  source: iacr
+- name: Nanyang Technological University
+  role: Post-Doc/Research Fellow
+  type: postdoc
+  region: asia_pacific
+  country: Singapore
+  institution: Nanyang Technological University
+  link: https://iacr.org/jobs/item/4180
+  deadline: rolling
+  posted: '2026-03-09'
+  area:
+  - symmetric
+  status: open
+  note: 'The Symmetric Key and Lightweight Cryptography Lab (SyLLab) at NTU Singapore
+    is looking for candidates for a Research Fellow/Post-Doc position (from fresh
+    Post-Doc to Senior Research Fellow, flexible contract duration) on leakage-resilient '
+  source: iacr
+- name: University of Tartu
+  role: PhD Position in Lattice-Based Cryptography
+  type: phd
+  region: remote
+  country: Estonia
+  institution: University of Tartu
+  link: https://iacr.org/jobs/item/4175
+  deadline: rolling
+  posted: '2026-03-06'
+  area:
+  - zk
+  - pqc
+  - lattice
+  status: open
+  note: The Cryptography Group at the Institute of Computer Science at the University
+    of Tartu invites applications for a PhD position in lattice-based cryptography
+    . The successful candidate will work on the mathematics of lattices, with a particu
+  source: iacr
+- name: Fully Funded PhD in Hardware Security
+  role: Ph.D. students
+  type: faculty
+  region: north_america
+  country: Cryptography and Quantum Security
+  institution: Fully Funded PhD in Hardware Security
+  link: https://iacr.org/jobs/item/4172
+  deadline: rolling
+  posted: '2026-03-04'
+  area:
+  - pqc
+  - hardware
+  status: open
+  note: 'This is a full-time on-site role at the Hardware Security and Cryptography
+    Research Lab, University of Idaho, USA, for two fully funded PhD positions in
+    Hardware Security and Cryptography. The role will involve conducting research,
+    working '
+  source: iacr
+- name: School of Computer Science
+  role: PhD and Postdoctoral Researchers in post-quantum cryptography, MPC, and quantum
+    algorithms.
+  type: postdoc
+  region: asia_pacific
+  country: Shanghai.
+  institution: School of Computer Science
+  link: https://iacr.org/jobs/item/4168
+  deadline: rolling
+  posted: '2026-02-28'
+  area:
+  - mpc
+  - pqc
+  status: open
+  note: The John Hopcroft Center for Computer Science at Shanghai Jiao Tong University
+    (SJTU) invites applications for multiple fully funded PhD and Postdoctoral Research
+    Fellow positions in the areas of post-quantum cryptography, multi-party compu
+  source: iacr
+- name: Grenoble INP/TIMA Laboratory
+  role: Post-Doc
+  type: postdoc
+  region: remote
+  country: ''
+  institution: Grenoble INP/TIMA Laboratory
+  link: https://iacr.org/jobs/item/4161
+  deadline: rolling
+  posted: '2026-02-23'
+  area:
+  - hardware
+  status: open
+  note: 'Designing secure embedded systems is a critical challenge due to their inherently
+    complex three-layer architecture: hardware, microarchitecture, and software. Cyber
+    threats often exploit vulnerabilities introduced during the design phase, w'
+  source: iacr
+- name: KU Leuven
+  role: PhD position in Practical Implementations of Fully Homomorphic Encryption
+  type: postdoc
+  region: europe
+  country: Belgium
+  institution: KU Leuven
+  link: https://iacr.org/jobs/item/4160
+  deadline: rolling
+  posted: '2026-02-17'
+  area:
+  - mpc
+  - fhe
+  - zk
+  status: open
+  note: The Computer Security and Industrial Cryptography (COSIC) group belongs to
+    the Electrical Engineering Department at the KU Leuven. The COSIC team has about
+    100 researchers, including 9 professors, 6 researcher managers/experts, 20 postdocto
+  source: iacr
+- name: University of South Florida
+  role: Funded Ph.D. Student
+  type: phd
+  region: remote
+  country: Florida
+  institution: University of South Florida
+  link: https://iacr.org/jobs/item/4159
+  deadline: rolling
+  posted: '2026-02-16'
+  area:
+  - hardware
+  status: open
+  note: This is an urgent call for interested applicants. A funded Ph.D. student position
+    is available for Fall 2026 to work on different aspects of Cryptographic Engineering
+    in the Bellini College at USF (Tampa, FL) with Dr. Mehran Mozaffari Kerma
+  source: iacr
+- name: The Cyprus Institute
+  role: Postdoctoral Research Fellow in Quantum Computing - Cryptography - Number
+    Theory
+  type: postdoc
+  region: europe
+  country: ''
+  institution: The Cyprus Institute
+  link: https://iacr.org/jobs/item/4147
+  deadline: rolling
+  posted: '2026-02-03'
+  area:
+  - mpc
+  status: open
+  note: Post-Doctoral Research Fellow in Quantum Computing, Cryptography and Number
+    Theory at the Computation-based Science and Technology Research Centre (CaSToRC),
+    The Cyprus Institute — ERA Chair QUEST. The Cyprus Institute (CyI) invites applica
+  source: iacr
+- name: SandboxAQ
+  role: Staff Software Engineer, Cryptography R&D
+  type: phd
+  region: remote
+  country: ''
+  institution: SandboxAQ
+  link: https://iacr.org/jobs/item/4144
+  deadline: rolling
+  posted: '2026-01-28'
+  area:
+  - symmetric
+  status: open
+  note: The SandboxAQ Cybersecurity Group are looking for a Staff Software Engineer
+    to join our R&D team. You will be a key player on a team of diverse experts, developing
+    new features and tackling a wide array of challenges across our technology s
+  source: iacr
+- name: University of St. Gallen
+  role: PhD Position in Applied Cryptography and Privacy-Preserving Computation
+  type: phd
+  region: europe
+  country: Switzerland
+  institution: University of St. Gallen
+  link: https://iacr.org/jobs/item/4140
+  deadline: rolling
+  posted: '2026-01-22'
+  area:
+  - mpc
+  status: open
+  note: We invite applications for a PhD position in applied cryptography, with a
+    focus on designing and analyzing cryptographic protocols that offer strong, provable
+    security guarantees. The role provides the opportunity to work on cutting‑edge
+    re
+  source: iacr
+- name: University of Waterloo
+  role: Canada Impact+ Research Chairs – Associate Professor / Professor
+  type: faculty
+  region: north_america
+  country: ''
+  institution: University of Waterloo
+  link: https://iacr.org/jobs/item/4125
+  deadline: rolling
+  posted: '2025-12-23'
+  area:
+  - mpc
+  status: open
+  note: The Faculty of Mathematics at the University of Waterloo is seeking internationally
+    renowned scholars and researchers to apply to be nominated for the Canada Impact+
+    Research Chairs Program. Detail of this program can be found at https://ww
+  source: iacr
+- name: Xi’an Jiaotong-Liverpool University
+  role: Faculty and Post-doc Positions in Cryptography Implementation
+  type: postdoc
+  region: asia_pacific
+  country: China
+  institution: Xi’an Jiaotong-Liverpool University
+  link: https://iacr.org/jobs/item/4118
+  deadline: rolling
+  posted: '2025-12-16'
+  area:
+  - pqc
+  - hardware
+  - side_channel
+  status: open
+  note: 'Position: Postdoctoral Researcher and Faculty (Assistant/Associate/Full Professor)
+    in Post Quantum Cryptography Implementation Research Area: Efficient, secure,
+    and standards compliant implementation of PQC on software/hardware platforms.
+    R'
+  source: iacr
