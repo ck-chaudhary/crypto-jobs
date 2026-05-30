@@ -18,6 +18,10 @@
         <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
         · Data last updated <time id="last-updated"></time>
       </p>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>Positions</a>
+        <a href="{{ '/labs/' | relative_url }}"{% if page.url contains 'labs' %} class="active"{% endif %}>Labs &amp; Groups</a>
+      </nav>
     </div>
   </header>
 
@@ -33,5 +37,6 @@
   </footer>
 
   <script src="{{ '/assets/js/filter.js' | relative_url }}"></script>
+  {% if page.extra_js %}<script src="{{ page.extra_js | relative_url }}"></script>{% endif %}
 </body>
 </html>

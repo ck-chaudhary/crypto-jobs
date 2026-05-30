@@ -99,6 +99,22 @@ a:hover { text-decoration: underline; }
 
 .card header { margin-bottom: .35rem; }
 .card h3 { margin: 0; font-size: 1.02rem; line-height: 1.25; }
+
+/* "NEW" badge for recently added entries (≤3 days, computed in JS) */
+.badge-new {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: .35rem;
+  padding: .05rem .4rem;
+  font-size: .62rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  border-radius: 999px;
+  background: #2ea043;
+  color: #fff;
+}
+.card.is-new { border-color: color-mix(in srgb, var(--accent-2) 45%, var(--border)); }
+.new-toggle { align-self: center; }
 .card .role { margin: .15rem 0 0 0; font-size: .88rem; color: var(--fg-mute); }
 .card .institution { margin: .35rem 0 .1rem 0; font-size: .82rem; color: var(--fg-mute); }
 .card .pi { margin: .15rem 0 .35rem 0; font-size: .82rem; }
@@ -135,6 +151,23 @@ a:hover { text-decoration: underline; }
 .source { font-size: .72rem; color: var(--fg-mute); }
 
 .card[hidden] { display: none !important; }
+
+/* Top navigation between the positions and labs pages */
+.site-nav { margin-top: .6rem; display: flex; gap: .4rem; }
+.site-nav a {
+  padding: .3rem .8rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: .85rem;
+  color: var(--fg);
+}
+.site-nav a:hover { text-decoration: none; border-color: var(--accent); }
+.site-nav a.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+/* Labs / groups directory cards */
+.card .people { margin: .35rem 0 .1rem 0; font-size: .82rem; }
+.card .people .label { color: var(--fg-mute); }
+.card .lab-link { margin-top: auto; padding-top: .4rem; }
 
 .site-footer { background: var(--bg-card); border-top: 1px solid var(--border); margin-top: 2rem; padding: 1rem 0; color: var(--fg-mute); font-size: .82rem; }
 .site-footer p { margin: .25rem 0; }

@@ -160,6 +160,7 @@ def parse_jobs(page: str) -> list[dict]:
             "link": link,
             "deadline": "rolling",
             "posted": posted,
+            "added": dt.date.today().isoformat(),
             "area": classify_areas(text),
             "status": "open",
             "note": description[:240],

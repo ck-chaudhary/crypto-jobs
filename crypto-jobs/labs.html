@@ -1,0 +1,58 @@
+---
+layout: default
+title: Cryptography Labs & Groups
+permalink: /labs/
+extra_js: /assets/js/labs.js
+---
+
+<section class="filters">
+  <div class="filter-row">
+    <label>Region
+      <select id="l-region" data-filter="region">
+        <option value="">All</option>
+        <option value="india">India</option>
+        <option value="europe">Europe</option>
+        <option value="north_america">North America</option>
+        <option value="asia_pacific">Asia-Pacific</option>
+        <option value="middle_east">Middle East</option>
+        <option value="africa">Africa</option>
+        <option value="remote">Industry / Remote</option>
+      </select>
+    </label>
+
+    <label>Search
+      <input type="search" id="l-search" placeholder="e.g. lattice, COSIC, Boneh, Aarhus" />
+    </label>
+  </div>
+
+  <div class="filter-row areas">
+    <span class="label">Area:</span>
+    {% assign areas = "mpc,fhe,fss,zk,pqc,lattice,symmetric,hardware,ppml,sse,blockchain,formal_methods,side_channel" | split: "," %}
+    {% for a in areas %}
+      <label class="chip"><input type="checkbox" class="larea-cb" value="{{ a }}"><span>{{ a | replace: "_", " " | upcase }}</span></label>
+    {% endfor %}
+  </div>
+
+  <p class="counts"><span id="l-visible-count">{{ site.data.labs | size }}</span> of <span id="l-total-count">{{ site.data.labs | size }}</span> groups shown. Curated and may be out of date — verify on the group's site.</p>
+</section>
+
+<section class="cards">
+  {% for g in site.data.labs %}
+    <article class="card"
+             data-region="{{ g.region }}"
+             data-area="{{ g.area | join: ' ' }}"
+             data-search="{{ g.name | downcase }} {{ g.institution | downcase }} {{ g.country | downcase }} {{ g.people | join: ' ' | downcase }} {{ g.note | downcase }} {{ g.area | join: ' ' }}">
+      <header>
+        <h3>{{ g.name }}</h3>
+        <p class="role">{{ g.institution }}{% if g.country %} · {{ g.country }}{% endif %}</p>
+      </header>
+      {% if g.people %}<p class="people"><span class="label">People:</span> {{ g.people | join: ", " }}</p>{% endif %}
+      <ul class="tags">
+        <li class="tag-region tag-{{ g.region }}">{{ g.region | replace: "_", " " }}</li>
+        {% for a in g.area %}<li class="tag-area">{{ a | replace: "_", " " }}</li>{% endfor %}
+      </ul>
+      {% if g.note %}<p class="note">{{ g.note }}</p>{% endif %}
+      <p class="actions lab-link"><a class="apply-btn" href="{{ g.link }}" target="_blank" rel="noopener">Visit group ↗</a></p>
+    </article>
+  {% endfor %}
+</section>

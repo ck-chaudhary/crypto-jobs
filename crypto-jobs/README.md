@@ -10,14 +10,18 @@ Inspired by [mpc-deadlines](https://mpc-deadlines.github.io/) and [sec-deadlines
 crypto-jobs/
 ├── _config.yml                 ← Jekyll config + filter taxonomies
 ├── _data/
-│   └── positions.yml           ← the list (curated + auto-appended IACR entries)
+│   ├── positions.yml           ← the job list (curated + auto-appended IACR entries)
+│   └── labs.yml                ← directory of cryptography groups/labs worldwide
 ├── _layouts/
 │   └── default.html
 ├── _includes/                  ← (reserved for future partials)
 ├── assets/
 │   ├── css/style.css           ← dark/light theme, responsive
-│   └── js/filter.js            ← client-side filtering + URL hash sync
-├── index.html                  ← renders all cards with filter UI
+│   └── js/
+│       ├── filter.js           ← positions page: filtering + "NEW" badge + URL sync
+│       └── labs.js             ← labs page: filtering + URL sync
+├── index.html                  ← positions page (cards + filter UI)
+├── labs.html                   ← labs & groups page (cards + filter UI), at /labs/
 ├── scripts/
 │   └── fetch_iacr_jobs.py      ← scrapes IACR jobs board, classifies new entries
 ├── Gemfile
@@ -55,6 +59,40 @@ crypto-jobs/
 
 This is an **auto-publish** flow: new IACR listings go live without review. The regex classification gets a small fraction of `type`/`region`/`area` tags wrong; fix those by editing `_data/positions.yml` directly. If you'd prefer a review gate instead, change the workflow's final step to open a pull request rather than push to `main`.
 
+## "NEW" badge & filter
+
+Each position can carry an `added` date — when it first landed on the site. The
+scraper stamps today's date automatically; for hand-added entries, set it
+yourself. The positions page computes "newness" **in the browser**, so it stays
+accurate between rebuilds:
+
+- Entries whose `added` date is within the last **3 days** get a green **NEW**
+  badge, and the **🆕 New only (≤3 days)** toggle filters to just those.
+- Entries with **no** `added` field are never marked NEW (so back-filling the
+  whole list doesn't make everything flash NEW at once).
+
+To change the window, edit `NEW_DAYS` in `assets/js/filter.js`.
+
+## Labs & Groups directory
+
+`/labs/` (from `labs.html` + `_data/labs.yml`) lists cryptography research
+groups worldwide — each with its homepage, research areas, and a few associated
+faculty. Add a group by appending to `_data/labs.yml`:
+
+```yaml
+- name: "COSIC"
+  institution: "KU Leuven"
+  country: "Belgium"
+  region: europe                        # same region taxonomy as positions
+  link: "https://www.esat.kuleuven.be/cosic/"
+  area: [symmetric, hardware, pqc]      # same area taxonomy as positions
+  people: ["Bart Preneel", "Ingrid Verbauwhede"]
+  note: "Short description shown on the card."
+```
+
+Affiliations change — the list is curated and may be out of date, so it links
+straight to each group's site. Corrections and additions via PR are welcome.
+
 ## Adding a position by hand
 
 Just append an entry to `_data/positions.yml`:
@@ -69,7 +107,8 @@ Just append an entry to `_data/positions.yml`:
   pi: "Prof. Foo Bar"
   link: "https://example.edu/jobs/123"
   deadline: "2026-08-15"                # or "rolling"
-  posted: "2026-05-27"
+  posted: "2026-05-27"                  # when the host first advertised it
+  added: "2026-05-27"                   # when it landed here (drives the NEW badge)
   area: [mpc, fhe]                      # see filters in _config.yml for full list
   status: open                          # open | standing | contact | expired
   note: "Short comment shown on the card."

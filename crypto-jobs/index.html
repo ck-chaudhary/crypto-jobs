@@ -43,6 +43,8 @@ title: Cryptography Research Positions
     <label>Search
       <input type="search" id="f-search" placeholder="e.g. FSS, lattice, Aarhus" />
     </label>
+
+    <label class="chip new-toggle"><input type="checkbox" id="f-new"><span>🆕 New only (≤3 days)</span></label>
   </div>
 
   <div class="filter-row areas">
@@ -63,9 +65,10 @@ title: Cryptography Research Positions
              data-region="{{ p.region }}"
              data-status="{{ p.status }}"
              data-area="{{ p.area | join: ' ' }}"
+             data-added="{{ p.added }}"
              data-search="{{ p.name | downcase }} {{ p.institution | downcase }} {{ p.pi | downcase }} {{ p.role | downcase }} {{ p.note | downcase }}">
       <header>
-        <h3>{{ p.name }}</h3>
+        <h3>{{ p.name }} <span class="badge-new" hidden>NEW</span></h3>
         <p class="role">{{ p.role }}</p>
       </header>
       <p class="institution">{% if p.institution %}{{ p.institution }}{% endif %}{% if p.country %} · {{ p.country }}{% endif %}</p>

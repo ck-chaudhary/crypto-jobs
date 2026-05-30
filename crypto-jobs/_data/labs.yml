@@ -1,0 +1,514 @@
+# =========================================================================
+#  labs.yml — Cryptography research groups & labs worldwide
+# =========================================================================
+#
+#  Fields:
+#    name*        — Group / lab / centre name
+#    institution* — University / company
+#    country      — Free-text (display only)
+#    region*      — india | europe | north_america | asia_pacific | middle_east | africa | remote
+#    link*        — Group homepage
+#    area         — List from the shared taxonomy (mpc, fhe, fss, zk, pqc,
+#                   lattice, symmetric, hardware, ppml, sse, blockchain,
+#                   formal_methods, side_channel)
+#    people       — A few faculty / leads associated with the group
+#    note         — Short description shown on the card
+#
+#  * = required
+#
+#  NOTE: Faculty move and groups evolve — this list is curated and may be
+#  out of date. Always check the group homepage before reaching out, and
+#  open an issue/PR to correct or add an entry.
+# =========================================================================
+
+# ---------------- INDIA ----------------
+- name: "CrIS Lab (Cryptography & Information Security)"
+  institution: "IISc Bangalore"
+  country: "India"
+  region: india
+  link: "https://cris.csa.iisc.ac.in/"
+  area: [mpc, ppml]
+  people: ["Arpita Patra"]
+  note: "India's leading MPC group; PPML pedigree (ABY2.0, SWIFT, Tetrad)."
+
+- name: "R. C. Bose Centre for Cryptology and Security"
+  institution: "Indian Statistical Institute (ISI), Kolkata"
+  country: "India"
+  region: india
+  link: "https://www.isical.ac.in/~rcbose/"
+  area: [symmetric, mpc]
+  people: ["Bimal Kumar Roy", "Mridul Nandi", "Subhamoy Maitra"]
+  note: "Symmetric-key design/cryptanalysis, modes of operation, Boolean functions."
+
+- name: "Secured Embedded Architecture Laboratory (SEAL)"
+  institution: "IIT Kharagpur"
+  country: "India"
+  region: india
+  link: "https://cse.iitkgp.ac.in/resgrp/seal/"
+  area: [hardware, side_channel, pqc]
+  people: ["Debdeep Mukhopadhyay"]
+  note: "Hardware security, side-channel & fault attacks, PQC implementations."
+
+- name: "Cryptography Group"
+  institution: "IIT Madras"
+  country: "India"
+  region: india
+  link: "https://www.shwetaagrawal.org/"
+  area: [lattice, fhe, zk]
+  people: ["Shweta Agrawal"]
+  note: "Functional encryption, lattice-based cryptography, advanced encryption."
+
+- name: "Theory & Cryptography Group"
+  institution: "IIT Bombay"
+  country: "India"
+  region: india
+  link: "https://www.cse.iitb.ac.in/~mp/"
+  area: [mpc, fss]
+  people: ["Manoj Prabhakaran"]
+  note: "Information-theoretic cryptography, secure computation, foundations."
+
+- name: "Cryptography Group"
+  institution: "IIT Delhi"
+  country: "India"
+  region: india
+  link: "https://www.cse.iitd.ac.in/~venkatak/"
+  area: [lattice, fhe]
+  people: ["Venkata Koppula"]
+  note: "Public-key & lattice-based cryptography, functional encryption."
+
+- name: "Cryptography & Information Security Group"
+  institution: "IIIT Bangalore"
+  country: "India"
+  region: india
+  link: "https://sites.google.com/site/ashishchoudhury2/"
+  area: [mpc]
+  people: ["Ashish Choudhury"]
+  note: "Secure multiparty computation, Byzantine agreement, distributed protocols."
+
+# ---------------- EUROPE ----------------
+- name: "Cryptography and Security Group"
+  institution: "Aarhus University"
+  country: "Denmark"
+  region: europe
+  link: "https://cs.au.dk/research/cryptography-and-security/"
+  area: [mpc, zk]
+  people: ["Ivan Damgård", "Jesper Buus Nielsen", "Claudio Orlandi", "Peter Scholl"]
+  note: "World-leading MPC group; foundational and practical secure computation."
+
+- name: "COSIC (Computer Security and Industrial Cryptography)"
+  institution: "KU Leuven"
+  country: "Belgium"
+  region: europe
+  link: "https://www.esat.kuleuven.be/cosic/"
+  area: [symmetric, hardware, pqc, side_channel]
+  people: ["Bart Preneel", "Ingrid Verbauwhede", "Vincent Rijmen", "Frederik Vercauteren"]
+  note: "Home of AES (Rijndael); symmetric crypto, secure hardware, PQC."
+
+- name: "Cryptology Group"
+  institution: "CWI Amsterdam"
+  country: "Netherlands"
+  region: europe
+  link: "https://www.cwi.nl/en/groups/cryptology/"
+  area: [lattice, pqc, mpc]
+  people: ["Ronald Cramer", "Léo Ducas", "Marc Stevens", "Serge Fehr"]
+  note: "Lattice crypto, post-quantum, secret sharing; SHA-1 collision (SHAttered)."
+
+- name: "Applied Cryptography Group"
+  institution: "ETH Zurich"
+  country: "Switzerland"
+  region: europe
+  link: "https://appliedcrypto.ethz.ch/"
+  area: [symmetric, formal_methods]
+  people: ["Kenny Paterson"]
+  note: "Real-world protocol analysis (TLS, messaging), symmetric crypto."
+
+- name: "Foundations of Cryptography"
+  institution: "ETH Zurich"
+  country: "Switzerland"
+  region: europe
+  link: "https://crypto.ethz.ch/"
+  area: [lattice, zk]
+  people: ["Dennis Hofheinz"]
+  note: "Public-key cryptography, provable security, foundations."
+
+- name: "LASEC (Security and Cryptography Laboratory)"
+  institution: "EPFL"
+  country: "Switzerland"
+  region: europe
+  link: "https://lasec.epfl.ch/"
+  area: [symmetric, zk]
+  people: ["Serge Vaudenay", "Alessandro Chiesa"]
+  note: "Symmetric cryptanalysis, succinct proofs (SNARKs), protocol security."
+
+- name: "Cryptoplexity / CROSSING"
+  institution: "TU Darmstadt"
+  country: "Germany"
+  region: europe
+  link: "https://www.cryptoplexity.de/"
+  area: [mpc, pqc]
+  people: ["Marc Fischlin", "Sebastian Faust"]
+  note: "Provable security, secure computation, side-channel resilience."
+
+- name: "Chair for Cryptography / CASA"
+  institution: "Ruhr University Bochum"
+  country: "Germany"
+  region: europe
+  link: "https://casa.rub.de/"
+  area: [pqc, lattice, symmetric]
+  people: ["Eike Kiltz", "Gregor Leander"]
+  note: "Cluster of Excellence CASA; PQC (Kyber/Dilithium), symmetric design."
+
+- name: "IAIK (Institute of Applied Information Processing and Communications)"
+  institution: "TU Graz"
+  country: "Austria"
+  region: europe
+  link: "https://www.iaik.tugraz.at/"
+  area: [symmetric, side_channel, hardware]
+  people: ["Maria Eichlseder", "Stefan Mangard"]
+  note: "Symmetric crypto (Ascon), side-channel analysis, secure systems."
+
+- name: "Cryptography Research Group"
+  institution: "IMDEA Software Institute"
+  country: "Spain"
+  region: europe
+  link: "https://software.imdea.org/"
+  area: [zk, formal_methods]
+  people: ["Dario Fiore", "Manuel Barbosa"]
+  note: "Verifiable computation, SNARKs, computer-aided cryptography (EasyCrypt)."
+
+- name: "Blockchain Technology Laboratory / Security Group"
+  institution: "University of Edinburgh"
+  country: "United Kingdom"
+  region: europe
+  link: "https://www.ed.ac.uk/informatics"
+  area: [blockchain, zk]
+  people: ["Aggelos Kiayias", "Markulf Kohlweiss"]
+  note: "Provably secure blockchains (Ouroboros), zero-knowledge, e-voting."
+
+- name: "Information Security Group (ISG)"
+  institution: "Royal Holloway, University of London"
+  country: "United Kingdom"
+  region: europe
+  link: "https://www.royalholloway.ac.uk/isg/"
+  area: [pqc, symmetric, lattice]
+  people: ["Carlos Cid", "Martin Albrecht"]
+  note: "One of the largest academic security groups; PQC, lattices, applied crypto."
+
+- name: "Crypto Group / DiSC"
+  institution: "University of Luxembourg (SnT)"
+  country: "Luxembourg"
+  region: europe
+  link: "https://www.cryptolux.org/"
+  area: [symmetric, blockchain]
+  people: ["Alex Biryukov"]
+  note: "Symmetric cryptanalysis, lightweight crypto, cryptocurrency analysis."
+
+- name: "Cryptography Group"
+  institution: "IST Austria"
+  country: "Austria"
+  region: europe
+  link: "https://ist.ac.at/en/research/pietrzak-group/"
+  area: [blockchain, lattice]
+  people: ["Krzysztof Pietrzak"]
+  note: "Provable security, proofs of space/work, foundations of blockchains."
+
+- name: "Coding Theory and Cryptology Group"
+  institution: "TU Eindhoven"
+  country: "Netherlands"
+  region: europe
+  link: "https://www.tue.nl/en/research/research-groups/coding-theory-and-cryptology/"
+  area: [pqc, lattice]
+  people: ["Tanja Lange"]
+  note: "Post-quantum crypto, elliptic-curve cryptography, isogenies."
+
+- name: "Digital Security Group"
+  institution: "Radboud University Nijmegen"
+  country: "Netherlands"
+  region: europe
+  link: "https://www.ru.nl/en/institute-for-computing-and-information-sciences"
+  area: [symmetric, side_channel]
+  people: ["Joan Daemen", "Lejla Batina", "Peter Schwabe"]
+  note: "Co-designers of AES/Keccak (SHA-3); side-channel & embedded security."
+
+- name: "Crypto Team / CASCADE"
+  institution: "ENS – PSL, Paris"
+  country: "France"
+  region: europe
+  link: "https://crypto.di.ens.fr/"
+  area: [pqc, zk, lattice]
+  people: ["David Pointcheval", "Michel Abdalla", "Hoeteck Wee", "Phong Nguyen"]
+  note: "Provable security, functional/identity-based encryption, lattices."
+
+- name: "AriC / Lattices Group"
+  institution: "ENS de Lyon / Inria"
+  country: "France"
+  region: europe
+  link: "http://perso.ens-lyon.fr/damien.stehle/"
+  area: [lattice, pqc]
+  people: ["Damien Stehlé", "Benjamin Wesolowski"]
+  note: "Lattice algorithms & cryptography, isogenies, number theory."
+
+- name: "Selmer Center in Secure Communication"
+  institution: "University of Bergen"
+  country: "Norway"
+  region: europe
+  link: "https://www.uib.no/en/selmercenter"
+  area: [symmetric]
+  people: ["Lilya Budaghyan"]
+  note: "Boolean functions, sequences, coding theory and symmetric crypto."
+
+# ---------------- NORTH AMERICA ----------------
+- name: "Cryptography Group (CSAIL)"
+  institution: "MIT"
+  country: "USA"
+  region: north_america
+  link: "https://www.csail.mit.edu/research/cryptography-and-information-security-group"
+  area: [fhe, lattice, zk]
+  people: ["Shafi Goldwasser", "Vinod Vaikuntanathan", "Yael Tauman Kalai", "Silvio Micali"]
+  note: "Foundations of cryptography, FHE, lattices, zero-knowledge."
+
+- name: "Applied Cryptography Group"
+  institution: "Stanford University"
+  country: "USA"
+  region: north_america
+  link: "https://crypto.stanford.edu/"
+  area: [zk, blockchain, pqc]
+  people: ["Dan Boneh"]
+  note: "Pairings, zk-proofs, blockchain security, applied cryptography."
+
+- name: "Cryptography Group"
+  institution: "UC Berkeley"
+  country: "USA"
+  region: north_america
+  link: "https://www2.eecs.berkeley.edu/Research/Areas/CRYP/"
+  area: [mpc, fhe, ppml]
+  people: ["Sanjam Garg", "Raluca Ada Popa"]
+  note: "Obfuscation, secure computation, encrypted systems (PPML, secure DBs)."
+
+- name: "Cryptography Group"
+  institution: "UC San Diego"
+  country: "USA"
+  region: north_america
+  link: "https://cseweb.ucsd.edu/groups/crypto/"
+  area: [lattice, symmetric, pqc]
+  people: ["Mihir Bellare", "Daniele Micciancio", "Nadia Heninger"]
+  note: "Provable security, lattices, real-world cryptanalysis."
+
+- name: "Maryland Cybersecurity Center (MC2)"
+  institution: "University of Maryland"
+  country: "USA"
+  region: north_america
+  link: "https://cyber.umd.edu/"
+  area: [mpc, zk]
+  people: ["Jonathan Katz", "Dana Dachman-Soled"]
+  note: "Secure computation, zero-knowledge, leakage-resilient cryptography."
+
+- name: "CyLab"
+  institution: "Carnegie Mellon University"
+  country: "USA"
+  region: north_america
+  link: "https://www.cylab.cmu.edu/"
+  area: [mpc, blockchain, zk]
+  people: ["Elaine Shi", "Vipul Goyal", "Aayush Jain"]
+  note: "Secure computation, blockchains, obfuscation, foundations."
+
+- name: "IC3 (Initiative for Cryptocurrencies and Contracts)"
+  institution: "Cornell / Cornell Tech"
+  country: "USA"
+  region: north_america
+  link: "https://www.initc3.org/"
+  area: [blockchain, zk]
+  people: ["Ari Juels", "Rafael Pass"]
+  note: "Blockchain protocols, smart-contract security, consensus."
+
+- name: "Cryptography Group"
+  institution: "University of Illinois Urbana-Champaign"
+  country: "USA"
+  region: north_america
+  link: "https://cs.illinois.edu/research/areas/computer-security"
+  area: [mpc, blockchain]
+  people: ["Dakshita Khurana", "Andrew Miller"]
+  note: "Secure computation, zero-knowledge, blockchain security."
+
+- name: "Cryptography & Information Security Group"
+  institution: "Boston University"
+  country: "USA"
+  region: north_america
+  link: "https://www.bu.edu/cs/research/groups/security/"
+  area: [mpc, formal_methods]
+  people: ["Ran Canetti", "Leonid Reyzin", "Mayank Varia"]
+  note: "Universal composability, secure computation, applied MPC."
+
+- name: "Cryptography Group"
+  institution: "New York University"
+  country: "USA"
+  region: north_america
+  link: "https://crypto.cs.nyu.edu/"
+  area: [symmetric, lattice]
+  people: ["Yevgeniy Dodis", "Marshall Ball"]
+  note: "Randomness, key derivation, symmetric and theoretical cryptography."
+
+- name: "Paul G. Allen School Crypto Group"
+  institution: "University of Washington"
+  country: "USA"
+  region: north_america
+  link: "https://www.cs.washington.edu/research/security"
+  area: [symmetric, zk]
+  people: ["Stefano Tessaro", "Huijia (Rachel) Lin"]
+  note: "Symmetric-key provable security, obfuscation, foundations."
+
+- name: "Cryptography Group"
+  institution: "Northeastern University"
+  country: "USA"
+  region: north_america
+  link: "https://www.khoury.northeastern.edu/research/cryptography/"
+  area: [fhe, lattice, mpc]
+  people: ["Daniel Wichs", "abhi shelat"]
+  note: "Lattice cryptography, FHE, secure computation."
+
+- name: "Centre for Applied Cryptographic Research (CACR) / CrySP"
+  institution: "University of Waterloo"
+  country: "Canada"
+  region: north_america
+  link: "https://cacr.uwaterloo.ca/"
+  area: [pqc, lattice]
+  people: ["David Jao", "Alfred Menezes", "Douglas Stebila"]
+  note: "Post-quantum & isogeny cryptography, ECC, applied crypto."
+
+- name: "Cryptography Research Group"
+  institution: "Microsoft Research"
+  country: "USA"
+  region: north_america
+  link: "https://www.microsoft.com/en-us/research/group/cryptography-research/"
+  area: [fhe, pqc, zk]
+  people: ["Melissa Chase", "Greg Zaverucha"]
+  note: "FHE (Microsoft SEAL), PQC (FrodoKEM, Picnic), private computation."
+
+# ---------------- MIDDLE EAST ----------------
+- name: "Center for Research in Applied Cryptography and Cyber Security"
+  institution: "Bar-Ilan University"
+  country: "Israel"
+  region: middle_east
+  link: "https://crypto.biu.ac.il/"
+  area: [mpc, ppml]
+  people: ["Benny Pinkas", "Carmit Hazay", "Gilad Asharov"]
+  note: "Practical MPC, private set intersection; annual BIU winter school."
+
+- name: "Cryptography Group"
+  institution: "Weizmann Institute of Science"
+  country: "Israel"
+  region: middle_east
+  link: "https://www.weizmann.ac.il/math/"
+  area: [fhe, lattice, zk]
+  people: ["Moni Naor", "Zvika Brakerski"]
+  note: "Foundations, FHE (GSW), lattices, complexity-based cryptography."
+
+- name: "Cryptography Group"
+  institution: "Technion"
+  country: "Israel"
+  region: middle_east
+  link: "https://www.cs.technion.ac.il/"
+  area: [mpc, zk, fss]
+  people: ["Yuval Ishai", "Eyal Kushilevitz"]
+  note: "Secure computation, zero-knowledge, homomorphic secret sharing."
+
+- name: "Cryptography Research Center"
+  institution: "Technology Innovation Institute (TII)"
+  country: "United Arab Emirates"
+  region: middle_east
+  link: "https://www.tii.ae/cryptography"
+  area: [pqc, symmetric, hardware]
+  people: ["Francisco Rodríguez-Henríquez", "Mehdi Tibouchi"]
+  note: "Post-quantum, lightweight and hardware cryptography research center."
+
+# ---------------- ASIA-PACIFIC ----------------
+- name: "Cryptography Group (SPMS)"
+  institution: "Nanyang Technological University (NTU)"
+  country: "Singapore"
+  region: asia_pacific
+  link: "https://www.ntu.edu.sg/spms"
+  area: [lattice, symmetric, pqc]
+  people: ["Huaxiong Wang", "San Ling"]
+  note: "Lattice cryptography, symmetric design, coding & cryptography."
+
+- name: "Crypto & Security Group"
+  institution: "National University of Singapore (NUS)"
+  country: "Singapore"
+  region: asia_pacific
+  link: "https://www.comp.nus.edu.sg/"
+  area: [blockchain, symmetric]
+  people: ["Prateek Saxena", "Jian Guo"]
+  note: "Blockchain security, symmetric cryptanalysis, systems security."
+
+- name: "Cryptographic Hard Problems Lab"
+  institution: "Seoul National University"
+  country: "South Korea"
+  region: asia_pacific
+  link: "https://crypto.snu.ac.kr/"
+  area: [fhe, lattice]
+  people: ["Jung Hee Cheon"]
+  note: "Approximate homomorphic encryption (CKKS/HEaaN), lattice cryptography."
+
+- name: "Cryptography & Information Security Lab"
+  institution: "Monash University"
+  country: "Australia"
+  region: asia_pacific
+  link: "https://www.monash.edu/it"
+  area: [lattice, blockchain, pqc]
+  people: ["Ron Steinfeld", "Joseph Liu"]
+  note: "Lattice-based & post-quantum cryptography, privacy, blockchain."
+
+- name: "Institute of Cybersecurity and Cryptology (iC2)"
+  institution: "University of Wollongong"
+  country: "Australia"
+  region: asia_pacific
+  link: "https://www.uow.edu.au/"
+  area: [pqc, zk]
+  people: ["Willy Susilo"]
+  note: "Public-key cryptography, signatures, post-quantum and provable security."
+
+- name: "State Key Laboratory of Information Security (SKLOIS)"
+  institution: "Chinese Academy of Sciences"
+  country: "China"
+  region: asia_pacific
+  link: "http://www.is.cas.cn/"
+  area: [symmetric, lattice]
+  people: ["Dongdai Lin"]
+  note: "Symmetric cryptanalysis, lattice and public-key cryptography."
+
+- name: "NTT Social Informatics Laboratories"
+  institution: "NTT (Nippon Telegraph and Telephone)"
+  country: "Japan"
+  region: asia_pacific
+  link: "https://www.rd.ntt/e/sil/"
+  area: [pqc, mpc, lattice]
+  people: ["Mehdi Tibouchi", "Ryo Nishimaki"]
+  note: "Foundational & post-quantum cryptography, secure computation."
+
+# ---------------- INDUSTRY / REMOTE ----------------
+- name: "a16z crypto research"
+  institution: "Andreessen Horowitz"
+  country: "USA / Remote"
+  region: remote
+  link: "https://a16zcrypto.com/research/"
+  area: [zk, blockchain]
+  people: ["Dan Boneh", "Joseph Bonneau", "Valeria Nikolaenko"]
+  note: "Applied research on zk-proofs, consensus, and blockchain protocols."
+
+- name: "Zama"
+  institution: "Zama"
+  country: "France / Remote"
+  region: remote
+  link: "https://www.zama.ai/"
+  area: [fhe]
+  people: ["Pascal Paillier"]
+  note: "Fully homomorphic encryption (TFHE-rs, Concrete) for confidential apps."
+
+- name: "StarkWare"
+  institution: "StarkWare Industries"
+  country: "Israel / Remote"
+  region: remote
+  link: "https://starkware.co/"
+  area: [zk]
+  people: ["Eli Ben-Sasson"]
+  note: "STARK proofs and scalable zero-knowledge for blockchains."
