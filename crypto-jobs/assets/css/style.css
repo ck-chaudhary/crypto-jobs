@@ -46,6 +46,8 @@ a:hover { text-decoration: underline; }
   font-weight: 500;
 }
 .refresh-btn:hover { background: color-mix(in srgb, var(--accent) 14%, transparent); text-decoration: none; }
+.freshness { color: var(--accent-2); }
+.freshness.is-stale { color: var(--fg-mute); }
 
 .filters {
   background: var(--bg-card);

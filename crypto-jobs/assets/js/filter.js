@@ -4,13 +4,14 @@
 (function () {
   // "Data last updated" marker lives in the layout on every page.
   const lastUpdated = document.getElementById('last-updated');
-  if (lastUpdated) {
-    lastUpdated.textContent = new Date().toISOString().slice(0, 10);
-  }
 
-  // Everything below is specific to the positions page. Bail on other pages.
+  // Everything below is specific to the positions page. Bail on other pages,
+  // but still stamp the shared header with today's date there.
   const typeSel = document.getElementById('f-type');
-  if (!typeSel) return;
+  if (!typeSel) {
+    if (lastUpdated) lastUpdated.textContent = new Date().toISOString().slice(0, 10);
+    return;
+  }
 
   const cards = Array.from(document.querySelectorAll('.cards .card'));
   const regionSel = document.getElementById('f-region');
@@ -23,9 +24,13 @@
 
   totalCount.textContent = cards.length;
 
-  // ---- Mark cards added within the last 3 days as NEW ----
+  // ---- Mark cards added within the last 3 days as NEW, and measure data
+  //      freshness from the `added` dates the scraper stamps on each job. ----
   const NEW_DAYS = 3;
+  const FRESH_DAYS = 7;
   const now = Date.now();
+  let newestAdded = 0;
+  let recentCount = 0;
   cards.forEach(card => {
     const added = Date.parse(card.dataset.added);
     const ageDays = (now - added) / 86400000;
@@ -33,7 +38,28 @@
     card.classList.toggle('is-new', isNew);
     const badge = card.querySelector('.badge-new');
     if (badge) badge.hidden = !isNew;
+    if (!Number.isNaN(added)) {
+      if (added > newestAdded) newestAdded = added;
+      if (ageDays >= 0 && ageDays <= FRESH_DAYS) recentCount++;
+    }
   });
+
+  // "Data last updated" reflects the newest job actually added — not the
+  // browser clock — so a stale board shows its real age instead of "today".
+  if (lastUpdated) {
+    lastUpdated.textContent = newestAdded
+      ? new Date(newestAdded).toISOString().slice(0, 10)
+      : new Date().toISOString().slice(0, 10);
+  }
+
+  // Inline freshness hint shown next to the Refresh button.
+  const freshness = document.getElementById('data-freshness');
+  if (freshness) {
+    freshness.textContent = recentCount > 0
+      ? ` · 🆕 ${recentCount} added in the last ${FRESH_DAYS} days`
+      : ` · no new jobs in the last ${FRESH_DAYS} days`;
+    freshness.classList.toggle('is-stale', recentCount === 0);
+  }
 
   function apply() {
     const type = typeSel.value;
