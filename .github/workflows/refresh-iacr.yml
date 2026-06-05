@@ -48,3 +48,22 @@ jobs:
           # A push made with GITHUB_TOKEN does not trigger deploy.yml's
           # `on: push`, so dispatch the deploy workflow explicitly.
           gh workflow run deploy.yml --ref main
+
+      - name: Keepalive (stop GitHub auto-disabling the 6-hour schedule)
+        run: |
+          # GitHub disables a scheduled workflow after 60 days with no repo
+          # activity. During quiet spells the scrape commits nothing, so the
+          # clock keeps ticking. If the last commit is getting old, push a tiny
+          # timestamp commit to reset it. Committed via GITHUB_TOKEN, so it does
+          # not trigger an unnecessary deploy.
+          age_days=$(( ( $(date +%s) - $(git log -1 --format=%ct) ) / 86400 ))
+          if [ "$age_days" -ge 45 ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            date -u +"%Y-%m-%dT%H:%M:%SZ" > .github/last-refresh.txt
+            git add .github/last-refresh.txt
+            git commit -m "chore: keepalive to keep the IACR refresh schedule enabled"
+            git push
+          else
+            echo "Last commit ${age_days}d ago; schedule healthy, no keepalive needed."
+          fi
