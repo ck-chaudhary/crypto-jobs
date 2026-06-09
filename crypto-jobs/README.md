@@ -59,6 +59,26 @@ crypto-jobs/
 
 This is an **auto-publish** flow: new IACR listings go live without review. The regex classification gets a small fraction of `type`/`region`/`area` tags wrong; fix those by editing `_data/positions.yml` directly. If you'd prefer a review gate instead, change the workflow's final step to open a pull request rather than push to `main`.
 
+### Lab career-page jobs (weekly, review-gated)
+
+IACR only covers positions institutions choose to post there. To catch openings
+that only appear on a lab's own site, the **Propose lab career-page jobs**
+workflow (`.github/workflows/refresh-labs.yml`) runs weekly:
+
+- `scripts/fetch_lab_jobs.py` visits every lab in `_data/labs.yml`, follows a
+  likely "openings" link, and uses **Claude (Haiku)** to extract any current
+  openings — because the 54 lab sites have no common HTML structure, a regex
+  parser can't work, so the model reads the prose.
+- Proposals are appended to `_data/positions.yml` tagged `source: lab` **on a
+  branch**, and the workflow opens a **pull request**. LLM extraction is fuzzy
+  (false positives, missed apply links), so nothing publishes until a human
+  reviews and merges that PR.
+
+**Setup:** add a repository secret **`ANTHROPIC_API_KEY`** (Settings → Secrets
+and variables → Actions). Without it the script no-ops, so the workflow is safe
+to leave in place until you're ready. Cost is small — 54 labs once a week on
+Haiku is roughly a few dollars a month or less.
+
 ## "NEW" badge & filter
 
 Each position can carry an `added` date — when it first landed on the site. The
@@ -115,7 +135,22 @@ Just append an entry to `_data/positions.yml`:
   source: direct
 ```
 
-## Extending the filters
+## Contributing — submit a job
+
+Anyone can add a position the same way [mpc-deadlines](https://mpc-deadlines.github.io/)
+takes conference submissions: a small pull request.
+
+- Click **➕ Submit a job** in the site header (or open `_data/positions.yml` on
+  GitHub and hit the ✏️ edit button). If you don't have write access, GitHub
+  forks the repo and turns your edit into a pull request automatically.
+- Append one entry using the format under **Adding a position by hand** above —
+  `name`, `role`, `type`, `region`, `link`, and `status` are the important
+  fields; set `source: direct`.
+- Submit the PR. Once merged, the site rebuilds and the position appears within
+  a minute or two.
+
+Not sure about the YAML? Open an issue with the position details and a
+maintainer will add it.
 
 Filter taxonomies live in two places that must stay in sync:
 

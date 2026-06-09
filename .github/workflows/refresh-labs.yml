@@ -1,0 +1,58 @@
+name: Propose lab career-page jobs
+
+# Once a week, visit every lab in crypto-jobs/_data/labs.yml, use Claude to
+# extract any current openings, and open a PULL REQUEST with the proposals
+# appended to positions.yml (source: lab). Unlike the IACR scraper this does
+# NOT auto-publish — LLM extraction is fuzzy, so a human reviews + merges the PR.
+#
+# Requires repository secret ANTHROPIC_API_KEY. Without it the script no-ops.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"          # Mondays 06:00 UTC
+  workflow_dispatch: {}          # also allow manual trigger
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  propose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install pyyaml anthropic
+
+      - name: Scan lab pages and append proposals
+        working-directory: crypto-jobs
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/fetch_lab_jobs.py
+
+      - name: Open a review PR if there are proposals
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- crypto-jobs/_data/positions.yml; then
+            echo "No new lab openings proposed; nothing to review."
+            exit 0
+          fi
+          branch="lab-jobs/$(date -u +%Y-%m-%d)"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add crypto-jobs/_data/positions.yml
+          git commit -m "Proposed lab career-page openings (review before merge)"
+          git push -u origin "$branch"
+          gh pr create \
+            --title "Proposed lab openings — $(date -u +%Y-%m-%d)" \
+            --body "Auto-extracted by \`fetch_lab_jobs.py\` from the lab career pages in \`labs.yml\`, tagged \`source: lab\`. **Review each entry** — LLM extraction can include false positives or miss the real apply link. Delete any bad rows, fix tags, then merge to publish." \
+            --base main --head "$branch"
