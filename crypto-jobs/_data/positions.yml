@@ -1702,3 +1702,148 @@
     and standards compliant implementation of PQC on software/hardware platforms.
     R'
   source: iacr
+
+# ---------------- AUTO-APPENDED from IACR jobs board (2026-06-17) ----------------
+- name: Department of Computer Science and Engineering
+  role: Junior Research Fellow and Research Associate Positions in Analysis of NIST
+    Accordion Mode
+  type: research_scientist
+  region: remote
+  country: Indian Institute of Technology Roorkee
+  institution: Department of Computer Science and Engineering
+  link: https://iacr.org/jobs/item/4230
+  deadline: rolling
+  posted: '2026-06-16'
+  added: '2026-06-17'
+  area:
+  - mpc
+  status: open
+  note: Applications are invited for a Junior Research Fellow and Research Associate
+    position for the project "Comprehensive security analysis of NIST Accordion mode
+    proposals and their implications to hash functions over Galois fields”. The positi
+  source: iacr
+- name: Royal Holloway
+  role: Post-doc in Cryptography
+  type: postdoc
+  region: remote
+  country: University of London
+  institution: Royal Holloway
+  link: https://iacr.org/jobs/item/4228
+  deadline: rolling
+  posted: '2026-06-15'
+  added: '2026-06-17'
+  area:
+  - mpc
+  status: open
+  note: Applications are invited for a 2-year full-time Postdoctoral Research Associate
+    position in Cryptography at Royal Holloway, University of London (RHUL), funded
+    through Dr Elizabeth Quaglia’s EPSRC Open Plus Fellowship . The successful candi
+  source: iacr
+- name: University of New South Wales
+  role: Lecturer/Senior Lecturer and Associate Professor positions in Cryptography
+    and Cybersecurity
+  type: faculty
+  region: asia_pacific
+  country: Sydney
+  institution: University of New South Wales
+  link: https://iacr.org/jobs/item/4227
+  deadline: rolling
+  posted: '2026-06-13'
+  added: '2026-06-17'
+  area:
+  - mpc
+  status: open
+  note: The School of Computer Science and Engineering in the Faculty of Engineering
+    at UNSW has four open positions for Lecturer/Senior Lecturers and Associate Professors
+    in Cryptography and Cybersecurity. All are Teaching and Research roles. Deta
+  source: iacr
+- name: University of Glasgow
+  role: PhD Student
+  type: phd
+  region: europe
+  country: UK
+  institution: University of Glasgow
+  link: https://iacr.org/jobs/item/4226
+  deadline: rolling
+  posted: '2026-06-12'
+  added: '2026-06-17'
+  area:
+  - pqc
+  status: open
+  note: We are looking for a (fully funded) PhD student. This PhD studentship focuses
+    on provable security, with an emphasis on post-quantum cryptography, including
+    but not limited to the theoretical proof frameworks and practical applications,
+    suc
+  source: iacr
+- name: University of Vienna
+  role: PhD Student in Cryptography
+  type: phd
+  region: europe
+  country: Austria
+  institution: University of Vienna
+  link: https://iacr.org/jobs/item/4225
+  deadline: rolling
+  posted: '2026-06-11'
+  added: '2026-06-17'
+  area:
+  - mpc
+  status: open
+  note: We focus on foundations of cryptography and are searching for a motivated
+    PhD candidate to join our team. We develop new security definitions which match
+    practical applications, explore complexity-theoretic relations, develop novel,
+    sophist
+  source: iacr
+- name: Epita Research Laboratory
+  role: Ph.D. student
+  type: intern
+  region: europe
+  country: ''
+  institution: Epita Research Laboratory
+  link: https://iacr.org/jobs/item/4224
+  deadline: rolling
+  posted: '2026-06-09'
+  added: '2026-06-17'
+  area:
+  - symmetric
+  status: open
+  note: 'Automated Cryptanalysis using Constraint Programming Domain: Symmetric Cryptography,
+    Constraint Programming (CP/SAT/ILP), Security Context & Objectives: In the context
+    of global encryption standardization (e.g., NIST calls), evaluating the '
+  source: iacr
+- name: INSA Lyon
+  role: Ph.D. student
+  type: faculty
+  region: europe
+  country: France
+  institution: INSA Lyon
+  link: https://iacr.org/jobs/item/4223
+  deadline: rolling
+  posted: '2026-06-04'
+  added: '2026-06-17'
+  area:
+  - fhe
+  - ppml
+  status: open
+  note: The CITI Lab at INSA Lyon in France is looking for a PhD student to carry
+    out cutting-edge research in privacy-preserving Federated Learning (FL). FL enables
+    collaborative model training without sharing raw data, preserving privacy by excha
+  source: iacr
+- name: TU Darmstadt
+  role: Ph.D. Student/Research Assistant in Cryptography and Privacy Engineering
+  type: phd
+  region: europe
+  country: ENCRYPTO; Germany
+  institution: TU Darmstadt
+  link: https://iacr.org/jobs/item/4222
+  deadline: rolling
+  posted: '2026-06-02'
+  added: '2026-06-17'
+  area:
+  - mpc
+  - hardware
+  status: open
+  note: 'The Cryptography and Privacy Engineering Group (ENCRYPTO) @CS Department
+    @Technical University of Darmstadt offers a fully funded position for a Doctoral
+    Researcher (Research Assistant/Ph.D. Student) in Cryptography & Privacy Engineering
+    , '
+  source: iacr
