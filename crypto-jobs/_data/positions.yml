@@ -1847,3 +1847,25 @@
     Researcher (Research Assistant/Ph.D. Student) in Cryptography & Privacy Engineering
     , '
   source: iacr
+
+# ---------------- AUTO-APPENDED from IACR jobs board (2026-06-22) ----------------
+- name: Nanyang Technological University
+  role: Postdoc / Research Fellow
+  type: postdoc
+  region: asia_pacific
+  country: Singapore
+  institution: Nanyang Technological University
+  link: https://iacr.org/jobs/item/4232
+  deadline: rolling
+  posted: '2026-06-20'
+  added: '2026-06-22'
+  area:
+  - mpc
+  - fhe
+  - symmetric
+  - formal_methods
+  status: open
+  note: The SYmmetric cryptography and machine Learning Lab (SyLLab - https://syllab-ntu.github.io/syllab/)
+    at NTU Singapore is looking for candidates for two Research Fellow/Postdoc positions
+    (from fresh Postdoc to Senior Research Fellow, flexible
+  source: iacr
