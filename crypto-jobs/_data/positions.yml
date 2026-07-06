@@ -1869,3 +1869,114 @@
     at NTU Singapore is looking for candidates for two Research Fellow/Postdoc positions
     (from fresh Postdoc to Senior Research Fellow, flexible
   source: iacr
+
+# ---------------- AUTO-APPENDED from IACR jobs board (2026-07-06) ----------------
+- name: The University of Edinburgh
+  role: Post-Doc
+  type: postdoc
+  region: europe
+  country: ''
+  institution: The University of Edinburgh
+  link: https://iacr.org/jobs/item/4240
+  deadline: rolling
+  posted: '2026-07-06'
+  added: '2026-07-06'
+  area:
+  - mpc
+  - zk
+  - formal_methods
+  status: open
+  note: 'We are hiring three (3) researchers (post-doc or equivalent) for a project
+    at the intersection of cryptography, agentic systems, and automated verifiable
+    design. Project: We are building an end-to-end framework that automates the specificat'
+  source: iacr
+- name: Lund University
+  role: Postdoc position on Privacy and Applied Cryptography
+  type: postdoc
+  region: europe
+  country: ''
+  institution: Lund University
+  link: https://iacr.org/jobs/item/4238
+  deadline: rolling
+  posted: '2026-06-29'
+  added: '2026-07-06'
+  area:
+  - fhe
+  status: open
+  note: We now offer a new postdoctoral position in the field of Applied Cryptography
+    and Privacy. The research is devoted to the broader area of privacy-preserving
+    storage and computation outsourcing. Privacy-preserving computation outsourcing
+    all
+  source: iacr
+- name: IBM Research Zurich
+  role: PhD in Time and Memory Efficient Proof Systems
+  type: phd
+  region: europe
+  country: ''
+  institution: IBM Research Zurich
+  link: https://iacr.org/jobs/item/4237
+  deadline: rolling
+  posted: '2026-06-26'
+  added: '2026-07-06'
+  area:
+  - zk
+  status: open
+  note: 'The Foundational Cryptography group at IBM Research Zurich has an opening
+    for a PhD position for research on cryptographic proof systems. Position Details
+    -Funded for 4 years -Possibility of joint supervision at EPFL -Ideal start date
+    late '
+  source: iacr
+- name: University of Oldenburg
+  role: 4-year PhD Position in Cryptography and Trustworthy AI (fully-funded)
+  type: phd
+  region: europe
+  country: Germany
+  institution: University of Oldenburg
+  link: https://iacr.org/jobs/item/4236
+  deadline: rolling
+  posted: '2026-06-25'
+  added: '2026-07-06'
+  area:
+  - mpc
+  - fhe
+  status: open
+  note: 'The University of Oldenburg invites applications for a PhD student position
+    in the Safety-Security-Interaction group, under the supervision of Prof. Dr. Andreas
+    Peter and Dr. Federico Mazzone. Full-time position Start date: flexible, to be '
+  source: iacr
+- name: Tampere University
+  role: 12 Postdoctoral Positions in Semiconductor Science and Technology
+  type: postdoc
+  region: europe
+  country: Finland
+  institution: Tampere University
+  link: https://iacr.org/jobs/item/4235
+  deadline: rolling
+  posted: '2026-06-25'
+  added: '2026-07-06'
+  area:
+  - hardware
+  status: open
+  note: FutureChips is a new postdoctoral program at Tampere University offering excellent
+    researchers a 36-month fellowship in the field of next-generation semiconductor
+    technologies. The fellows are given the opportunity to design their own resea
+  source: iacr
+- name: PQC-X
+  role: Ph.D students and Post-Doc in Post-Quantum Cryptography
+  type: postdoc
+  region: remote
+  country: Xi’an Jiaotong-Liverpool University
+  institution: PQC-X
+  link: https://iacr.org/jobs/item/4233
+  deadline: rolling
+  posted: '2026-06-24'
+  added: '2026-07-06'
+  area:
+  - pqc
+  - lattice
+  - hardware
+  status: open
+  note: The Post-Quantum Cryptography Migration Interdisciplinary Lab (PQC-X) is a
+    newly founded lab at XJTLU, led by Prof. Jintai DING , a globally recognized leader
+    in Post-quantum Cryptography. PQC-X invites applications for multiple fully funde
+  source: iacr
