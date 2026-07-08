@@ -1980,3 +1980,22 @@
     newly founded lab at XJTLU, led by Prof. Jintai DING , a globally recognized leader
     in Post-quantum Cryptography. PQC-X invites applications for multiple fully funde
   source: iacr
+
+# ---------------- AUTO-APPENDED from IACR jobs board (2026-07-08) ----------------
+- name: Helmholtz Center for Information Security (CISPA)
+  role: Post-Doc
+  type: postdoc
+  region: remote
+  country: ''
+  institution: Helmholtz Center for Information Security (CISPA)
+  link: https://iacr.org/jobs/item/4241
+  deadline: rolling
+  posted: '2026-07-07'
+  added: '2026-07-08'
+  area:
+  - mpc
+  status: open
+  note: I am looking to hire exceptional postdoctoral researchers to join my research
+    group (currently a singleton, but part of CISPA's larger research area on Algorithmic
+    Foundations and Cryptography, "https://cispa.de/en/research/research-areas/a
+  source: iacr
