@@ -1,0 +1,570 @@
+# =========================================================================
+#  scholarships.yml — Scholarships & fellowships worldwide that fund
+#  cryptography, security & privacy research (plus generic ones a
+#  cryptographer is eligible for).
+# =========================================================================
+#
+#  Fields:
+#    name*        — Scholarship / fellowship name
+#    provider*    — Funding body (DAAD, EU, Google, NSF, …)
+#    level*       — masters | phd | postdoc | faculty | any
+#                   (career stage the funding targets)
+#    region*      — Host region where the award is tenable:
+#                   india | europe | north_america | asia_pacific |
+#                   middle_east | africa | worldwide
+#    country      — Host country / countries (display only)
+#    eligibility  — Short note on who may apply (nationality, degree, …)
+#    focus*       — What research it fits, from the shared taxonomy:
+#                   cryptography | security | privacy | generic
+#                   (`generic` = open to any field, so a cryptographer
+#                    qualifies even though it isn't crypto-specific)
+#    funding      — One line on what it covers
+#    link*        — Official details / application page
+#    deadline*    — ISO date (2026-10-31), "rolling", or "annual"
+#                   ("annual" = recurring yearly; check the link for the
+#                    exact current-cycle date, noted where known)
+#    posted       — When the provider opened / advertised this cycle
+#    added        — When it landed here (drives the NEW badge)
+#    status       — open | annual | rolling | closed
+#    note         — Short comment shown on the card
+#    source       — direct (curated) | scrape (auto-extracted, review-gated)
+#
+#  * = required
+#
+#  Deadlines for recurring programmes shift a little every year. This list
+#  is curated and may lag the official page — ALWAYS confirm the current
+#  deadline and eligibility on the provider's site before applying.
+#  Corrections & additions welcome via PR (see the Submit link in the header).
+# =========================================================================
+
+# ==================== TARGETED: security / privacy / cryptography ====================
+
+- name: "Google PhD Fellowship — Security, Privacy & Cryptography"
+  provider: "Google"
+  level: phd
+  region: worldwide
+  country: "Worldwide (student's own university)"
+  eligibility: "Enrolled PhD students nominated by their university."
+  focus: [cryptography, security, privacy]
+  funding: "Full tuition + stipend for up to the remaining PhD years, plus a Google mentor."
+  link: "https://research.google/programs-and-events/phd-fellowship/"
+  deadline: "annual"
+  posted: "2026-01-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Dedicated Security/Privacy/Cryptography track. Nomination windows differ by region (typically opens spring, closes early summer)."
+  source: direct
+
+- name: "Meta PhD Research Fellowship — Security & Privacy / Cryptography"
+  provider: "Meta"
+  level: phd
+  region: worldwide
+  country: "Worldwide"
+  eligibility: "Full-time PhD students in relevant areas."
+  focus: [security, privacy, cryptography]
+  funding: "Two years of tuition + stipend, conference travel."
+  link: "https://research.facebook.com/fellowship/"
+  deadline: "annual"
+  posted: "2026-08-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Has explicit Security & Privacy and Applied Cryptography research areas. Usually opens Aug, closes ~Sep/Oct."
+  source: direct
+
+- name: "Microsoft Research PhD Fellowship"
+  provider: "Microsoft Research"
+  level: phd
+  region: worldwide
+  country: "Regional cohorts (Americas, EMEA, Asia)"
+  eligibility: "2nd-year PhD students; nomination by university (varies by region)."
+  focus: [security, privacy, cryptography, generic]
+  funding: "Tuition + stipend for two years plus internship opportunities."
+  link: "https://www.microsoft.com/en-us/research/academic-program/phd-fellowship/"
+  deadline: "annual"
+  posted: "2026-06-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Covers security, privacy & cryptography among other CS areas. Regional deadlines differ."
+  source: direct
+
+- name: "IBM PhD Fellowship"
+  provider: "IBM Research"
+  level: phd
+  region: worldwide
+  country: "Worldwide"
+  eligibility: "PhD students nominated by a faculty advisor."
+  focus: [security, cryptography, generic]
+  funding: "Stipend + education allowance for the award year (renewable)."
+  link: "https://research.ibm.com/university/awards/fellowships.html"
+  deadline: "annual"
+  posted: "2026-09-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Interest areas include cybersecurity, cryptography and quantum. Faculty nomination, usually due ~Oct."
+  source: direct
+
+- name: "NSF CyberCorps: Scholarship for Service (SFS)"
+  provider: "US National Science Foundation"
+  level: any
+  region: north_america
+  country: "USA"
+  eligibility: "US citizens/nationals at participating universities."
+  focus: [security, privacy]
+  funding: "Full tuition + generous stipend in exchange for government service."
+  link: "https://www.sfs.opm.gov/"
+  deadline: "rolling"
+  posted: "2026-01-01"
+  added: "2026-07-13"
+  status: rolling
+  note: "Cybersecurity-specific; apply through a participating SFS institution. Service obligation on graduation."
+  source: direct
+
+- name: "DoD SMART Scholarship-for-Service"
+  provider: "US Department of Defense"
+  level: any
+  region: north_america
+  country: "USA"
+  eligibility: "US citizens in STEM (incl. cybersecurity/crypto)."
+  focus: [security, cryptography, generic]
+  funding: "Full tuition, stipend, summer internships, guaranteed DoD employment."
+  link: "https://www.smartscholarship.org/smart"
+  deadline: "2026-12-01"
+  posted: "2026-08-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Application cycle typically Aug–Dec for the following year. Cybersecurity is a priority discipline."
+  source: direct
+
+- name: "(ISC)² Graduate Cybersecurity Scholarship"
+  provider: "ISC2 Foundation"
+  level: masters
+  region: worldwide
+  country: "Worldwide"
+  eligibility: "Students pursuing a cybersecurity/IA degree."
+  focus: [security, privacy]
+  funding: "Up to US$5,000 toward tuition."
+  link: "https://www.isc2.org/landing/isc2-scholarships"
+  deadline: "annual"
+  posted: "2026-01-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Cybersecurity-specific merit scholarship. Windows vary; check the foundation page."
+  source: direct
+
+- name: "Rothschild / Simons Institute Research Fellowships"
+  provider: "Simons Institute for the Theory of Computing (UC Berkeley)"
+  level: postdoc
+  region: north_america
+  country: "USA"
+  eligibility: "Early-career researchers; tied to semester programs."
+  focus: [cryptography, generic]
+  funding: "Stipend + support for a semester in residence at Berkeley."
+  link: "https://simons.berkeley.edu/programs/fellowships"
+  deadline: "annual"
+  posted: "2026-09-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Theory of computing incl. cryptography semester programs. Deadlines align with program calls (~Dec)."
+  source: direct
+
+# ==================== GENERIC: any field — cryptographers eligible ====================
+
+- name: "DAAD Research Grants — Doctoral Programmes in Germany"
+  provider: "DAAD (German Academic Exchange Service)"
+  level: phd
+  region: europe
+  country: "Germany"
+  eligibility: "International graduates; some regional variations."
+  focus: [generic, cryptography, security]
+  funding: "Monthly stipend, travel, health insurance for the doctoral period."
+  link: "https://www.daad.de/en/study-and-research-in-germany/scholarships/"
+  deadline: "annual"
+  posted: "2026-06-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Germany hosts strong crypto groups (CISPA, KIT, TU Darmstadt, Bochum). Deadlines vary by country of origin — use the DAAD scholarship database."
+  source: direct
+
+- name: "DAAD Research Grants — Short-Term Grants / Bi-nationally Supervised"
+  provider: "DAAD (German Academic Exchange Service)"
+  level: phd
+  region: europe
+  country: "Germany"
+  eligibility: "Doctoral candidates enrolled abroad wanting a research stay."
+  focus: [generic, cryptography, security, privacy]
+  funding: "1–6 month research-stay stipend in Germany."
+  link: "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/"
+  deadline: "annual"
+  posted: "2026-06-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Good for a research visit to a German crypto lab. Search the DAAD database by your country for the exact deadline."
+  source: direct
+
+- name: "Alexander von Humboldt Research Fellowship (Postdoc)"
+  provider: "Alexander von Humboldt Foundation"
+  level: postdoc
+  region: europe
+  country: "Germany"
+  eligibility: "Postdocs of any nationality with a German host."
+  focus: [generic, cryptography, security, privacy]
+  funding: "6–24 month fellowship: stipend, family & language allowances."
+  link: "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship"
+  deadline: "rolling"
+  posted: "2026-01-01"
+  added: "2026-07-13"
+  status: rolling
+  note: "Applications reviewed several times a year; secure a German host first. Excellent for cryptographers."
+  source: direct
+
+- name: "Marie Skłodowska-Curie Postdoctoral Fellowships (MSCA-PF)"
+  provider: "European Commission (Horizon Europe)"
+  level: postdoc
+  region: europe
+  country: "EU / associated countries"
+  eligibility: "Postdocs (≤8 yrs experience) with a European host; mobility rule applies."
+  focus: [generic, cryptography, security, privacy]
+  funding: "~2-year salary + mobility, family & research allowances."
+  link: "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships"
+  deadline: "2026-09-10"
+  posted: "2026-04-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Single annual call, typically closes mid-September. The flagship EU postdoc route — very popular in crypto."
+  source: direct
+
+- name: "ERC Starting / Consolidator Grants"
+  provider: "European Research Council (Horizon Europe)"
+  level: faculty
+  region: europe
+  country: "EU / associated countries"
+  eligibility: "Researchers 2–12 yrs post-PhD leading a project at a European host."
+  focus: [generic, cryptography, security, privacy]
+  funding: "Up to €1.5–2M over five years to build a research group."
+  link: "https://erc.europa.eu/apply-grant/starting-grant"
+  deadline: "annual"
+  posted: "2026-07-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Funds independent research incl. cryptography. Starting- and Consolidator-grant calls open on separate annual cycles."
+  source: direct
+
+- name: "Fulbright Foreign Student / Scholar Program"
+  provider: "US Department of State (Fulbright)"
+  level: any
+  region: north_america
+  country: "USA"
+  eligibility: "Non-US citizens; administered per home country."
+  focus: [generic, security, privacy, cryptography]
+  funding: "Tuition, stipend, travel, health for study/research in the US."
+  link: "https://foreign.fulbrightonline.org/"
+  deadline: "annual"
+  posted: "2026-02-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Country-specific deadlines (often spring for the next year). Open to any field, crypto included."
+  source: direct
+
+- name: "Chevening Scholarships"
+  provider: "UK Government (FCDO)"
+  level: masters
+  region: europe
+  country: "United Kingdom"
+  eligibility: "Citizens of Chevening-eligible countries with work experience."
+  focus: [generic, security, privacy, cryptography]
+  funding: "Fully funded one-year UK master's: tuition, stipend, travel."
+  link: "https://www.chevening.org/"
+  deadline: "2026-11-03"
+  posted: "2026-08-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Any subject incl. cybersecurity/CS master's. Application window usually Aug–early Nov."
+  source: direct
+
+- name: "Commonwealth Scholarships (PhD / Master's)"
+  provider: "Commonwealth Scholarship Commission (UK)"
+  level: phd
+  region: europe
+  country: "United Kingdom"
+  eligibility: "Citizens of Commonwealth countries."
+  focus: [generic, security, cryptography]
+  funding: "Fully funded UK study: tuition, stipend, airfare."
+  link: "https://cscuk.fcdo.gov.uk/scholarships/"
+  deadline: "annual"
+  posted: "2026-09-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Nominated via national agencies/universities. Any discipline; strong UK crypto/security groups (Bristol, Surrey, RHUL, Edinburgh)."
+  source: direct
+
+- name: "Gates Cambridge Scholarship"
+  provider: "University of Cambridge / Gates Foundation"
+  level: phd
+  region: europe
+  country: "United Kingdom"
+  eligibility: "Non-UK citizens applying to Cambridge."
+  focus: [generic, cryptography, security]
+  funding: "Full cost of a Cambridge degree + stipend + allowances."
+  link: "https://www.gatescambridge.org/"
+  deadline: "annual"
+  posted: "2026-09-01"
+  added: "2026-07-13"
+  status: annual
+  note: "US-round ~Oct, international-round ~Dec, alongside the Cambridge course deadline. Any subject."
+  source: direct
+
+- name: "Rhodes Scholarship (Oxford)"
+  provider: "Rhodes Trust"
+  level: any
+  region: europe
+  country: "United Kingdom"
+  eligibility: "Young graduates from Rhodes-eligible constituencies."
+  focus: [generic]
+  funding: "Full funding for graduate study at Oxford."
+  link: "https://www.rhodeshouse.ox.ac.uk/scholarships/the-rhodes-scholarship/"
+  deadline: "annual"
+  posted: "2026-06-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Constituency deadlines mostly late summer/autumn. Any Oxford graduate programme incl. CS/security."
+  source: direct
+
+- name: "Knight-Hennessy Scholars (Stanford)"
+  provider: "Stanford University"
+  level: any
+  region: north_america
+  country: "USA"
+  eligibility: "Applicants to any Stanford graduate program, any nationality."
+  focus: [generic, cryptography, security, privacy]
+  funding: "Up to three years of funding for a Stanford graduate degree."
+  link: "https://knight-hennessy.stanford.edu/"
+  deadline: "annual"
+  posted: "2026-06-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Deadline typically mid-October. Stanford has a top applied-crypto & security group."
+  source: direct
+
+- name: "Schwarzman Scholars"
+  provider: "Tsinghua University"
+  level: masters
+  region: asia_pacific
+  country: "China"
+  eligibility: "Under-29 graduates worldwide."
+  focus: [generic]
+  funding: "Fully funded one-year master's at Tsinghua in Beijing."
+  link: "https://www.schwarzmanscholars.org/"
+  deadline: "annual"
+  posted: "2026-04-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Leadership-focused master's; broad eligibility. Deadlines ~Sep (global) / ~May (China)."
+  source: direct
+
+- name: "Swiss Government Excellence Scholarships"
+  provider: "Swiss Confederation (FCS)"
+  level: phd
+  region: europe
+  country: "Switzerland"
+  eligibility: "Researchers from eligible countries (PhD / postdoc)."
+  focus: [generic, cryptography, security]
+  funding: "Monthly stipend, tuition waiver, insurance for research in Switzerland."
+  link: "https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html"
+  deadline: "annual"
+  posted: "2026-08-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Country-specific deadlines (often autumn). ETH Zurich & EPFL host leading crypto groups."
+  source: direct
+
+- name: "Eiffel Excellence Scholarship Programme"
+  provider: "Campus France (French Government)"
+  level: masters
+  region: europe
+  country: "France"
+  eligibility: "International students nominated by a French institution."
+  focus: [generic, cryptography, security]
+  funding: "Monthly allowance, travel, insurance for master's/PhD in France."
+  link: "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence"
+  deadline: "annual"
+  posted: "2026-10-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Nominated by the host French school; deadline usually early January. France has strong crypto (ENS, Inria)."
+  source: direct
+
+- name: "Erasmus Mundus Joint Master's — Cyber Security tracks"
+  provider: "European Commission (Erasmus+)"
+  level: masters
+  region: europe
+  country: "Multiple EU countries"
+  eligibility: "Students worldwide; apply directly to a consortium."
+  focus: [security, privacy, cryptography]
+  funding: "Full tuition, monthly allowance, travel & installation costs."
+  link: "https://www.eacea.ec.europa.eu/scholarships/emjmd-catalogue_en"
+  deadline: "annual"
+  posted: "2026-10-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Several security/privacy joint master's exist. Consortium deadlines usually Dec–Jan; apply to the programme, not centrally."
+  source: direct
+
+- name: "Vanier Canada Graduate Scholarships"
+  provider: "Government of Canada"
+  level: phd
+  region: north_america
+  country: "Canada"
+  eligibility: "PhD students nominated by a Canadian university."
+  focus: [generic, cryptography, security]
+  funding: "CA$50,000/year for three years."
+  link: "https://vanier.gc.ca/en/home-accueil.html"
+  deadline: "annual"
+  posted: "2026-08-01"
+  added: "2026-07-13"
+  status: annual
+  note: "University-internal deadlines precede the ~Nov national deadline. Strong Canadian crypto (Waterloo, McGill)."
+  source: direct
+
+- name: "Prime Minister's Research Fellowship (PMRF)"
+  provider: "Government of India (Ministry of Education)"
+  level: phd
+  region: india
+  country: "India"
+  eligibility: "Indian students entering/enrolled in PhD at eligible institutes."
+  focus: [generic, cryptography, security, privacy]
+  funding: "₹70,000–80,000/month stipend + ₹2 lakh/yr research grant."
+  link: "https://www.pmrf.in/"
+  deadline: "annual"
+  posted: "2026-05-01"
+  added: "2026-07-13"
+  status: annual
+  note: "For PhD at IITs/IISc/NITs/IISERs etc. Two cycles a year (May & Nov). Covers crypto research."
+  source: direct
+
+- name: "Australian Government Research Training Program (RTP)"
+  provider: "Australian Government"
+  level: phd
+  region: asia_pacific
+  country: "Australia"
+  eligibility: "Domestic & international HDR students at Australian universities."
+  focus: [generic, cryptography, security]
+  funding: "Tuition offset + living stipend for research degrees."
+  link: "https://www.education.gov.au/research-training-program"
+  deadline: "annual"
+  posted: "2026-06-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Administered per university (deadlines vary, often Aug–Oct). Australia has active crypto/security groups (Monash, CSIRO Data61)."
+  source: direct
+
+- name: "A*STAR Singapore International Graduate Award (SINGA)"
+  provider: "A*STAR (Singapore)"
+  level: phd
+  region: asia_pacific
+  country: "Singapore"
+  eligibility: "International students for a PhD with A*STAR + a Singapore university."
+  focus: [generic, security, cryptography]
+  funding: "Monthly stipend, tuition, airfare, settling-in allowance."
+  link: "https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa"
+  deadline: "rolling"
+  posted: "2026-01-01"
+  added: "2026-07-13"
+  status: rolling
+  note: "Two intakes a year (Jan & Jul deadlines). NUS/NTU host strong crypto & security research."
+  source: direct
+
+- name: "Japanese Government (MEXT) Scholarship"
+  provider: "Government of Japan (MEXT)"
+  level: any
+  region: asia_pacific
+  country: "Japan"
+  eligibility: "International students, via embassy or university recommendation."
+  focus: [generic, cryptography, security]
+  funding: "Tuition waiver, monthly stipend, airfare."
+  link: "https://www.studyinjapan.go.jp/en/planning/scholarship/"
+  deadline: "annual"
+  posted: "2026-04-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Embassy track opens ~spring; university track varies. Japan has notable crypto (AIST, NTT, universities)."
+  source: direct
+
+- name: "JSPS Postdoctoral Fellowships for Research in Japan"
+  provider: "Japan Society for the Promotion of Science"
+  level: postdoc
+  region: asia_pacific
+  country: "Japan"
+  eligibility: "Postdocs with a Japanese host researcher."
+  focus: [generic, cryptography, security]
+  funding: "Stipend, travel, settling & research allowances (1–24 months)."
+  link: "https://www.jsps.go.jp/english/e-fellow/"
+  deadline: "annual"
+  posted: "2026-04-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Standard & short-term calls yearly; arrange a Japanese host first."
+  source: direct
+
+- name: "Chinese Government Scholarship (CSC)"
+  provider: "China Scholarship Council"
+  level: any
+  region: asia_pacific
+  country: "China"
+  eligibility: "International students (embassy, university or bilateral track)."
+  focus: [generic, cryptography, security]
+  funding: "Tuition, accommodation, stipend, insurance."
+  link: "https://www.campuschina.org/"
+  deadline: "annual"
+  posted: "2026-01-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Deadlines vary by track/university, usually Dec–Apr. Strong Chinese crypto groups (Tsinghua, SJTU, IIE-CAS)."
+  source: direct
+
+- name: "Zuckerman STEM Leadership Program (Postdoc)"
+  provider: "Zuckerman Institute (Israel)"
+  level: postdoc
+  region: middle_east
+  country: "Israel"
+  eligibility: "Outstanding postdocs (US-Israel & international tracks)."
+  focus: [generic, cryptography, security]
+  funding: "Stipend + research support at a leading Israeli university."
+  link: "https://zuckerman-scholars.org/"
+  deadline: "annual"
+  posted: "2026-09-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Israel has world-class cryptography (Weizmann, Technion, TAU, BIU). Deadlines usually late autumn."
+  source: direct
+
+- name: "Mastercard Foundation Scholars Program"
+  provider: "Mastercard Foundation"
+  level: any
+  region: africa
+  country: "Multiple (partner universities worldwide)"
+  eligibility: "Academically talented students, primarily from Africa, with financial need."
+  focus: [generic]
+  funding: "Comprehensive: tuition, living, travel, mentorship."
+  link: "https://mastercardfdn.org/en/what-we-do/our-programs/mastercard-foundation-scholars-program/"
+  deadline: "annual"
+  posted: "2026-01-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Applied through partner universities (deadlines vary). Any field incl. CS/security."
+  source: direct
+
+- name: "African Institute for Mathematical Sciences (AIMS) Scholarships"
+  provider: "AIMS (Next Einstein Initiative)"
+  level: masters
+  region: africa
+  country: "Multiple African centres"
+  eligibility: "Graduates with a strong maths background, mainly from Africa."
+  focus: [generic, cryptography]
+  funding: "Fully funded structured master's in mathematical sciences."
+  link: "https://aims.ac.za/"
+  deadline: "annual"
+  posted: "2026-01-01"
+  added: "2026-07-13"
+  status: annual
+  note: "Maths foundation feeds into cryptography research. Intake deadlines vary by centre."
+  source: direct

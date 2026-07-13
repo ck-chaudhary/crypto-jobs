@@ -179,6 +179,32 @@ a:hover { text-decoration: underline; }
 .card .people .label { color: var(--fg-mute); }
 .card .lab-link { margin-top: auto; padding-top: .4rem; }
 
+/* Scholarships & fellowships cards */
+.card .eligibility { margin: .15rem 0 .35rem 0; font-size: .82rem; color: var(--fg-mute); }
+.deadline-val { font-weight: 600; }
+.focus-hint { font-size: .72rem; color: var(--fg-mute); margin-left: .35rem; align-self: center; }
+
+/* Focus tags reuse the accent styling of type tags, with a privacy variant */
+.tag-focus { background: color-mix(in srgb, var(--accent) 15%, transparent); color: var(--accent); border-color: color-mix(in srgb, var(--accent) 32%, var(--border)); }
+.tag-focus-generic { background: var(--bg); color: var(--fg-mute); border-color: var(--border); }
+.tag-status.tag-annual, .tag-status.tag-rolling { background: color-mix(in srgb, var(--warn) 16%, transparent); color: var(--warn); border-color: color-mix(in srgb, var(--warn) 32%, var(--border)); }
+.tag-status.tag-closed { background: color-mix(in srgb, var(--danger) 18%, transparent); color: var(--danger); }
+
+/* "deadline soon" / "passed" badge next to a scholarship title */
+.badge-soon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: .35rem;
+  padding: .05rem .4rem;
+  font-size: .62rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  border-radius: 999px;
+  background: var(--warn);
+  color: #1a1d24;
+}
+.badge-soon.is-past { background: var(--danger); color: #fff; }
+
 .site-footer { background: var(--bg-card); border-top: 1px solid var(--border); margin-top: 2rem; padding: 1rem 0; color: var(--fg-mute); font-size: .82rem; }
 .site-footer p { margin: .25rem 0; }
 

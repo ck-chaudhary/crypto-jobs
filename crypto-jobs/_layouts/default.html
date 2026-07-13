@@ -29,6 +29,7 @@
       </p>
       <nav class="site-nav">
         <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>Positions</a>
+        <a href="{{ '/scholarships/' | relative_url }}"{% if page.url contains 'scholarships' %} class="active"{% endif %}>Scholarships</a>
         <a href="{{ '/labs/' | relative_url }}"{% if page.url contains 'labs' %} class="active"{% endif %}>Labs &amp; Groups</a>
       </nav>
     </div>

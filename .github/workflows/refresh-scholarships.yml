@@ -1,0 +1,60 @@
+name: Propose scholarships & fellowships
+
+# Once a week, follow every provider page in crypto-jobs/_data/scholarships.yml
+# (DAAD, MSCA, Fulbright, …) plus the discovery portals, use Claude to extract
+# current awards WITH DEADLINES, and open a PULL REQUEST with the proposals
+# appended to scholarships.yml (source: scrape). Unlike the IACR scraper this
+# does NOT auto-publish — LLM-read deadlines must be checked by a human before
+# they go live.
+#
+# Requires repository secret ANTHROPIC_API_KEY. Without it the script no-ops.
+
+on:
+  schedule:
+    - cron: "0 7 * * 2"          # Tuesdays 07:00 UTC
+  workflow_dispatch: {}          # also allow manual trigger
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  propose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install pyyaml anthropic
+
+      - name: Scan provider pages and append proposals
+        working-directory: crypto-jobs
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/fetch_scholarships.py
+
+      - name: Open a review PR if there are proposals
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- crypto-jobs/_data/scholarships.yml; then
+            echo "No new scholarships proposed; nothing to review."
+            exit 0
+          fi
+          branch="scholarships/$(date -u +%Y-%m-%d)"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add crypto-jobs/_data/scholarships.yml
+          git commit -m "Proposed scholarships from provider pages (verify deadlines before merge)"
+          git push -u origin "$branch"
+          gh pr create \
+            --title "Proposed scholarships — $(date -u +%Y-%m-%d)" \
+            --body "Auto-extracted by \`fetch_scholarships.py\` from the provider pages in \`scholarships.yml\` and the discovery portals, tagged \`source: scrape\`. **Verify every deadline** — the model reads deadlines from prose and can get the date or cycle wrong. Fix or delete bad rows, then merge to publish." \
+            --base main --head "$branch"

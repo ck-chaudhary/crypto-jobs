@@ -1,0 +1,93 @@
+---
+layout: default
+title: Scholarships & Fellowships
+permalink: /scholarships/
+extra_js: /assets/js/scholarships.js
+---
+
+<section class="filters">
+  <div class="filter-row">
+    <label>Level
+      <select id="s-level" data-filter="level">
+        <option value="">All</option>
+        <option value="masters">Master's</option>
+        <option value="phd">PhD</option>
+        <option value="postdoc">Postdoc</option>
+        <option value="faculty">Faculty / group leader</option>
+        <option value="any">Any stage</option>
+      </select>
+    </label>
+
+    <label>Host region
+      <select id="s-region" data-filter="region">
+        <option value="">All</option>
+        <option value="india">India</option>
+        <option value="europe">Europe</option>
+        <option value="north_america">North America</option>
+        <option value="asia_pacific">Asia-Pacific</option>
+        <option value="middle_east">Middle East</option>
+        <option value="africa">Africa</option>
+        <option value="worldwide">Worldwide / Industry</option>
+      </select>
+    </label>
+
+    <label>Status
+      <select id="s-status" data-filter="status">
+        <option value="">All</option>
+        <option value="open">Open now</option>
+        <option value="annual">Annual (recurring)</option>
+        <option value="rolling">Rolling</option>
+        <option value="closed">Closed (archive)</option>
+      </select>
+    </label>
+
+    <label>Search
+      <input type="search" id="s-search" placeholder="e.g. DAAD, Germany, postdoc, cyber" />
+    </label>
+
+    <label class="chip new-toggle"><input type="checkbox" id="s-soon"><span>⏳ Deadline ≤60 days</span></label>
+  </div>
+
+  <div class="filter-row areas">
+    <span class="label">Focus:</span>
+    {% assign focuses = "cryptography,security,privacy,generic" | split: "," %}
+    {% for f in focuses %}
+      <label class="chip"><input type="checkbox" class="focus-cb" value="{{ f }}"><span>{{ f | upcase }}</span></label>
+    {% endfor %}
+    <span class="focus-hint">GENERIC = open to any field, so a cryptographer qualifies.</span>
+  </div>
+
+  <p class="counts"><span id="s-visible-count">{{ site.data.scholarships | size }}</span> of <span id="s-total-count">{{ site.data.scholarships | size }}</span> scholarships shown. Deadlines shift yearly — confirm on the provider's page before applying.</p>
+</section>
+
+<section class="cards">
+  {% for s in site.data.scholarships %}
+    <article class="card"
+             data-level="{{ s.level }}"
+             data-region="{{ s.region }}"
+             data-status="{{ s.status }}"
+             data-focus="{{ s.focus | join: ' ' }}"
+             data-deadline="{{ s.deadline }}"
+             data-added="{{ s.added }}"
+             data-search="{{ s.name | downcase }} {{ s.provider | downcase }} {{ s.country | downcase }} {{ s.eligibility | downcase }} {{ s.note | downcase }} {{ s.focus | join: ' ' }} {{ s.level }}">
+      <header>
+        <h3>{{ s.name }} <span class="badge-new" hidden>NEW</span> <span class="badge-soon" hidden></span></h3>
+        <p class="role">{{ s.provider }}</p>
+      </header>
+      <p class="institution">{% if s.country %}{{ s.country }}{% endif %}</p>
+      {% if s.funding %}<p class="pi"><strong>Covers:</strong> {{ s.funding }}</p>{% endif %}
+      {% if s.eligibility %}<p class="eligibility"><strong>Who:</strong> {{ s.eligibility }}</p>{% endif %}
+      <ul class="tags">
+        <li class="tag-type tag-{{ s.level }}">{{ s.level | replace: "_", " " }}</li>
+        <li class="tag-region tag-{{ s.region }}">{{ s.region | replace: "_", " " }}</li>
+        <li class="tag-status tag-{{ s.status }}">{{ s.status }}</li>
+        {% for f in s.focus %}<li class="tag-focus tag-focus-{{ f }}">{{ f }}</li>{% endfor %}
+      </ul>
+      {% if s.deadline %}<p class="deadline"><strong>Deadline:</strong> <span class="deadline-val">{{ s.deadline }}</span></p>{% endif %}
+      {% if s.note %}<p class="note">{{ s.note }}</p>{% endif %}
+      <p class="actions"><a class="apply-btn" href="{{ s.link }}" target="_blank" rel="noopener">Details / apply ↗</a>
+        {% if s.source %}<span class="source">via {{ s.source }}</span>{% endif %}
+      </p>
+    </article>
+  {% endfor %}
+</section>

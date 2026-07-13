@@ -11,6 +11,7 @@ crypto-jobs/
 ├── _config.yml                 ← Jekyll config + filter taxonomies
 ├── _data/
 │   ├── positions.yml           ← the job list (curated + auto-appended IACR entries)
+│   ├── scholarships.yml        ← scholarships & fellowships worldwide (curated + scraped)
 │   └── labs.yml                ← directory of cryptography groups/labs worldwide
 ├── _layouts/
 │   └── default.html
@@ -19,11 +20,14 @@ crypto-jobs/
 │   ├── css/style.css           ← dark/light theme, responsive
 │   └── js/
 │       ├── filter.js           ← positions page: filtering + "NEW" badge + URL sync
+│       ├── scholarships.js     ← scholarships page: filtering + deadline countdown + URL sync
 │       └── labs.js             ← labs page: filtering + URL sync
 ├── index.html                  ← positions page (cards + filter UI)
+├── scholarships.html           ← scholarships & fellowships page, at /scholarships/
 ├── labs.html                   ← labs & groups page (cards + filter UI), at /labs/
 ├── scripts/
-│   └── fetch_iacr_jobs.py      ← scrapes IACR jobs board, classifies new entries
+│   ├── fetch_iacr_jobs.py      ← scrapes IACR jobs board, classifies new entries
+│   └── fetch_scholarships.py   ← follows provider pages (DAAD, MSCA…), extracts awards + deadlines (LLM, review-gated)
 ├── Gemfile
 └── README.md                   ← (this file)
 ```
@@ -112,6 +116,44 @@ faculty. Add a group by appending to `_data/labs.yml`:
 
 Affiliations change — the list is curated and may be out of date, so it links
 straight to each group's site. Corrections and additions via PR are welcome.
+
+## Scholarships & Fellowships directory
+
+`/scholarships/` (from `scholarships.html` + `_data/scholarships.yml`) lists
+scholarships and fellowships worldwide that fund cryptography, security &
+privacy research — plus **generic** awards (open to any field) that a
+cryptographer is eligible for. Each card shows the funder, career stage, host
+region, what it covers, eligibility, and the **deadline**.
+
+- Filters: **level** (master's/PhD/postdoc/faculty/any), **host region**,
+  **status**, **focus** chips (`cryptography`/`security`/`privacy`/`generic`),
+  free-text search, and a **⏳ Deadline ≤60 days** toggle.
+- Deadlines that are real ISO dates get a live "days left" badge computed in the
+  browser (so it stays accurate between rebuilds); `annual`/`rolling` awards are
+  shown as-is. Deadlines for recurring programmes shift yearly — the card links
+  straight to the provider so you can confirm the current-cycle date.
+
+Add one by appending to `_data/scholarships.yml` (fields documented in the file
+header): `name`, `provider`, `level`, `region`, `focus`, `link`, `deadline`,
+and `status` are the important ones; set `source: direct`.
+
+### Auto-refreshing deadlines (weekly, review-gated)
+
+Deadlines go stale, so the **Propose scholarships & fellowships** workflow
+(`.github/workflows/refresh-scholarships.yml`) runs weekly:
+
+- `scripts/fetch_scholarships.py` follows every provider link in
+  `scholarships.yml` (DAAD, MSCA, Fulbright, …) **plus** the discovery portals
+  listed in the script (DAAD database, Erasmus catalogue, EURAXESS), and uses
+  **Claude (Haiku)** to extract current awards **with their deadlines** —
+  because the provider sites share no HTML structure, the model reads the prose.
+- Proposals are appended tagged `source: scrape` **on a branch**, and the
+  workflow opens a **pull request**. LLM-read deadlines can be wrong, so nothing
+  publishes until a human verifies the dates and merges.
+
+**Setup:** same as the lab scraper — add the `ANTHROPIC_API_KEY` repository
+secret. Without it the script no-ops. Add more portals by editing `SEED_PORTALS`
+in `scripts/fetch_scholarships.py`.
 
 ## Adding a position by hand
 

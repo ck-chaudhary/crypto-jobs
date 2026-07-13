@@ -34,3 +34,18 @@ filter_groups:
   status:
     label: "Status"
     options: [open, standing, contact, expired]
+
+# Scholarship taxonomies — keep in sync with _data/scholarships.yml tags
+scholarship_groups:
+  level:
+    label: "Career stage"
+    options: [masters, phd, postdoc, faculty, any]
+  region:
+    label: "Host region"
+    options: [india, europe, north_america, asia_pacific, middle_east, africa, worldwide]
+  focus:
+    label: "Research focus"
+    options: [cryptography, security, privacy, generic]
+  status:
+    label: "Status"
+    options: [open, annual, rolling, closed]
