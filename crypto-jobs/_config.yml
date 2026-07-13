@@ -42,7 +42,7 @@ scholarship_groups:
     options: [masters, phd, postdoc, faculty, any]
   region:
     label: "Host region"
-    options: [india, europe, north_america, asia_pacific, middle_east, africa, worldwide]
+    options: [india, europe, north_america, latin_america, asia_pacific, middle_east, africa, worldwide]
   focus:
     label: "Research focus"
     options: [cryptography, security, privacy, generic]

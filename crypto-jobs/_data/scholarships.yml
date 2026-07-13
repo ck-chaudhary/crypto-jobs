@@ -568,3 +568,337 @@
   status: annual
   note: "Maths foundation feeds into cryptography research. Intake deadlines vary by centre."
   source: direct
+
+# ==================== POSTDOC FELLOWSHIPS — EUROPE ====================
+
+- name: "ETH Zurich Postdoctoral Fellowship Programme (ETH Fellows)"
+  provider: "ETH Zurich"
+  level: postdoc
+  region: europe
+  country: "Switzerland"
+  eligibility: "PhD within ~6 months; needs an ETH host professor; <12 months prior in Switzerland."
+  focus: [generic, cryptography, security, privacy]
+  funding: "Two-year salary + research/social contributions for an independent project."
+  link: "https://grantsoffice.ethz.ch/funding-opportunities/internal/eth-fellowships.html"
+  deadline: "annual"
+  posted: "2026-01-01"
+  added: "2026-07-14"
+  status: annual
+  note: "Two calls a year (~Mar & Sep). Secure an ETH host first. ETH has top-tier crypto, security & systems groups."
+  source: direct
+
+- name: "EPFL AI Center Postdoctoral Fellowships (Swiss AI Initiative)"
+  provider: "EPFL"
+  level: postdoc
+  region: europe
+  country: "Switzerland"
+  eligibility: "Early-career researchers of any nationality; excellence-based, no age limit."
+  focus: [security, privacy, generic]
+  funding: "Full EPFL-scale salary for up to two years."
+  link: "https://www.epfl.ch/research/funding/epfl-programmes/ai-center/"
+  deadline: "annual"
+  posted: "2026-01-01"
+  added: "2026-07-14"
+  status: annual
+  note: "Great fit for trustworthy / secure / privacy-preserving ML. EPFL also runs strong applied-crypto & systems-security labs."
+  source: direct
+
+- name: "Leverhulme Trust Early Career Fellowships"
+  provider: "The Leverhulme Trust"
+  level: postdoc
+  region: europe
+  country: "United Kingdom"
+  eligibility: "Early-career researchers (≤ ~4 yrs post-PhD) with a UK host institution."
+  focus: [generic, cryptography, security]
+  funding: "Three-year fellowship; Leverhulme co-funds ~50% of salary with the host."
+  link: "https://www.leverhulme.ac.uk/early-career-fellowships"
+  deadline: "annual"
+  posted: "2026-01-01"
+  added: "2026-07-14"
+  status: annual
+  note: "All disciplines. Apply via a UK host with its internal deadline (~Feb national round). Strong UK crypto/security at Bristol, RHUL, Surrey, Edinburgh."
+  source: direct
+
+- name: "Government of Ireland Postdoctoral Fellowship Programme"
+  provider: "Research Ireland (Taighde Éireann)"
+  level: postdoc
+  region: europe
+  country: "Ireland"
+  eligibility: "PhD graduation within the 5 years before the call (or late-stage PhD)."
+  focus: [generic, cryptography, security]
+  funding: "One- or two-year salaried fellowship (~€47k/yr) at an Irish research body."
+  link: "https://www.researchireland.ie/funding/government-ireland-postdoctoral/"
+  deadline: "annual"
+  posted: "2025-09-01"
+  added: "2026-07-14"
+  status: annual
+  note: "All disciplines, independent award in your own name. Call typically opens autumn, closes ~Nov. Irish crypto/security at Trinity, UCD, CONNECT."
+  source: direct
+
+- name: "Carlsberg Foundation Fellowships (Reintegration / Internationalisation)"
+  provider: "Carlsberg Foundation"
+  level: postdoc
+  region: europe
+  country: "Denmark"
+  eligibility: "Researchers with a Danish connection (varies by instrument)."
+  focus: [generic, cryptography, security]
+  funding: "Postdoctoral salary + research costs for a stay tied to Denmark."
+  link: "https://www.carlsbergfondet.dk/en"
+  deadline: "annual"
+  posted: "2026-06-01"
+  added: "2026-07-14"
+  status: annual
+  note: "Funds the natural sciences broadly. Denmark has excellent crypto (Aarhus, DTU, ITU). Check the instrument-specific deadline."
+  source: direct
+
+- name: "Wenner-Gren Foundations Postdoctoral Fellowships"
+  provider: "Wenner-Gren Foundations (Sweden)"
+  level: postdoc
+  region: europe
+  country: "Sweden"
+  eligibility: "Early-career researchers; incoming (to Sweden) and outgoing tracks."
+  focus: [generic, cryptography, security]
+  funding: "Stipend for a postdoctoral research stay (typically up to 3 years)."
+  link: "https://www.swgc.org"
+  deadline: "annual"
+  posted: "2026-01-01"
+  added: "2026-07-14"
+  status: annual
+  note: "Natural sciences incl. computing. Sweden has strong security/crypto at KTH, Chalmers, Lund."
+  source: direct
+
+- name: "Wallenberg Academy Fellows"
+  provider: "Knut and Alice Wallenberg Foundation (Sweden)"
+  level: postdoc
+  region: europe
+  country: "Sweden"
+  eligibility: "Outstanding early-career researchers, nominated by a Swedish university."
+  focus: [generic, cryptography, security]
+  funding: "Five-year grant toward research independence (salary + project funds)."
+  link: "https://kaw.wallenberg.org/en/wallenberg-academy-fellows"
+  deadline: "annual"
+  posted: "2026-01-01"
+  added: "2026-07-14"
+  status: annual
+  note: "Nomination-only via a Swedish host university — approach a department first. All fields incl. CS/security."
+  source: direct
+
+- name: "FCT Scientific Employment Stimulus (Individual Call)"
+  provider: "FCT — Fundação para a Ciência e a Tecnologia (Portugal)"
+  level: postdoc
+  region: europe
+  country: "Portugal"
+  eligibility: "PhD holders; individual competitive call across all fields."
+  focus: [generic, cryptography, security]
+  funding: "Fixed-term researcher contract (typically up to 6 years)."
+  link: "https://www.fct.pt/en/"
+  deadline: "annual"
+  posted: "2026-01-01"
+  added: "2026-07-14"
+  status: annual
+  note: "Portugal has active crypto/security groups (Univ. Lisboa, INESC-ID, Univ. Porto). Annual individual call."
+  source: direct
+
+- name: "CNRS Postdoctoral Opportunities (France)"
+  provider: "CNRS — Centre National de la Recherche Scientifique"
+  level: postdoc
+  region: europe
+  country: "France"
+  eligibility: "PhD holders; postings are lab/project-specific."
+  focus: [generic, cryptography, security]
+  funding: "Salaried postdoc contract on a CNRS-funded project."
+  link: "https://emploi.cnrs.fr"
+  deadline: "rolling"
+  posted: "2026-01-01"
+  added: "2026-07-14"
+  status: rolling
+  note: "France is a crypto powerhouse (ENS, Inria, IRISA, LIRMM). Positions posted year-round — search the CNRS jobs portal."
+  source: direct
+
+# ==================== POSTDOC FELLOWSHIPS — NORTH AMERICA ====================
+
+- name: "Intelligence Community (IC) Postdoctoral Research Fellowship"
+  provider: "US Office of the Director of National Intelligence (via ORISE)"
+  level: postdoc
+  region: north_america
+  country: "USA"
+  eligibility: "US citizens; PhD within 5 years; research at a US university with a faculty adviser."
+  focus: [cryptography, security, privacy]
+  funding: "~US$78–82k/yr stipend + up to $6k travel; two years (extendable to three)."
+  link: "https://orise.orau.gov/icpostdoc/"
+  deadline: "annual"
+  posted: "2026-06-01"
+  added: "2026-07-14"
+  status: annual
+  note: "Explicitly funds cryptography, cybersecurity, homomorphic encryption for ML, and privacy topics. You pair with a US faculty adviser on a listed research area."
+  source: direct
+
+- name: "Banting Postdoctoral Fellowships"
+  provider: "Government of Canada"
+  level: postdoc
+  region: north_america
+  country: "Canada"
+  eligibility: "Canadian & international researchers; PhD within the eligibility window; host endorsement."
+  focus: [generic, cryptography, security]
+  funding: "CA$70,000/year for two years."
+  link: "https://banting.fellowships-bourses.gc.ca/en/home-accueil.html"
+  deadline: "annual"
+  posted: "2026-06-01"
+  added: "2026-07-14"
+  status: annual
+  note: "Prestigious, all disciplines. Host institution has an internal deadline before the ~Sep national deadline. Strong Canadian crypto at Waterloo, Concordia, McGill."
+  source: direct
+
+- name: "NSERC Postdoctoral Fellowships (PDF)"
+  provider: "Natural Sciences and Engineering Research Council of Canada"
+  level: postdoc
+  region: north_america
+  country: "Canada"
+  eligibility: "Canadian citizens / permanent residents in the natural sciences & engineering."
+  focus: [generic, cryptography, security]
+  funding: "CA$50,000/year for two years, tenable in Canada or abroad."
+  link: "https://www.nserc-crsng.gc.ca/students-etudiants/pd-np/pdf-bp_eng.asp"
+  deadline: "annual"
+  posted: "2026-08-01"
+  added: "2026-07-14"
+  status: annual
+  note: "STEM incl. CS/cryptography. National deadline usually ~October."
+  source: direct
+
+# ==================== POSTDOC FELLOWSHIPS — ASIA-PACIFIC ====================
+
+- name: "NTU Presidential Postdoctoral Fellowship (PPF)"
+  provider: "Nanyang Technological University (Singapore)"
+  level: postdoc
+  region: asia_pacific
+  country: "Singapore"
+  eligibility: "Early-career researchers worldwide, any discipline."
+  focus: [generic, cryptography, security, privacy]
+  funding: "Two years: ~S$80k/yr salary, up to S$100k/yr research grant, housing & relocation."
+  link: "https://www.ntu.edu.sg/research/research-careers/presidential-postdoctoral-fellowship-(ppf)"
+  deadline: "annual"
+  posted: "2026-01-01"
+  added: "2026-07-14"
+  status: annual
+  note: "Independent-research pathway toward a faculty role. Singapore (NTU/NUS) has strong crypto, systems & AI security."
+  source: direct
+
+- name: "ARC Discovery Early Career Researcher Award (DECRA)"
+  provider: "Australian Research Council"
+  level: postdoc
+  region: asia_pacific
+  country: "Australia"
+  eligibility: "Researchers 0–5 years post-PhD, submitted via an Australian university."
+  focus: [generic, cryptography, security]
+  funding: "Three-year salary + project funds for early-career researchers."
+  link: "https://www.arc.gov.au/funding-research/funding-schemes/discovery-program/discovery-early-career-researcher-award-decra"
+  deadline: "annual"
+  posted: "2026-01-01"
+  added: "2026-07-14"
+  status: annual
+  note: "Administered through an Australian host university (internal deadline first). Australia has active crypto/security at Monash, CSIRO Data61, UNSW."
+  source: direct
+
+- name: "RGC Junior Research Fellow Scheme (JRFS, formerly PDFS)"
+  provider: "Hong Kong Research Grants Council (UGC)"
+  level: postdoc
+  region: asia_pacific
+  country: "Hong Kong"
+  eligibility: "PhD conferred on/after a recent cutoff; hosted at a UGC-funded HK university."
+  focus: [generic, cryptography, security]
+  funding: "Multi-year postdoctoral fellowship at a Hong Kong university."
+  link: "https://www.ugc.edu.hk/eng/rgc/funding_opport/jrfs/"
+  deadline: "annual"
+  posted: "2026-01-01"
+  added: "2026-07-14"
+  status: annual
+  note: "Renamed from the RGC Postdoctoral Fellowship Scheme (PDFS) in 2025/26. Nominated via a HK university. HKU/CUHK/HKUST have crypto & security groups."
+  source: direct
+
+# ==================== POSTDOC FELLOWSHIPS — MIDDLE EAST ====================
+
+- name: "Azrieli International Postdoctoral Fellowship"
+  provider: "Azrieli Foundation (Israel)"
+  level: postdoc
+  region: middle_east
+  country: "Israel"
+  eligibility: "Recent PhDs (non-Israeli degree); secure a host at an Israeli university."
+  focus: [generic, cryptography, security, privacy]
+  funding: "~14,000 ILS/month stipend + ~20,000 ILS/yr research & travel; up to ~2–3 years."
+  link: "https://azrielifoundation.org/fellows/internationalpostdoctoral/"
+  deadline: "annual"
+  posted: "2025-09-01"
+  added: "2026-07-14"
+  status: annual
+  note: "Tenable at Technion, Weizmann, TAU, Hebrew U., BGU, BIU, Haifa, Reichman — world-class cryptography. Applications usually close ~late autumn."
+  source: direct
+
+# ==================== POSTDOC FELLOWSHIPS — LATIN AMERICA ====================
+
+- name: "FAPESP Post-Doctoral Fellowship"
+  provider: "São Paulo Research Foundation (FAPESP), Brazil"
+  level: postdoc
+  region: latin_america
+  country: "Brazil"
+  eligibility: "PhD within the last 7 years; needs a supervisor at a São Paulo institution."
+  focus: [generic, cryptography, security]
+  funding: "Monthly fellowship + research contingency; full-time in São Paulo state."
+  link: "https://fapesp.br/en/postdoc"
+  deadline: "rolling"
+  posted: "2026-01-01"
+  added: "2026-07-14"
+  status: rolling
+  note: "On-demand (arrange a São Paulo supervisor) or via international calls at fapesp.br/oportunidades. Brazilian crypto/security at USP, Unicamp."
+  source: direct
+
+# ==================== POSTDOC FELLOWSHIPS — INDIA ====================
+
+- name: "ANRF National Post-Doctoral Fellowship (N-PDF)"
+  provider: "Anusandhan National Research Foundation (ANRF/SERB), India"
+  level: postdoc
+  region: india
+  country: "India"
+  eligibility: "PhD in science/engineering; age ≤ 35; work under a mentor at an Indian institute."
+  focus: [generic, cryptography, security]
+  funding: "₹55,000/month fellowship + research grant & overhead for two years."
+  link: "https://www.anrfonline.in/ANRF/npdf"
+  deadline: "annual"
+  posted: "2026-01-15"
+  added: "2026-07-14"
+  status: annual
+  note: "Identify an Indian mentor first (IISc, IITs, ISI have crypto groups). Recent call ran ~mid-Jan to mid-Feb; check the ANRF portal."
+  source: direct
+
+# ==================== POSTDOC FELLOWSHIPS — WORLDWIDE ====================
+
+- name: "Schmidt Science Fellows"
+  provider: "Schmidt Sciences"
+  level: postdoc
+  region: worldwide
+  country: "Worldwide (top host labs globally)"
+  eligibility: "PhD in natural sciences, engineering, maths or computing; nominated by a partner university."
+  focus: [generic, cryptography, security, privacy]
+  funding: "US$110k/yr stipend for 1–2 years of postdoctoral research."
+  link: "https://schmidtsciencefellows.org/"
+  deadline: "annual"
+  posted: "2026-01-01"
+  added: "2026-07-14"
+  status: annual
+  note: "Requires a disciplinary 'pivot' into a new field — a cryptographer can pivot into or out of computing. Nomination via a participating university."
+  source: direct
+
+- name: "TWAS Postdoctoral Fellowship Programmes"
+  provider: "The World Academy of Sciences (TWAS)"
+  level: postdoc
+  region: worldwide
+  country: "Host centres in India, China, Brazil, Pakistan, Turkey, etc."
+  eligibility: "Early-career researchers from developing countries (South–South mobility)."
+  focus: [generic, cryptography, security]
+  funding: "Stipend + support at a partner institute; ~100 fellowships across partners."
+  link: "https://twas.org/opportunities/fellowships/postdoctoral"
+  deadline: "rolling"
+  posted: "2026-01-01"
+  added: "2026-07-14"
+  status: rolling
+  note: "Several partners fund computer science (e.g. TWAS-CUI). Deadlines differ per partner programme — browse the TWAS list."
+  source: direct
