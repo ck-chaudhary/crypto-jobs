@@ -1999,3 +1999,40 @@
     group (currently a singleton, but part of CISPA's larger research area on Algorithmic
     Foundations and Cryptography, "https://cispa.de/en/research/research-areas/a
   source: iacr
+
+# ---------------- AUTO-APPENDED from IACR jobs board (2026-07-14) ----------------
+- name: Naval Postgraduate School
+  role: Tenure-track
+  type: faculty
+  region: remote
+  country: ''
+  institution: Naval Postgraduate School
+  link: https://iacr.org/jobs/item/4243
+  deadline: rolling
+  posted: '2026-07-10'
+  added: '2026-07-14'
+  area:
+  - mpc
+  status: open
+  note: The Department of Applied Mathematics at the Naval Postgraduate School invites
+    applications for multiple tenure-track openings in all areas of computational
+    applied and discrete mathematics. These openings are at the level of Assistant
+    Prof
+  source: iacr
+- name: University of Kassel
+  role: PhD / Postdoc Position in Provable Security
+  type: postdoc
+  region: europe
+  country: Germany
+  institution: University of Kassel
+  link: https://iacr.org/jobs/item/4242
+  deadline: rolling
+  posted: '2026-07-10'
+  added: '2026-07-14'
+  area:
+  - mpc
+  status: open
+  note: Our group has an available position, which can be filled either at the PhD
+    or postdoctoral level, depending on the applicant’s qualifications, research experience,
+    and fit with the group. Recent research topics in our group include tight se
+  source: iacr
