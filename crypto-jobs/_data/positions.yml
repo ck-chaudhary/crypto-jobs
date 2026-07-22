@@ -2036,3 +2036,23 @@
     or postdoctoral level, depending on the applicant’s qualifications, research experience,
     and fit with the group. Recent research topics in our group include tight se
   source: iacr
+
+# ---------------- AUTO-APPENDED from IACR jobs board (2026-07-22) ----------------
+- name: Eindhoven University of Technology
+  role: Ph.D. student
+  type: phd
+  region: europe
+  country: ''
+  institution: Eindhoven University of Technology
+  link: https://iacr.org/jobs/item/4244
+  deadline: rolling
+  posted: '2026-07-22'
+  added: '2026-07-22'
+  area:
+  - pqc
+  status: open
+  note: 'We are looking for a PhD student, focusing on provable security. You will
+    be part of a multidisciplinary team developing practical cryptographic standards
+    for the post-quantum era, with implementation security in mind from the outset.
+    Your '
+  source: iacr
