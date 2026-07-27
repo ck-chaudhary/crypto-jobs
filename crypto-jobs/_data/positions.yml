@@ -2056,3 +2056,58 @@
     for the post-quantum era, with implementation security in mind from the outset.
     Your '
   source: iacr
+
+# ---------------- AUTO-APPENDED from IACR jobs board (2026-07-27) ----------------
+- name: National Research Council Canada
+  role: Research Officer, Applied Cryptography
+  type: postdoc
+  region: north_america
+  country: Canada
+  institution: National Research Council Canada
+  link: https://iacr.org/jobs/item/4247
+  deadline: rolling
+  posted: '2026-07-27'
+  added: '2026-07-27'
+  area:
+  - pqc
+  status: open
+  note: We are looking for a Research Officer, Applied Cryptography to join our Cryptography
+    and Quantum Computing team, and to support NRC’s Digital Technologies Research
+    Centre (NRC-DT). The Research Officer, Applied Cryptography would be someone
+  source: iacr
+- name: University of Birmingham
+  role: Associate Professor
+  type: faculty
+  region: europe
+  country: United Kingdom
+  institution: University of Birmingham
+  link: https://iacr.org/jobs/item/4246
+  deadline: rolling
+  posted: '2026-07-23'
+  added: '2026-07-27'
+  area:
+  - hardware
+  status: open
+  note: The School of Computer Science at the University of Birmingham, UK, seeks
+    to recruit further talent in the area of Cybersecurity. Multiple positions are
+    available (Assistant and Associate Professor level). The role holder is expected
+    to del
+  source: iacr
+- name: University of Birmingham
+  role: Assistant Professor
+  type: faculty
+  region: europe
+  country: United Kingdom
+  institution: University of Birmingham
+  link: https://iacr.org/jobs/item/4245
+  deadline: rolling
+  posted: '2026-07-23'
+  added: '2026-07-27'
+  area:
+  - hardware
+  status: open
+  note: The School of Computer Science at the University of Birmingham, UK, seeks
+    to recruit further talent in the area of Cybersecurity. Multiple positions are
+    available (Assistant and Associate Professor level). The role holder is expected
+    to del
+  source: iacr
