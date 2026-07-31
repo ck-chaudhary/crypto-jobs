@@ -2111,3 +2111,80 @@
     available (Assistant and Associate Professor level). The role holder is expected
     to del
   source: iacr
+
+# ---------------- AUTO-APPENDED from IACR jobs board (2026-07-31) ----------------
+- name: Princeton University DeCenter
+  role: DeCenter Postdoctoral Research Associates
+  type: postdoc
+  region: north_america
+  country: ''
+  institution: Princeton University DeCenter
+  link: https://iacr.org/jobs/item/4251
+  deadline: rolling
+  posted: '2026-07-30'
+  added: '2026-07-31'
+  area:
+  - blockchain
+  status: open
+  note: The Princeton DeCenter invites applications for Postdoctoral Fellows, (including
+    more senior researchers) with academic or industry experience expected to begin
+    in Feb. 2027 through Feb. 2028. They will be appointed at the rank of Postdocto
+  source: iacr
+- name: Frontier AI Security Residency - Cambridge
+  role: Resident
+  type: postdoc
+  region: europe
+  country: United Kingdom
+  institution: Frontier AI Security Residency - Cambridge
+  link: https://iacr.org/jobs/item/4250
+  deadline: rolling
+  posted: '2026-07-29'
+  added: '2026-07-31'
+  area:
+  - zk
+  - hardware
+  - side_channel
+  - formal_methods
+  status: open
+  note: The Frontier AI Security Residency is an eight-week, fully funded programme
+    in Cambridge, UK, running from 12 October to 4 December 2026. Residents work full
+    time on a single project. Projects range from tamper-evident enclosures for AI
+    acc
+  source: iacr
+- name: AWS
+  role: Applied Scientist, Amazon Cryptographic Libraries
+  type: postdoc
+  region: remote
+  country: ''
+  institution: AWS
+  link: https://iacr.org/jobs/item/4249
+  deadline: rolling
+  posted: '2026-07-28'
+  added: '2026-07-31'
+  area:
+  - pqc
+  - formal_methods
+  status: open
+  note: The Amazon Cryptographic Libraries (ACL) team builds the cryptography that
+    AWS services and a growing open-source community depend on, including AWS-LC,
+    our FIPS-validated open-source libcrypto. As an Applied Scientist on the team,
+    your pri
+  source: iacr
+- name: Royal Holloway
+  role: Lecturer in Information and Cyber Security
+  type: faculty
+  region: remote
+  country: University of London
+  institution: Royal Holloway
+  link: https://iacr.org/jobs/item/4248
+  deadline: rolling
+  posted: '2026-07-27'
+  added: '2026-07-31'
+  area:
+  - mpc
+  status: open
+  note: Applications are invited for the post of Lecturer in Information and Cyber
+    Security (Teaching and Research) in the Department of Computing, Security, and
+    Mathematics. Royal Holloway’s Faculty of Science is home to the world-renowned
+    Informa
+  source: iacr
