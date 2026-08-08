@@ -2188,3 +2188,96 @@
     Mathematics. Royal Holloway’s Faculty of Science is home to the world-renowned
     Informa
   source: iacr
+
+# ---------------- AUTO-APPENDED from IACR jobs board (2026-08-08) ----------------
+- name: Hasso Plattner Institute
+  role: PhD position
+  type: faculty
+  region: europe
+  country: University of Potsdam (Germany)
+  institution: Hasso Plattner Institute
+  link: https://iacr.org/jobs/item/4257
+  deadline: rolling
+  posted: '2026-08-06'
+  added: '2026-08-08'
+  area:
+  - pqc
+  - side_channel
+  status: open
+  note: HPI is recognized as one of the leading university institutes for computer
+    science (www.hpi.de). Our goal is to strengthen Europe's digital sovereignty with
+    excellent research and practice-oriented teaching in computer science. At HPI,
+    we a
+  source: iacr
+- name: Chalmers University of Technology
+  role: PhD Student (Foundations of Cryptography)
+  type: postdoc
+  region: remote
+  country: ''
+  institution: Chalmers University of Technology
+  link: https://iacr.org/jobs/item/4256
+  deadline: rolling
+  posted: '2026-08-05'
+  added: '2026-08-08'
+  area:
+  - hardware
+  - formal_methods
+  status: open
+  note: 'We are looking for a PhD student to join the Crypto Team and Security Group
+    at Chalmers with Christoph Egger as main supervisor. The position is fully funded
+    for 5 years and comes with 20% teaching duties in the department. The Crypto Team '
+  source: iacr
+- name: Institute for Computer Science
+  role: PhD and Postdoctoral Positions at INSAIT
+  type: postdoc
+  region: remote
+  country: Bulgaria
+  institution: Institute for Computer Science
+  link: https://iacr.org/jobs/item/4255
+  deadline: rolling
+  posted: '2026-08-04'
+  added: '2026-08-08'
+  area:
+  - zk
+  - pqc
+  status: open
+  note: We are looking for outstanding PhD students and postdoctoral researchers to
+    join the cryptography group led by Dr. Michael Reichle at INSAIT in Sofia, Bulgaria.
+    INSAIT is already a top research institute in AI and Theory and you have the op
+  source: iacr
+- name: Department of Computing
+  role: Fully Funded PhD Positions in Cryptography
+  type: phd
+  region: asia_pacific
+  country: The Hong Kong Polytechnic University; Hong Kong SAR
+  institution: Department of Computing
+  link: https://iacr.org/jobs/item/4254
+  deadline: rolling
+  posted: '2026-08-04'
+  added: '2026-08-08'
+  area:
+  - mpc
+  - blockchain
+  status: open
+  note: The Department of Computing at The Hong Kong Polytechnic University (PolyU)
+    is offering multiple fully funded PhD positions in the broad area of cryptography
+    and cybersecurity . Successful candidates will work with Dr. Yu Shen (https://shen
+  source: iacr
+- name: Luxium AG Zug Switzerland
+  role: Senior Blockchain Architect
+  type: postdoc
+  region: europe
+  country: ''
+  institution: Luxium AG Zug Switzerland
+  link: https://iacr.org/jobs/item/4252
+  deadline: rolling
+  posted: '2026-08-02'
+  added: '2026-08-08'
+  area:
+  - pqc
+  - blockchain
+  status: open
+  note: Luxium AG in Zug, Switzerland is building a new Layer 1 blockchain from first
+    principles, with a post quantum cryptographic core rather than a retrofit of classical
+    primitives. We seek a full time Chief Blockchain Architect to own the proto
+  source: iacr
