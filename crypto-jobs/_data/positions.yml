@@ -2281,3 +2281,40 @@
     principles, with a post quantum cryptographic core rather than a retrofit of classical
     primitives. We seek a full time Chief Blockchain Architect to own the proto
   source: iacr
+
+# ---------------- AUTO-APPENDED from IACR jobs board (2026-08-12) ----------------
+- name: Nanyang Technological University
+  role: Ph.D. Student, Post-Doc, Research Intern in Secure Computation
+  type: postdoc
+  region: asia_pacific
+  country: College of Computing and Data Science
+  institution: Nanyang Technological University
+  link: https://iacr.org/jobs/item/4259
+  deadline: rolling
+  posted: '2026-08-10'
+  added: '2026-08-12'
+  area:
+  - mpc
+  status: open
+  note: 'We are recruiting PhD students, postdoctoral researchers, and research interns
+    to join a new research group advised by Dr. Tiantian Gong at Nanyang Technological
+    University (NTU Singapore). PhD students: Fall 2027 intake. Postdoctoral resea'
+  source: iacr
+- name: Boston University
+  role: Postdoctoral researcher
+  type: postdoc
+  region: north_america
+  country: ''
+  institution: Boston University
+  link: https://iacr.org/jobs/item/4258
+  deadline: rolling
+  posted: '2026-08-10'
+  added: '2026-08-12'
+  area:
+  - mpc
+  - fhe
+  status: open
+  note: We are hiring two postdoctoral researchers at Boston University to work at
+    the intersection of systems and applied cryptography. About the role. We are building
+    secure and scalable computing infrastructure using secure multiparty computatio
+  source: iacr
