@@ -2318,3 +2318,75 @@
     the intersection of systems and applied cryptography. About the role. We are building
     secure and scalable computing infrastructure using secure multiparty computatio
   source: iacr
+
+# ---------------- AUTO-APPENDED from IACR jobs board (2026-08-23) ----------------
+- name: Newcastle University; School of Computing; Newcastle
+  role: PhD Studentship
+  type: phd
+  region: europe
+  country: UK
+  institution: Newcastle University; School of Computing; Newcastle
+  link: https://iacr.org/jobs/item/4264
+  deadline: rolling
+  posted: '2026-08-20'
+  added: '2026-08-23'
+  area:
+  - mpc
+  status: open
+  note: Artificial intelligence now supports high-stakes decisions in cybersecurity,
+    finance, healthcare, and public services, where accuracy alone is not enough.
+    Such systems must also respect legal, regulatory, contractual, or organisational
+    limi
+  source: iacr
+- name: Umeå University
+  role: PhD Students in Cryptography
+  type: phd
+  region: europe
+  country: Sweden
+  institution: Umeå University
+  link: https://iacr.org/jobs/item/4263
+  deadline: rolling
+  posted: '2026-08-19'
+  added: '2026-08-23'
+  area:
+  - symmetric
+  status: open
+  note: We are accepting applications for WASP-funded PhD positions in cryptography,
+    with a focus on emerging topics in symmetric-key cryptography. Multiple positions
+    are available, and the specific topics will be discussed with the selected candid
+  source: iacr
+- name: University of Bath
+  role: Lecturer/Senior Lecturer/Reader in Cyber Security
+  type: faculty
+  region: europe
+  country: ''
+  institution: University of Bath
+  link: https://iacr.org/jobs/item/4262
+  deadline: rolling
+  posted: '2026-08-17'
+  added: '2026-08-23'
+  area:
+  - mpc
+  status: open
+  note: The Department of Computer Science wishes to appoint academic staff in cyber
+    security. The appointments will be made at Lecturer (Assistant Professor), Senior
+    Lecturer (Associate Professor) or Reader (Associate Professor). Two positions
+    are
+  source: iacr
+- name: Institute of Computer Engineering of the University of Luebeck
+  role: W2-Professor for Trustworthy Circuits and Systems
+  type: faculty
+  region: europe
+  country: Germany
+  institution: Institute of Computer Engineering of the University of Luebeck
+  link: https://iacr.org/jobs/item/4261
+  deadline: rolling
+  posted: '2026-08-13'
+  added: '2026-08-23'
+  area:
+  - hardware
+  status: open
+  note: he university seeks an outstanding individual with demonstrated research excellence
+    in trustworthy circuits and computing systems who can represent this field through
+    research and teaching. The ideal candidate should have a proven excellent
+  source: iacr
