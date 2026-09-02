@@ -2390,3 +2390,41 @@
     in trustworthy circuits and computing systems who can represent this field through
     research and teaching. The ideal candidate should have a proven excellent
   source: iacr
+
+# ---------------- AUTO-APPENDED from IACR jobs board (2026-09-02) ----------------
+- name: University of Oxford
+  role: Two Associate Professorships or Professorships of Computer Science (with Tutorial
+    Fellowships)
+  type: faculty
+  region: europe
+  country: Department of Computer Science
+  institution: University of Oxford
+  link: https://iacr.org/jobs/item/4266
+  deadline: rolling
+  posted: '2026-09-01'
+  added: '2026-09-02'
+  area:
+  - mpc
+  status: open
+  note: The Department of Computer Science at the University of Oxford is seeking
+    to appoint two full-time Associate Professors or Professors of Computer Science
+    to start on 1 September 2027. Each post is associated with a college, one with
+    a Tutor
+  source: iacr
+- name: UNSW
+  role: Full-Time Research Associate
+  type: research_scientist
+  region: asia_pacific
+  country: Australia
+  institution: UNSW
+  link: https://iacr.org/jobs/item/4265
+  deadline: rolling
+  posted: '2026-09-01'
+  added: '2026-09-02'
+  area:
+  - pqc
+  status: open
+  note: 'Employment type: Fixed-term contract, full-time, 2 years Remuneration: Level
+    A6 $118,467 + leave loading + 17% super Location: UNSW Canberra, ADFA Campus Work
+    rights required: Visa sponsorship is not available for this position. Candidates '
+  source: iacr
