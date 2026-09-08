@@ -2428,3 +2428,58 @@
     A6 $118,467 + leave loading + 17% super Location: UNSW Canberra, ADFA Campus Work
     rights required: Visa sponsorship is not available for this position. Candidates '
   source: iacr
+
+# ---------------- AUTO-APPENDED from IACR jobs board (2026-09-08) ----------------
+- name: RWTH Aachen University
+  role: PhD student / Postdoc in verification of quantum crypto
+  type: postdoc
+  region: europe
+  country: Germany
+  institution: RWTH Aachen University
+  link: https://iacr.org/jobs/item/4269
+  deadline: rolling
+  posted: '2026-09-08'
+  added: '2026-09-08'
+  area:
+  - formal_methods
+  status: open
+  note: I would like to announce the openings of PhD or postdoc positions relating
+    to formal verification and quantum crypto in Dominique Unruh 's group, the Chair
+    for Quantum Information Systems, RWTH Aachen, Germany. Feel free to share this
+    in yo
+  source: iacr
+- name: Aarhus University
+  role: PhD Student
+  type: faculty
+  region: europe
+  country: Denmark
+  institution: Aarhus University
+  link: https://iacr.org/jobs/item/4268
+  deadline: rolling
+  posted: '2026-09-04'
+  added: '2026-09-08'
+  area:
+  - mpc
+  status: open
+  note: 'We are recruiting a PhD student to join the Aarhus Crypto Group starting
+    in 2027, under the supervision of Sophia Yakoubov. The focus of the PhD will be
+    Deniable Secret Sharing, MPC and related primitives. How to Apply Please apply
+    here: ht'
+  source: iacr
+- name: KTH Royal Institute of Technology
+  role: PhD student in cryptology / Doktorand i kryptologi
+  type: phd
+  region: remote
+  country: ''
+  institution: KTH Royal Institute of Technology
+  link: https://iacr.org/jobs/item/4267
+  deadline: rolling
+  posted: '2026-09-04'
+  added: '2026-09-08'
+  area:
+  - mpc
+  status: open
+  note: Since this position requires a Swedish citizenship the description of the
+    position is only available in Swedish. Vid Center för cyberförsvar och informationssäkerhet
+    (CDIS) samarbetar KTH, Försvarsmakten och andra myndigheter i syfte att st
+  source: iacr
