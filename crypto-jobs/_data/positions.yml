@@ -2483,3 +2483,76 @@
     position is only available in Swedish. Vid Center för cyberförsvar och informationssäkerhet
     (CDIS) samarbetar KTH, Försvarsmakten och andra myndigheter i syfte att st
   source: iacr
+
+# ---------------- AUTO-APPENDED from IACR jobs board (2026-09-18) ----------------
+- name: RISE Research Institutes of Sweden
+  role: PhD Student in Security and Privacy of Multi-Agent AI Systems
+  type: phd
+  region: europe
+  country: Sweden
+  institution: RISE Research Institutes of Sweden
+  link: https://iacr.org/jobs/item/4273
+  deadline: rolling
+  posted: '2026-09-18'
+  added: '2026-09-18'
+  area:
+  - mpc
+  status: open
+  note: As AI agents start acting in groups, delegating, negotiating, and relying
+    on each other's inputs and outputs, the security assumptions behind single-model
+    systems stop holding. This project develops principled and scalable foundations
+    for t
+  source: iacr
+- name: The University of Manchester
+  role: Ph.D. student in Isogeny-Based Cryptography
+  type: phd
+  region: europe
+  country: United Kingdom
+  institution: The University of Manchester
+  link: https://iacr.org/jobs/item/4272
+  deadline: rolling
+  posted: '2026-09-17'
+  added: '2026-09-18'
+  area:
+  - pqc
+  status: open
+  note: 'We are actively recruiting PhD students. The candidates will be working on
+    Isogeny-based Cryptography with Dr. Tako Boris Fouotsa. The research directions
+    to be explored include but are not limited to: Design and optimisation of isogeny-bas'
+  source: iacr
+- name: University of Campinas (Unicamp)
+  role: Fully funded PhD student
+  type: phd
+  region: remote
+  country: Brazil
+  institution: University of Campinas (Unicamp)
+  link: https://iacr.org/jobs/item/4271
+  deadline: rolling
+  posted: '2026-09-15'
+  added: '2026-09-18'
+  area:
+  - fhe
+  - hardware
+  status: open
+  note: We are looking for a PhD student to work on FPGA implementation of fully homomorphic
+    encryption schemes. About you Undergrad and master degrees in Computer Science,
+    Mathematics or related topics. Some experience with hardware implementation
+  source: iacr
+- name: KTH Royal Institute of Technology
+  role: PhD student in information and coding theory for federated learning
+  type: faculty
+  region: europe
+  country: ''
+  institution: KTH Royal Institute of Technology
+  link: https://iacr.org/jobs/item/4270
+  deadline: rolling
+  posted: '2026-09-09'
+  added: '2026-09-18'
+  area:
+  - ppml
+  status: open
+  note: The project concerns information- and coding-theoretic methods for analysing
+    and improving the resilience and efficiency of federated machine learning methods
+    in settings where communication bandwidth is limited and nodes are unreliable.
+    Th
+  source: iacr
