@@ -2556,3 +2556,156 @@
     in settings where communication bandwidth is limited and nodes are unreliable.
     Th
   source: iacr
+
+# ---------------- AUTO-APPENDED from IACR jobs board (2026-09-29) ----------------
+- name: Mohamed bin Zayed University of Artificial Intelligence (MBZUAI); Abu Dhabi
+  role: MSc, PhD, Postdoctoral and Visiting Student Positions in Cryptography and
+    Privacy
+  type: postdoc
+  region: middle_east
+  country: UAE
+  institution: Mohamed bin Zayed University of Artificial Intelligence (MBZUAI); Abu
+    Dhabi
+  link: https://iacr.org/jobs/item/4281
+  deadline: rolling
+  posted: '2026-09-29'
+  added: '2026-09-29'
+  area:
+  - mpc
+  status: open
+  note: The Computing and Mathematical Sciences Division at MBZUAI is recruiting in
+    the broad area of cryptography and privacy . Successful candidates will work with
+    Assistant Professor Jaspal Singh (https://jaspal-crypto.github.io/). Open Position
+  source: iacr
+- name: National University of Singapore (NUS)
+  role: Ph.D. students in hardware and systems security (fully funded)
+  type: faculty
+  region: asia_pacific
+  country: School of Computing; Singapore
+  institution: National University of Singapore (NUS)
+  link: https://iacr.org/jobs/item/4280
+  deadline: rolling
+  posted: '2026-09-29'
+  added: '2026-09-29'
+  area:
+  - hardware
+  - formal_methods
+  status: open
+  note: 'The ChocoLab at the National University of Singapore (NUS) is recruiting
+    PhD students for the August 2027 intake. We study the security and correctness
+    of the lower levels of computing. We find vulnerabilities deep in hardware and
+    systems, '
+  source: iacr
+- name: Chair of IT Security
+  role: Junior Researcher / PhD Student
+  type: phd
+  region: europe
+  country: Germany
+  institution: Chair of IT Security
+  link: https://iacr.org/jobs/item/4279
+  deadline: rolling
+  posted: '2026-09-29'
+  added: '2026-09-29'
+  area:
+  - mpc
+  status: open
+  note: 'Tasks: Active research in the area of intrusion detection systems (IDS) for
+    critical infrastructures, secure cyber-physical systems, and artificial intelligence
+    / machine learning for traffic analysis Implementation and evaluation of new al'
+  source: iacr
+- name: NXP Semiconductors
+  role: Embedded Crypto Software Developer (m/f/d)
+  type: phd
+  region: remote
+  country: ''
+  institution: NXP Semiconductors
+  link: https://iacr.org/jobs/item/4278
+  deadline: rolling
+  posted: '2026-09-28'
+  added: '2026-09-29'
+  area:
+  - pqc
+  - hardware
+  - side_channel
+  - blockchain
+  status: open
+  note: Ready to join the future of innovation in Crypto & Security at NXP? Become
+    part of a highly talented and dynamic international development team that develops
+    state-of-the art secure cryptographic libraries which are protected against physic
+  source: iacr
+- name: Lund University
+  role: Ph.D. position focusing on Applied Cryptography and Privacy
+  type: faculty
+  region: europe
+  country: ''
+  institution: Lund University
+  link: https://iacr.org/jobs/item/4277
+  deadline: rolling
+  posted: '2026-09-28'
+  added: '2026-09-29'
+  area:
+  - fhe
+  status: open
+  note: We offer a new doctoral student position at Lund University within the Applied
+    Cryptography and Privacy area. The research is devoted to the broader area of
+    privacy-preserving communication and computation outsourcing. Communication over
+    th
+  source: iacr
+- name: University of the Bundeswehr
+  role: PostDoc position at UniBw M in Hardware Security
+  type: postdoc
+  region: europe
+  country: Research Institute CODE
+  institution: University of the Bundeswehr
+  link: https://iacr.org/jobs/item/4276
+  deadline: rolling
+  posted: '2026-09-26'
+  added: '2026-09-29'
+  area:
+  - pqc
+  - hardware
+  - side_channel
+  - formal_methods
+  status: open
+  note: The Research Institute CODE in Munich is inviting applications for a Postdoctoral
+    researcher position, funded according to the German federal salary scheme TV-ÖD
+    E13/E14, full-time, 3 years. Successful candidates will join research on post-
+  source: iacr
+- name: King's College London
+  role: Ph.D. student
+  type: phd
+  region: europe
+  country: UK
+  institution: King's College London
+  link: https://iacr.org/jobs/item/4275
+  deadline: rolling
+  posted: '2026-09-25'
+  added: '2026-09-29'
+  area:
+  - fhe
+  - zk
+  - pqc
+  - lattice
+  status: open
+  note: The threat of large-scale, general-purpose quantum computers to existing public-key
+    cryptographic solutions has led to global efforts to standardise post-quantum
+    cryptography as a replacement. One of the front-runners for problems to base p
+  source: iacr
+- name: University of Miami
+  role: Funded PhD openings in multi-agent AI safety, security, and privacy (Spring/Fall
+    2027)
+  type: phd
+  region: north_america
+  country: USA
+  institution: University of Miami
+  link: https://iacr.org/jobs/item/4274
+  deadline: rolling
+  posted: '2026-09-24'
+  added: '2026-09-29'
+  area:
+  - mpc
+  status: open
+  note: I’m recruiting PhD students to join my lab at the University of Miami in Spring
+    or Fall 2027. Our lab studies how AI agents interacting with other agents behave,
+    how they fail, and what it takes to trust them with real responsibility. We ar
+  source: iacr
