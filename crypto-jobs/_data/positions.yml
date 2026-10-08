@@ -2709,3 +2709,132 @@
     or Fall 2027. Our lab studies how AI agents interacting with other agents behave,
     how they fail, and what it takes to trust them with real responsibility. We ar
   source: iacr
+
+# ---------------- AUTO-APPENDED from IACR jobs board (2026-10-08) ----------------
+- name: University of Melbourne and Indian Institute of Technology
+  role: Ph.D. student
+  type: phd
+  region: india
+  country: Kanpur
+  institution: University of Melbourne and Indian Institute of Technology
+  link: https://iacr.org/jobs/item/4288
+  deadline: rolling
+  posted: '2026-10-08'
+  added: '2026-10-08'
+  area:
+  - pqc
+  - hardware
+  - side_channel
+  status: open
+  note: 'One fully funded project on “NIST standardization and beyond: Solving practical
+    problems for seamless transition to post-quantum cryptography” is available under
+    the Melbourne-India Postgraduate Academy (MIPA). This Joint PhD project offers'
+  source: iacr
+- name: Aarhus University
+  role: Postdoc in Cryptography and Machine Learning
+  type: postdoc
+  region: europe
+  country: Department of Computer Science
+  institution: Aarhus University
+  link: https://iacr.org/jobs/item/4287
+  deadline: rolling
+  posted: '2026-10-07'
+  added: '2026-10-08'
+  area:
+  - mpc
+  - ppml
+  status: open
+  note: 'The Aarhus Crypto Group invites expressions of interest for a two-year postdoc
+    within the SPADE project (Secure Privacy-Preserving Analytics in Distributed Environments),
+    starting on 1 January 2027 or later. SPADE is led by Claudio Orlandi '
+  source: iacr
+- name: Universitat Rovira i Virgili
+  role: Tenure-eligible Lecturer Position in Cryptography
+  type: faculty
+  region: europe
+  country: Spain.
+  institution: Universitat Rovira i Virgili
+  link: https://iacr.org/jobs/item/4286
+  deadline: rolling
+  posted: '2026-10-05'
+  added: '2026-10-08'
+  area:
+  - mpc
+  status: open
+  note: The Department of Computer Engineering and Mathematics at Universitat Rovira
+    i Virgili (URV) invites applications for a full-time tenure-eligible lecturer
+    position under the Serra Húnter Programme. The position is in the Mathematics
+    section
+  source: iacr
+- name: King's College London
+  role: Lattice-Estimator Internship
+  type: intern
+  region: europe
+  country: ''
+  institution: King's College London
+  link: https://iacr.org/jobs/item/4285
+  deadline: rolling
+  posted: '2026-10-05'
+  added: '2026-10-08'
+  area:
+  - lattice
+  status: open
+  note: We are looking to hire an intern for four months to work on the Lattice Estimator.
+    The internship will be based at King’s College London and is funded by a gift
+    from Zama. We are ideally looking for someone in a PhD programme also working
+    o
+  source: iacr
+- name: Technical University of Denmark
+  role: Postdoc in Cyber-Security and Cyber-Deception
+  type: postdoc
+  region: europe
+  country: Denmark
+  institution: Technical University of Denmark
+  link: https://iacr.org/jobs/item/4284
+  deadline: rolling
+  posted: '2026-10-05'
+  added: '2026-10-08'
+  area:
+  - mpc
+  status: open
+  note: Are you a cybersecurity researcher interested in cyber-deception, empirical
+    security, and adaptive cyber defense? Do you enjoy combining security experimentation
+    with data-driven methods? This fully funded two-year postdoctoral position off
+  source: iacr
+- name: ENS Lyon
+  role: Postdoc in post-quantum cryptography
+  type: postdoc
+  region: europe
+  country: France
+  institution: ENS Lyon
+  link: https://iacr.org/jobs/item/4283
+  deadline: rolling
+  posted: '2026-10-05'
+  added: '2026-10-08'
+  area:
+  - pqc
+  - lattice
+  status: open
+  note: The candidate will be working on algorithmic and mathematical aspects of lattice-based
+    and isogeny-based cryptography, in the context of to the ERC project AGATHA CRYPTY.
+    The candidate should hold a PhD degree in Mathematics or Computer Sci
+  source: iacr
+- name: National Sun Yat-sen University
+  role: Postdoctoral Fellow in Applied Cryptography
+  type: postdoc
+  region: asia_pacific
+  country: Taiwan
+  institution: National Sun Yat-sen University
+  link: https://iacr.org/jobs/item/4282
+  deadline: rolling
+  posted: '2026-10-01'
+  added: '2026-10-08'
+  area:
+  - hardware
+  - side_channel
+  status: open
+  note: Applications are invited for a Postdoctoral Fellow in applied cryptography
+    at the CANSEC Lab, Department of Computer Science and Engineering, National Sun
+    Yat-sen University (NSYSU), Kaohsiung, Taiwan. Applicants with experience in at
+    least
+  source: iacr
