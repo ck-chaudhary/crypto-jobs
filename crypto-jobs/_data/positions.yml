@@ -2838,3 +2838,95 @@
     Yat-sen University (NSYSU), Kaohsiung, Taiwan. Applicants with experience in at
     least
   source: iacr
+
+# ---------------- AUTO-APPENDED from IACR jobs board (2026-10-13) ----------------
+- name: IE University
+  role: Tenure-track Faculty positions in Cybersecurity, Privacy and AI Safety
+  type: faculty
+  region: europe
+  country: Spain
+  institution: IE University
+  link: https://iacr.org/jobs/item/4293
+  deadline: rolling
+  posted: '2026-10-13'
+  added: '2026-10-13'
+  area:
+  - formal_methods
+  status: open
+  note: 'Applicants for this position should demonstrate a strong research record
+    in core areas such as: adversarial machine learning, AI robustness, verification
+    and formal methods, cryptography, fraud detection, intrusion detection, AI alignment, '
+  source: iacr
+- name: University of Waterloo
+  role: Assistant Professor
+  type: faculty
+  region: north_america
+  country: Canada
+  institution: University of Waterloo
+  link: https://iacr.org/jobs/item/4292
+  deadline: rolling
+  posted: '2026-10-09'
+  added: '2026-10-13'
+  area:
+  - mpc
+  status: open
+  note: The Department of Combinatorics and Optimization in the Faculty of Mathematics
+    at the University of Waterloo invites applications for one tenure-track faculty
+    position at the rank of Assistant Professor. The focus area of this search is
+    cry
+  source: iacr
+- name: Trustworthy Data Processing Group
+  role: Ph.D. student
+  type: phd
+  region: europe
+  country: Germany
+  institution: Trustworthy Data Processing Group
+  link: https://iacr.org/jobs/item/4291
+  deadline: rolling
+  posted: '2026-10-09'
+  added: '2026-10-13'
+  area:
+  - fhe
+  - ppml
+  status: open
+  note: PhD Position in Secure and Privacy-Preserving Machine Learning / AI (m/f/d)
+    Your Responsibilities Conduct research in secure and privacy-preserving machine
+    learning and AI towards a PhD. Develop and evaluate methods and prototypes and
+    publi
+  source: iacr
+- name: Naval Postgraduate School
+  role: Tenure-track Assistant Professor
+  type: faculty
+  region: north_america
+  country: Applied Mathematics Department
+  institution: Naval Postgraduate School
+  link: https://iacr.org/jobs/item/4290
+  deadline: rolling
+  posted: '2026-10-09'
+  added: '2026-10-13'
+  area:
+  - mpc
+  status: open
+  note: Tenure-Track Faculty (Assistant Professor/AD-3) Department of Applied Mathematics
+    Naval Postgraduate School, Monterey, CA The Department of Applied Mathematics
+    at the Naval Postgraduate School, in Monterey, California invites applications
+    f
+  source: iacr
+- name: Mohamed bin Zayed University of Artificial Intelligence; Abu Dhabi
+  role: Open Rank Faculty Positions in Computer Science
+  type: faculty
+  region: middle_east
+  country: UAE
+  institution: Mohamed bin Zayed University of Artificial Intelligence; Abu Dhabi
+  link: https://iacr.org/jobs/item/4289
+  deadline: rolling
+  posted: '2026-10-09'
+  added: '2026-10-13'
+  area:
+  - hardware
+  status: open
+  note: The Computer Science area within the Division of Computing and Mathematical
+    Science at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) is
+    expanding over the coming year. We invite outstanding candidates at all levels
+    (Assis
+  source: iacr
