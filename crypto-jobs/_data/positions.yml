@@ -2930,3 +2930,170 @@
     expanding over the coming year. We invite outstanding candidates at all levels
     (Assis
   source: iacr
+
+# ---------------- AUTO-APPENDED from IACR jobs board (2026-10-21) ----------------
+- name: The Canadian Institute for Cybersecurity (CIC) University of New Brunswick
+    (UNB)
+  role: Postdoctoral Fellows
+  type: postdoc
+  region: north_america
+  country: ''
+  institution: The Canadian Institute for Cybersecurity (CIC) University of New Brunswick
+    (UNB)
+  link: https://iacr.org/jobs/item/4303
+  deadline: rolling
+  posted: '2026-10-21'
+  added: '2026-10-21'
+  area:
+  - pqc
+  status: open
+  note: Research Areas Post-quantum cryptography and quantum-safe migration Cryptographic
+    protocol design, analysis, and implementation Public-key cryptography, digital
+    signatures, and key establishment Crypto-agility, PKI, and secure systems integ
+  source: iacr
+- name: Aarhus University
+  role: 'Up to six positions in Cybersecurity: tenure-track Assistant Professor, Associate
+    Professor'
+  type: faculty
+  region: europe
+  country: Denmark
+  institution: Aarhus University
+  link: https://iacr.org/jobs/item/4302
+  deadline: rolling
+  posted: '2026-10-21'
+  added: '2026-10-21'
+  area:
+  - mpc
+  status: open
+  note: 'The Department of Computer Science at Aarhus University invites applications
+    for up to six faculty positions in Cybersecurity , at all ranks: tenure-track
+    Assistant Professor, Associate Professor and Full Professor. The positions form
+    part '
+  source: iacr
+- name: University of St.Gallen (HSG)
+  role: PhD Position in Cybersecurity and Applied Cryptography (m/f/d)
+  type: phd
+  region: remote
+  country: Cybersecurity & Applied Cryptography
+  institution: University of St.Gallen (HSG)
+  link: https://iacr.org/jobs/item/4301
+  deadline: rolling
+  posted: '2026-10-20'
+  added: '2026-10-21'
+  area:
+  - mpc
+  status: open
+  note: The Cybersecurity & Applied Cryptography Research Group at the University
+    of St.Gallen (HSG), led by Prof. Dr. Katerina Mitrokotsa, invites applications
+    for a full-time PhD position in cybersecurity and applied cryptography, starting
+    on 1 A
+  source: iacr
+- name: Technical University of Darmstadt
+  role: Post-Doc in ERC project "Tools for Protecting Data and Function Privacy"
+  type: postdoc
+  region: europe
+  country: Germany
+  institution: Technical University of Darmstadt
+  link: https://iacr.org/jobs/item/4300
+  deadline: rolling
+  posted: '2026-10-19'
+  added: '2026-10-21'
+  area:
+  - mpc
+  - hardware
+  status: open
+  note: The Cryptography and Privacy Engineering Group (ENCRYPTO) @CS Department @TU
+    Darmstadt offers a full position for a Postdoctoral Researcher , available immediately
+    and for 2 years. Our mission is to demonstrate that privacy can be efficient
+  source: iacr
+- name: Hefei National Laboratory
+  role: Postdoctoral Position in Symmetric-key Cryptography
+  type: postdoc
+  region: asia_pacific
+  country: China
+  institution: Hefei National Laboratory
+  link: https://iacr.org/jobs/item/4299
+  deadline: rolling
+  posted: '2026-10-15'
+  added: '2026-10-21'
+  area:
+  - lattice
+  - symmetric
+  status: open
+  note: 'A full‑time postdoctoral fellowship in symmetric-key cryptography is available
+    at Hefei National Laboratory, China. The research work will focus on the following
+    topics: 1. Design and cryptanalysis of symmetric key primitives, covering bloc'
+  source: iacr
+- name: Stevens Institute of Technology
+  role: Fully-funded PhD positions in cryptography
+  type: phd
+  region: north_america
+  country: USA
+  institution: Stevens Institute of Technology
+  link: https://iacr.org/jobs/item/4298
+  deadline: rolling
+  posted: '2026-10-14'
+  added: '2026-10-21'
+  area:
+  - sse
+  status: open
+  note: I’m recruiting PhD students to join my group at Stevens Institute of Technology
+    in Hoboken, New Jersey, directly across the Hudson River from New York City. Full
+    funding is available to support new students. My research focuses on secure an
+  source: iacr
+- name: CEA-LIST
+  role: Master 2 Internship / M2 Stage
+  type: intern
+  region: europe
+  country: France
+  institution: CEA-LIST
+  link: https://iacr.org/jobs/item/4297
+  deadline: rolling
+  posted: '2026-10-14'
+  added: '2026-10-21'
+  area:
+  - fhe
+  - pqc
+  - lattice
+  status: open
+  note: We are looking for motivated Master's (M2) students with a strong background
+    in mathematics, computer science, or cryptography for a internship on " Homomorphic
+    Authentication mechanisms for Encrypted Computation ". The topic will explore
+    t
+  source: iacr
+- name: University of Warwick
+  role: PhD student
+  type: phd
+  region: europe
+  country: UK
+  institution: University of Warwick
+  link: https://iacr.org/jobs/item/4295
+  deadline: rolling
+  posted: '2026-10-14'
+  added: '2026-10-21'
+  area:
+  - pqc
+  status: open
+  note: I (https://varun-maram.github.io/) am recruiting PhD students to work with
+    me on post-quantum cryptography and related areas at the University of Warwick,
+    with an expected start in October 2027. The research topics include, but are not
+    limi
+  source: iacr
+- name: University of New Mexico
+  role: 'Cybersecurity: Tenure-Track Assistant Professor in Computer Science at the
+    University of New Mexico'
+  type: faculty
+  region: north_america
+  country: USA
+  institution: University of New Mexico
+  link: https://iacr.org/jobs/item/4294
+  deadline: rolling
+  posted: '2026-10-13'
+  added: '2026-10-21'
+  area:
+  - mpc
+  status: open
+  note: The Department of Computer Science in the School of Engineering at the University
+    of New Mexico invites applications for a full-time, tenure-track Assistant Professor
+    position. We welcome candidates in all areas of computing, particularly t
+  source: iacr
