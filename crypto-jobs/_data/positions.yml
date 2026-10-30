@@ -3097,3 +3097,97 @@
     of New Mexico invites applications for a full-time, tenure-track Assistant Professor
     position. We welcome candidates in all areas of computing, particularly t
   source: iacr
+
+# ---------------- AUTO-APPENDED from IACR jobs board (2026-10-30) ----------------
+- name: Microsoft Research India
+  role: Senior Researcher - Security & AI
+  type: postdoc
+  region: india
+  country: Bangalore
+  institution: Microsoft Research India
+  link: https://iacr.org/jobs/item/4308
+  deadline: rolling
+  posted: '2026-10-30'
+  added: '2026-10-30'
+  area:
+  - mpc
+  status: open
+  note: AI is rapidly transforming security. AI systems increasingly interact with
+    sensitive data, execute code, invoke tools, and take actions across complex environments,
+    creating fundamentally new security challenges. At the same time, AI offers
+  source: iacr
+- name: European Space Agency
+  role: Cryptography Evaluator Engineer
+  type: postdoc
+  region: europe
+  country: Belgium
+  institution: European Space Agency
+  link: https://iacr.org/jobs/item/4307
+  deadline: rolling
+  posted: '2026-10-28'
+  added: '2026-10-30'
+  area:
+  - mpc
+  status: open
+  note: Cryptography Evaluator Engineer in the System Security Section (TEC-SES),
+    End-to-End Systems Division, Systems Department, Directorate of Technology, Engineering
+    and Quality. The System Security Section is responsible for the end-to-end sys
+  source: iacr
+- name: University of Oldenburg
+  role: 4-year PhD Position in Cryptography and Trustworthy AI (fully-funded)
+  type: phd
+  region: europe
+  country: Germany
+  institution: University of Oldenburg
+  link: https://iacr.org/jobs/item/4306
+  deadline: rolling
+  posted: '2026-10-27'
+  added: '2026-10-30'
+  area:
+  - mpc
+  - fhe
+  status: open
+  note: 'The University of Oldenburg invites applications for a PhD student position
+    in the Safety-Security-Interaction group, under the supervision of Prof. Dr. Andreas
+    Peter and Dr. Federico Mazzone. Full-time position Start date: flexible, to be '
+  source: iacr
+- name: Newcastle University
+  role: PhD Studentship in Privacy-Preserving AI — Newcastle University, UK
+  type: phd
+  region: europe
+  country: UK
+  institution: Newcastle University
+  link: https://iacr.org/jobs/item/4305
+  deadline: rolling
+  posted: '2026-10-25'
+  added: '2026-10-30'
+  area:
+  - ppml
+  status: open
+  note: 'PhD Studentship in Privacy-Preserving AI — Newcastle University, UK Applications
+    are invited for a PhD project on “Privacy-Preserving AI for Assessing UK Data
+    Centre Water Demand”, supervised by Dr Aydin Abadi at Newcastle University, with '
+  source: iacr
+- name: CWI (Centrum Wiskunde & Informatica)
+  role: Ph.D. student in Formal Methods and Design Automation for Cryptography and
+    Hardware Security
+  type: phd
+  region: europe
+  country: The Netherlands
+  institution: CWI (Centrum Wiskunde & Informatica)
+  link: https://iacr.org/jobs/item/4304
+  deadline: rolling
+  posted: '2026-10-23'
+  added: '2026-10-30'
+  area:
+  - mpc
+  - fhe
+  - zk
+  - hardware
+  - side_channel
+  - formal_methods
+  status: open
+  note: CWI Amsterdam has an opening for a fully funded 4-year PhD position in the
+    Computer Security group (headed by Prof. Marten van Dijk), supervised by Dr. Chenglu
+    Jin. The position is part of the NWO Gravitation program Challenges in Cyber Sec
+  source: iacr
