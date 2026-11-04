@@ -3191,3 +3191,61 @@
     Computer Security group (headed by Prof. Marten van Dijk), supervised by Dr. Chenglu
     Jin. The position is part of the NWO Gravitation program Challenges in Cyber Sec
   source: iacr
+
+# ---------------- AUTO-APPENDED from IACR jobs board (2026-11-04) ----------------
+- name: a16z Frontier - New York
+  role: Summer 2027 Research Intern, a16z Frontier
+  type: intern
+  region: north_america
+  country: USA
+  institution: a16z Frontier - New York
+  link: https://iacr.org/jobs/item/4312
+  deadline: rolling
+  posted: '2026-11-03'
+  added: '2026-11-04'
+  area:
+  - hardware
+  status: open
+  note: 'The Role a16z Frontier research is a multidisciplinary lab (https://a16zfrontier.com/posts/focus-areas/research/)
+    that bridges the worlds of academic theory and industry practice. The lab has
+    recently expanded its focus from crypto-focused '
+  source: iacr
+- name: University of Tartu
+  role: Ph.D. Position in Post-Quantum Cryptographic Engineering
+  type: phd
+  region: remote
+  country: Estonia
+  institution: University of Tartu
+  link: https://iacr.org/jobs/item/4311
+  deadline: rolling
+  posted: '2026-11-02'
+  added: '2026-11-04'
+  area:
+  - mpc
+  - pqc
+  - lattice
+  - hardware
+  status: open
+  note: This doctoral research will investigate post-quantum cryptographic primitives
+    and develop lightweight protocols for real-time applications, using power-system
+    communication as the primary application domain. It will focus on key-encapsulati
+  source: iacr
+- name: Norwegian University of Science and Technology
+  role: 4 PhD Candidate positions within Cryptology and Social Life
+  type: phd
+  region: remote
+  country: ''
+  institution: Norwegian University of Science and Technology
+  link: https://iacr.org/jobs/item/4310
+  deadline: rolling
+  posted: '2026-11-02'
+  added: '2026-11-04'
+  area:
+  - zk
+  - pqc
+  status: open
+  note: 'NTNU is hiring four fully funded PhD candidates in the interdisciplinary
+    project Cryptology and Social Life: Sovereignty, security and society meet digital
+    wallets . Two positions are in cryptography. Digital identity wallets, such as
+    the E'
+  source: iacr
