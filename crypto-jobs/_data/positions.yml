@@ -3249,3 +3249,77 @@
     wallets . Two positions are in cryptography. Digital identity wallets, such as
     the E'
   source: iacr
+
+# ---------------- AUTO-APPENDED from IACR jobs board (2026-11-06) ----------------
+- name: USI
+  role: PhD student in Applied Cryptography
+  type: faculty
+  region: europe
+  country: Switzerland
+  institution: USI
+  link: https://iacr.org/jobs/item/4316
+  deadline: rolling
+  posted: '2026-11-06'
+  added: '2026-11-06'
+  area:
+  - mpc
+  status: open
+  note: 'The cryptography group at Università della Svizzera italiana (USI) in Lugano,
+    Switzerland, is looking for PhD students in applied cryptography. Position details
+    Fully funded Ideal start: early to mid-2027 Duration: 4–5 years The project Clo'
+  source: iacr
+- name: Xi’an Jiaotong-Liverpool University
+  role: Faculty and Post-doc Positions in Cryptography Implementation
+  type: postdoc
+  region: asia_pacific
+  country: China
+  institution: Xi’an Jiaotong-Liverpool University
+  link: https://iacr.org/jobs/item/4315
+  deadline: rolling
+  posted: '2026-11-06'
+  added: '2026-11-06'
+  area:
+  - pqc
+  - hardware
+  - side_channel
+  status: open
+  note: 'Position: Postdoctoral Researcher and Faculty (Assistant/Associate/Full Professor)
+    in Post Quantum Cryptography Implementation Research Area: Efficient, secure,
+    and standards compliant implementation of PQC on software/hardware platforms.
+    R'
+  source: iacr
+- name: Aalborg University Copenhagen
+  role: One or more Professors in Cyber Security
+  type: faculty
+  region: europe
+  country: ''
+  institution: Aalborg University Copenhagen
+  link: https://iacr.org/jobs/item/4314
+  deadline: rolling
+  posted: '2026-11-06'
+  added: '2026-11-06'
+  area:
+  - mpc
+  status: open
+  note: The Department of Electronic Systems at The Technical Faculty of IT and Design
+    invites applications for one or more professors in the field of Cyber Security
+    as per March 1, 2027, or as soon as possible thereafter. The positions are permane
+  source: iacr
+- name: New Jersey Institute of Technology
+  role: Ph.D. Student in Cryptography
+  type: phd
+  region: north_america
+  country: USA
+  institution: New Jersey Institute of Technology
+  link: https://iacr.org/jobs/item/4313
+  deadline: rolling
+  posted: '2026-11-04'
+  added: '2026-11-06'
+  area:
+  - mpc
+  status: open
+  note: I am recruiting motivated Ph.D. students to join my new research group in
+    the Department of Computer Science at NJIT, located in Newark, New Jersey. My
+    research focuses on applied cryptography, particularly the design of secure and
+    efficien
+  source: iacr
