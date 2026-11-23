@@ -3323,3 +3323,134 @@
     research focuses on applied cryptography, particularly the design of secure and
     efficien
   source: iacr
+
+# ---------------- AUTO-APPENDED from IACR jobs board (2026-11-23) ----------------
+- name: King's College London
+  role: Ph.D. student
+  type: faculty
+  region: europe
+  country: UK
+  institution: King's College London
+  link: https://iacr.org/jobs/item/4323
+  deadline: rolling
+  posted: '2026-11-20'
+  added: '2026-11-23'
+  area:
+  - mpc
+  status: open
+  note: 'We invite applications for a PhD studentship in the Department of Informatics
+    at King''s College London. The position focuses on cryptography in the real world,
+    with possible research directions including: interdisciplinary study of how cryp'
+  source: iacr
+- name: The University of Sheffield
+  role: Postdoctoral Research Associate / Research Associate / Hardware Engineer in
+    Hardware Security
+  type: postdoc
+  region: remote
+  country: ''
+  institution: The University of Sheffield
+  link: https://iacr.org/jobs/item/4322
+  deadline: rolling
+  posted: '2026-11-19'
+  added: '2026-11-23'
+  area:
+  - hardware
+  status: open
+  note: 'Postdoctoral Research Associate / Research Associate / Hardware Engineer
+    in Hardware Security Institution: The University of Sheffield Duration: 28 Months
+    (Fixed-Term) Start Date: 1st December About the Role We are inviting applications
+    for'
+  source: iacr
+- name: Free University Brussels (ULB)
+  role: Postdoc
+  type: postdoc
+  region: europe
+  country: ''
+  institution: Free University Brussels (ULB)
+  link: https://iacr.org/jobs/item/4321
+  deadline: rolling
+  posted: '2026-11-17'
+  added: '2026-11-23'
+  area:
+  - pqc
+  - symmetric
+  status: open
+  note: The ULB Crypto Group is recruiting a postdoctoral researcher to work on the
+    cryptanalysis of post-quantum cryptography protocols. The ideal candidate will
+    have expertise on the classical and quantum cryptanalysis of multivariate and/or
+    code
+  source: iacr
+- name: IT University of Copenhagen
+  role: Postdoc in Secure and Verifiable Computation for Internet Voting
+  type: postdoc
+  region: europe
+  country: ''
+  institution: IT University of Copenhagen
+  link: https://iacr.org/jobs/item/4320
+  deadline: rolling
+  posted: '2026-11-16'
+  added: '2026-11-23'
+  area:
+  - mpc
+  - fhe
+  status: open
+  note: We are hiring a 2-year postdoc at the IT University of Copenhagen. We are
+    looking for a researcher to work on our new project on Efficient Internet Voting
+    with Strong Coercion-Resistance . The position focuses on designing and analysing
+    cry
+  source: iacr
+- name: Institute of Science and Technology Austria (ISTA)
+  role: Fully Funded PhD Positions
+  type: faculty
+  region: europe
+  country: ''
+  institution: Institute of Science and Technology Austria (ISTA)
+  link: https://iacr.org/jobs/item/4319
+  deadline: rolling
+  posted: '2026-11-16'
+  added: '2026-11-23'
+  area:
+  - mpc
+  status: open
+  note: Fully Funded PhD Positions in Cryptography and Computer Science at ISTA, Austria
+    The Institute of Science and Technology Austria (ISTA), an international research
+    institute located just outside Vienna, invites applications for its fully fun
+  source: iacr
+- name: CISPA - Helmholtz-Zentrum für Informationssicherheit gGmbH
+  role: Tenure-Track Faculty in Information Security (f/m/d) 2026/2027
+  type: faculty
+  region: remote
+  country: ''
+  institution: CISPA - Helmholtz-Zentrum für Informationssicherheit gGmbH
+  link: https://iacr.org/jobs/item/4318
+  deadline: rolling
+  posted: '2026-11-13'
+  added: '2026-11-23'
+  area:
+  - hardware
+  status: open
+  note: CISPA is a world-leading research center that focuses on Cybersecurity and
+    Trustworthy AI at large. To expand and further strengthen our center, we are looking
+    for Tenure-Track Faculty in all areas related to Information Security (f/m/d)
+    Al
+  source: iacr
+- name: Xi’an Jiaotong-Liverpool University
+  role: Faculty Positions (Assistant/Associate/Full Professor) in PQC-X
+  type: postdoc
+  region: asia_pacific
+  country: China
+  institution: Xi’an Jiaotong-Liverpool University
+  link: https://iacr.org/jobs/item/4317
+  deadline: rolling
+  posted: '2026-11-09'
+  added: '2026-11-23'
+  area:
+  - mpc
+  - fhe
+  - zk
+  - pqc
+  status: open
+  note: The PQC-X lab at XJTLU has multiple openings for faculty positions. We are
+    seeking excellent researchers in design, analysis, implementation and/or application
+    aspects of PQC and related areas, and will offer internationally competitive sal
+  source: iacr
